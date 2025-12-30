@@ -4,7 +4,7 @@
 
 ### 🎮 20+ Years Game Industry Veteran | 🤖 AI Poweruser | 🚀 Builder
 
-**GM @ [Amber Studio México](https://amberstudio.com)** | **CEO @ [Sparkplug Technologies](https://sparkplug.tech)**
+**GM @ [Amber Studio México](https://amberstudio.com)** | **CEO @ [Sparkplug Technologies](https://getsparkplug.com)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jorgesuarez-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yorgenmeister)
 [![Twitter](https://img.shields.io/badge/Twitter-@jorgefsb-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/jorgefsb)
