@@ -107,14 +107,14 @@ How I run 2 companies with AI as force multiplier. Claude CLI, custom GPTs, auto
 ## 🎮 Game Industry Journey
 
 ```
-1999 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2025
+1999 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026
  │                                         │
  └─ Started: Dam162 (consulting)          │
  └─ 2004: Founded KaraOkulta              │
  └─ 2015: Sparkplug Technologies          │
  └─ 2016: Shark Tank México 🦈            │
  └─ 2019: Amber Studio (acquired KO)      │
- └─ 2025: GM Amber MX, CEO Sparkplug ────┘
+ └─ 2026: GM Amber MX, CEO Sparkplug ────┘
 
 📍 Current: Managing largest game studio in Jalisco (probably México)
 🏆 Highlights: Forbes 30 Under 30, Cinépolis Accelerator, Shark Tank
@@ -156,7 +156,7 @@ How I run 2 companies with AI as force multiplier. Claude CLI, custom GPTs, auto
 
 ---
 
-## 📈 2025 Goals
+## 📈 2026 Goals
 
 - [x] Setup killer GitHub profile (you are here! ✨)
 - [ ] Ship 12 AI workflow tutorials (1/month)
@@ -179,4 +179,4 @@ How I run 2 companies with AI as force multiplier. Claude CLI, custom GPTs, auto
 
 ---
 
-<sub>**Last updated:** 2025-12-30 | **Built with:** Claude + human creativity ⚡</sub>
+<sub>**Last updated:** 2025-12-31 | **Built with:** Claude + human creativity ⚡</sub>
