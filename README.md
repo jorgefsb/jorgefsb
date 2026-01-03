@@ -156,7 +156,7 @@ How I run 2 companies with AI as force multiplier. Claude CLI, custom GPTs, auto
 
 ---
 
-## 📈 2025 Goals
+## 📈 2026 Goals
 
 - [x] Setup killer GitHub profile (you are here! ✨)
 - [ ] Ship 12 AI workflow tutorials (1/month)
