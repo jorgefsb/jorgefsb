@@ -2,14 +2,14 @@
 
 # 👋 Hola, soy Jorge Suárez
 
-### 🎮 20+ Years Game Industry Veteran | 🤖 AI Poweruser | 🚀 Builder
+### 🎮 20+ Years Game Industry Veteran | 🤖 AI Poweruser | 🚀 Space-Time Builder
 
 **GM @ [Amber Studio México](https://amberstudio.com)** | **CEO @ [Sparkplug Technologies](https://getsparkplug.com)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jorgesuarez-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yorgenmeister)
-[![Twitter](https://img.shields.io/badge/Twitter-@jorgefsb-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/jorgefsb)
-[![YouTube](https://img.shields.io/badge/YouTube-jorgefsb-red?style=flat-square&logo=youtube)](https://youtube.com/@jorgefsb)
-[![Website](https://img.shields.io/badge/Website-jorgesuarez.com.mx-green?style=flat-square)](https://jorgesuarez.com.mx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jorgesuarez-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yorgenmeister)
+[![Twitter](https://img.shields.io/badge/Twitter-@jorgefsb-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/jorgefsb)
+[![YouTube](https://img.shields.io/badge/YouTube-jorgefsb-red?style=for-the-badge&logo=youtube)](https://youtube.com/@jorgefsb)
+[![Website](https://img.shields.io/badge/Professional_Nexus-jorgesuarez.com.mx-amber?style=for-the-badge)](https://jorgesuarez.com.mx)
 
 </div>
 
@@ -18,165 +18,120 @@
 ## 🎯 What I Do
 
 ```
-┌─ Amber Studio (80%) ────────────────────────────┐
+┌─ Amber México (80%) ────────────────────────────┐
 │                                                  │
-│  🎮 Managing ~200 game dev professionals        │
-│  🌎 9 studios across 4 continents               │
-│  🚀 Scaling from 20 → 200+ in <2 years          │
-│  💼 BD, Strategic Partnerships, Execution       │
+│  🎮 Managing 200+ game dev professionals        │
+│  🌎 Global delivery for AAA partners            │
+│  🚀 Scaled from 20 → 200+ in <2 years           │
+│  💼 BD, Strategic Partnerships, GM Excellence   │
 │                                                  │
 └──────────────────────────────────────────────────┘
 
-┌─ Sparkplug (20%) ───────────────────────────────┐
+┌─ Sparkplug & Ventures (20%) ─────────────────────┐
 │                                                  │
-│  ⚡ Creative services as subscription           │
-│  🤖 AI-powered automation workflows             │
-│  📱 SparkChatbots (Instagram/FB automation)     │
-│  🎨 Design, dev, content at scale               │
+│  ⚡ AI-Powered Workflows & Automation           │
+│  🤖 Agentic Frameworks for Growth               │
+│  📱 SparkChatbots & Social Automation           │
+│  🎨 Building the "Professional Nexus" ecosystem │
 │                                                  │
 └──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & AI DNA
 
-**Languages & Frameworks:**
+**The Builder Lab Core:**
 ```javascript
-const stack = {
-  automation: ['Node.js', 'Python', 'Bash'],
-  ai: ['Claude API', 'GPT-4', 'Custom GPTs'],
-  platforms: ['Roblox', 'Unity', 'Unreal'],
-  cloud: ['GitHub', 'iCloud', 'AWS (learning)']
+const dna = {
+  automation: ['Node.js', 'Python', 'Agentic Workflows'],
+  ai: ['Claude 3.5/4', 'OpenAI Agents', 'Vibecoding'],
+  gaming: ['Unreal Engine', 'Unity', 'Roblox'],
+  ops: ['GitHub Actions', 'Vercel Edge', 'Supabase']
 };
 ```
 
-**Current Focus:**
-- 🤖 AI workflows for business operations
-- ⚡ Automation (because manual = waste)
-- 🎮 Game industry BD & strategy
-- 📈 Scaling Brandcade (virtual theme park in Roblox)
+**2026 Focus:**
+- 🤖 **Agentic Systems:** Building autonomous AI teams for business ops.
+- ⚡ **Vibecoding:** Shipping high-end software at the speed of thought.
+- 🎮 **Gaming Ecosystems:** Professionalizing LATAM game dev via [UETC.mx](https://uetc.mx).
+- 📈 **Capital Intelligence:** Scaling ventures with AI-driven insights.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Nexus Hubs
+
+### 🏛️ [jorgesuarez.com.mx](https://jorgesuarez.com.mx)
+My professional headquarters. A high-end experience documenting 20 years of gaming & tech leadership.
 
 ### 🎪 [Brandcade](https://brandcade.com)
-Virtual theme park in Roblox for consumer brands. Built with interns, powered by creativity.
+The future of brand interaction. Virtual theme parks in Roblox for global consumer brands.
 
-### ⚡ Sparkplug Automations
-AI-powered workflows for client services. Subscription model, unlimited requests.
-
-### 🎮 Game Industry Resources
-Curated resources for game devs in LATAM. 20+ years of learnings, organized.
-
-### 🤖 AI Workflows
-How I run 2 companies with AI as force multiplier. Claude CLI, custom GPTs, automation scripts.
+### 🛠️ [Master Prompt Builder](https://master-prompt-builder.vercel.app/)
+Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Intelligence
 
 <div align="center">
 
-![Jorge's GitHub stats](https://github-readme-stats.vercel.app/api?username=jorgefsb&show_icons=true&theme=tokyonight&hide=contribs&count_private=true)
+<img src="https://github-readme-stats.vercel.app/api?username=jorgefsb&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFB000&icon_color=FFB000&text_color=C9D1D9" alt="Jorge's Stats" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefsb&layout=compact&theme=tokyonight&hide=html,css)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefsb&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFB000&text_color=C9D1D9&hide=html,css" alt="Top Languages" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jorgefsb&theme=tokyonight)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jorgefsb&theme=dark&hide_border=true&background=0D1117&stroke=FFB000&ring=FFB000&fire=FFB000&currStreakNum=FFDA00" alt="GitHub Streak" />
 
 </div>
 
 ---
 
-## 💡 Philosophy
+## 💡 Philosophy: Leverage & Energy
 
-> "Leverage, Speed, Energy. In that order."
+> "If it can be automated, it must be. If it gives you energy, double down."
 
-- 🎯 **Leverage:** Do more with less. Automate everything automatable.
-- ⚡ **Speed:** Ship fast, learn faster. Perfection is the enemy of done.
-- 🔋 **Energy:** Only do things that give you energy. Delegate the rest.
-
-**80/20 everywhere:**
-- 80% Amber, 20% Sparkplug
-- 80% strategy, 20% tactics
-- 80% building, 20% maintenance
+- 🎯 **80/20 Rule:** Applied to scaling studios and personal ventures.
+- ⚡ **Speed is a Feature:** Shipping > Polishing (until it counts).
+- 🔋 **Force Multipliers:** Using AI as a co-founder for everything.
 
 ---
 
-## 🎮 Game Industry Journey
+## 🎮 The Journey
 
 ```
-1999 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2025
+1999 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026
  │                                         │
- └─ Started: Dam162 (consulting)          │
+ └─ Startup DNA: Consulting & Dev         │
  └─ 2004: Founded KaraOkulta              │
- └─ 2015: Sparkplug Technologies          │
- └─ 2016: Shark Tank México 🦈            │
- └─ 2019: Amber Studio (acquired KO)      │
- └─ 2025: GM Amber MX, CEO Sparkplug ────┘
+ └─ 2016: Shark Tank México Success 🦈    │
+ └─ 2019: Amber Studio Acquisition       │
+ └─ 2024: GM Amber MX + Global Scaling    │
+ └─ 2026: The "Ready for 2026" Vision ────┘
 
-📍 Current: Managing largest game studio in Jalisco (probably México)
-🏆 Highlights: Forbes 30 Under 30, Cinépolis Accelerator, Shark Tank
+📍 Based in Guadalajara, México 🇲🇽
+🏆 Forbes 30 Under 30 | Cinépolis Accelerator | Shark Tank Veteran
 ```
 
 ---
 
-## 🌱 Currently Learning
+## 📫 Connect
 
-- [ ] Advanced AI workflows (Claude, function calling, agents)
-- [ ] Swift (macOS app development)
-- [ ] GitHub best practices (you're seeing the result 😄)
-- [ ] Public speaking & thought leadership
-
----
-
-## 📫 Let's Connect
-
-**Best ways to reach me:**
-
-- 💼 **Business:** LinkedIn or email
-- 🐦 **Quick chat:** Twitter/X
-- 📹 **Content:** YouTube (game industry + business)
-- 💬 **Community:** Discord/Slack (game dev communities)
-
-**Email:** jorgefsb@gmail.com
-**Website:** [jorgesuarez.com.mx](https://jorgesuarez.com.mx)
-
----
-
-## 🎯 Fun Facts
-
-- 🎮 Started in games when dial-up was a thing
-- 🦈 Pitched on Shark Tank México (2M+ views)
-- 🇲🇽 Based in Guadalajara, México (best tacos, fite me)
-- 🤖 Renamed my Claude instance to "Spark" (it's my co-founder now)
-- ⚡ Believe in "vibe coding" > perfect architecture
-- 🎲 D&D player (creativity without KPIs)
-
----
-
-## 📈 2025 Goals
-
-- [x] Setup killer GitHub profile (you are here! ✨)
-- [ ] Ship 12 AI workflow tutorials (1/month)
-- [ ] Grow Brandcade to 10 brand clients
-- [ ] 100+ GitHub followers (quality over quantity)
-- [ ] Open source 3 internal tools
-- [ ] Speak at 2 game industry conferences
+- 💼 **LinkedIn:** [yorgenmeister](https://linkedin.com/in/yorgenmeister)
+- 🐦 **X/Twitter:** [@jorgefsb](https://twitter.com/jorgefsb)
+- 🚀 **Nexus:** [jorgesuarez.com.mx](https://jorgesuarez.com.mx)
 
 ---
 
 <div align="center">
 
-### 💬 "Building the future of games & AI, one commit at a time."
+### 💬 "Documentando el camino, construyendo el futuro."
 
-**Let's ship something awesome together** 🚀
+**Let's build something massive.** 🚀
 
-![Profile Views](https://komarev.com/ghpvc/?username=jorgefsb&color=blueviolet&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=jorgefsb&color=ffb000&style=for-the-badge)
 
 </div>
 
 ---
 
-<sub>**Last updated:** 2025-12-30 | **Built with:** Claude + human creativity ⚡</sub>
+<sub>**Last updated:** 2026-01-06 | **Powered by:** Antigravity ⚡</sub>
