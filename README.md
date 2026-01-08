@@ -76,11 +76,11 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jorgefsb&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFB000&icon_color=FFB000&text_color=C9D1D9" alt="Jorge's Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jorgefsb&theme=tokyonight" alt="GitHub Profile Details" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefsb&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFB000&text_color=C9D1D9&hide=html,css" alt="Top Languages" />
+<img src="https://github-readme-profile-alpha.vercel.app/api?username=jorgefsb&theme=tokyonight&show_icons=true" alt="Jorge's Stats" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jorgefsb&theme=dark&hide_border=true&background=0D1117&stroke=FFB000&ring=FFB000&fire=FFB000&currStreakNum=FFDA00" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jorgefsb&theme=tokyonight" alt="GitHub Streak" />
 
 </div>
 
