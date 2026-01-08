@@ -80,7 +80,7 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 <img src="https://github-readme-profile-alpha.vercel.app/api?username=jorgefsb&theme=tokyonight&show_icons=true" alt="Jorge's Stats" />
 
-<img src="https://streak-stats.demolab.com/?user=jorgefsb&theme=tokyonight" alt="GitHub Streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jorgefsb&theme=tokyonight" alt="Productive Time" />
 
 </div>
 
