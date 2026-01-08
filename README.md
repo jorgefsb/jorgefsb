@@ -67,6 +67,9 @@ My professional headquarters. A high-end experience documenting 20 years of gami
 ### 🎪 [Brandcade](https://brandcade.com)
 The future of brand interaction. Virtual theme parks in Roblox for global consumer brands.
 
+### 🎮 [Game Industry Resources](https://gamedev.jorgesuarez.com.mx)
+⭐ 🚧 Hub de recursos premium para game devs en LATAM. Guías, templates y ofertas de trabajo.
+
 ### 🛠️ [Master Prompt Builder](https://master-prompt-builder.vercel.app/)
 Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
