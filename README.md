@@ -68,7 +68,13 @@ My professional headquarters. A high-end experience documenting 20 years of gami
 The future of brand interaction. Virtual theme parks in Roblox for global consumer brands.
 
 ### 🎮 [Game Industry Resources](https://gamedev.jorgesuarez.com.mx)
-⭐ 🚧 Hub de recursos premium para game devs en LATAM. Guías, templates y ofertas de trabajo.
+⭐ **NEW DESIGN** - Hub premium para game devs en LATAM con estética arcade/gamer profesional. Incluye:
+- 🎨 Sistema de diseño unificado (Retro Arcade Terminal)
+- 🎮 Gamificación global (XP, Guide Bot, Konami Code)
+- 📚 Guías de carrera (CV, Portfolio, Interviews)
+- 💼 Ofertas de trabajo diarias
+- 🛠️ Templates de producción (GDD, Budgets, Pitch Decks)
+- 🌎 Base de datos de estudios LATAM
 
 ### 🛠️ [Master Prompt Builder](https://master-prompt-builder.vercel.app/)
 Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
