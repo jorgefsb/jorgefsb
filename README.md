@@ -59,6 +59,17 @@ const dna = {
 
 ---
 
+## 🔥 Currently Building (Jan 2026)
+
+| Project | Status | Description |
+|---------|--------|-------------|
+| 🤖 **Luna AI** | In Development | AI Executive Assistant living in Bitrix24 |
+| 💬 **Sparkchatbots** | Active | Custom AI chatbots for SMBs |
+| 🎮 **FreeXR** | In Progress | Immersive experiences project |
+| 📊 **SPARK Method** | Designing | Framework for team performance |
+
+---
+
 ## 🚀 Featured Nexus Hubs
 
 ### 🏛️ [jorgesuarez.com.mx](https://jorgesuarez.com.mx)
@@ -143,4 +154,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated:** 2026-01-06 | **Powered by:** Antigravity ⚡</sub>
+<sub>**Last updated:** 2026-01-26 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
