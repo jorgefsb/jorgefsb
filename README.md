@@ -63,10 +63,9 @@ const dna = {
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| 🤖 **Luna AI** | In Development | AI Executive Assistant living in Bitrix24 |
+| 🤖 **Luna AI** | In Development | AI Executive Assistant for Bitrix24 |
 | 💬 **Sparkchatbots** | Active | Custom AI chatbots for SMBs |
-| 🎮 **FreeXR** | In Progress | Immersive experiences project |
-| 📊 **SPARK Method** | Designing | Framework for team performance |
+| 📊 **SPARK Build** | Designing | Mini-SaaS development playbook |
 
 ---
 
