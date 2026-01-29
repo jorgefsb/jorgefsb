@@ -63,7 +63,7 @@ const dna = {
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| 🤖 **Luna AI** | In Development | AI Executive Assistant for Bitrix24 |
+| 🤖 **Luna AI** | In Development | AI Executive Assistant as a Service |
 | 💬 **Sparkchatbots** | Active | Custom AI chatbots for SMBs |
 | 📊 **SPARK Build** | Designing | Mini-SaaS development playbook |
 
@@ -153,4 +153,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated:** 2026-01-26 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-01-29 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
