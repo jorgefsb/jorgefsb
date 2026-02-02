@@ -59,13 +59,15 @@ const dna = {
 
 ---
 
-## 🔥 Currently Building (Jan 2026)
+## 🔥 Currently Building (Feb 2026)
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| 🤖 **Luna AI** | In Development | AI Executive Assistant as a Service |
+| 🤖 **Luna AI** | Active | Autonomous AI Executive Assistant — multi-node, Bitrix24-integrated |
+| 🦅 **Anka AI** | In Development | AI Operations Assistant for Amber Studio (VM-based, enterprise-grade) |
 | 💬 **Sparkchatbots** | Active | Custom AI chatbots for SMBs |
-| 📊 **SPARK Build** | Designing | Mini-SaaS development playbook |
+| 🎮 **PlayPitch** | Building | AI-powered pitch platform for game studios |
+| 🎪 **Brandcade** | Expanding | Virtual brand theme parks in Roblox for global consumer brands |
 
 ---
 
@@ -153,4 +155,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated: 2026-01-29 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-02-02 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
