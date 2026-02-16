@@ -63,11 +63,12 @@ const dna = {
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| 🤖 **Luna AI** | Active | Autonomous AI Executive Assistant — multi-node, Bitrix24-integrated |
-| 🦅 **Anka AI** | In Development | AI Operations Assistant for Amber Studio (VM-based, enterprise-grade) |
-| 💬 **Sparkchatbots** | Active | Custom AI chatbots for SMBs |
-| 🎮 **PlayPitch** | Building | AI-powered pitch platform for game studios |
-| 🎪 **Brandcade** | Expanding | Virtual brand theme parks in Roblox for global consumer brands |
+| 🤖 **Luna AI** | Production | Autonomous AI Executive Assistant — Revenue-focused, Multi-agent orchestration |
+| 💬 **SparkChatbots** | Scaling | AI Chatbots for SMBs — $999 MXN, targeting legal/healthcare verticals |
+| ⚖️ **Legal Tech Initiative** | Research | Blue ocean opportunity — 15K+ Mexican law firms, zero automation |
+| 🦅 **Anka AI** | Development | AI Operations Assistant for Amber Studio (VM-based, enterprise-grade) |
+| 🎪 **Brandcade** | Active | Virtual brand theme parks in Roblox for global consumer brands |
+| 🔥 **YAPA Panadería** | Live | CRM + automation platform with 5% perpetual commission model |
 
 ---
 
@@ -155,4 +156,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated: 2026-02-02 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-02-16 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
