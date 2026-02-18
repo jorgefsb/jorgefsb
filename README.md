@@ -63,6 +63,7 @@ const dna = {
 
 | Project | Status | Description |
 |---------|--------|-------------|
+| 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Active** | **AI-Powered Team for SMBs** — Multi-agent workforce with Luna, Diego, Raúl for autonomous business operations |
 | 🤖 **Luna AI** | Production | Autonomous AI Executive Assistant — Revenue-focused, Multi-agent orchestration |
 | 💬 **SparkChatbots** | Scaling | AI Chatbots for SMBs — $999 MXN, targeting legal/healthcare verticals |
 | ⚖️ **Legal Tech Initiative** | Research | Blue ocean opportunity — 15K+ Mexican law firms, zero automation |
@@ -76,6 +77,9 @@ const dna = {
 
 ### 🏛️ [jorgesuarez.com.mx](https://jorgesuarez.com.mx)
 My professional headquarters. A high-end experience documenting 20 years of gaming & tech leadership.
+
+### 🌟 [SparkCrew](https://sparkcrew.jorgesuarez.com.mx/) 
+**NEW** - AI-powered team marketplace for SMBs. Meet Luna (Executive Assistant), Diego (Full-Stack Dev), and Raúl (Director Operations). Complete autonomous workforce solutions.
 
 ### 🎪 [Brandcade](https://brandcade.com)
 The future of brand interaction. Virtual theme parks in Roblox for global consumer brands.
@@ -156,4 +160,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated: 2026-02-16 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-02-18 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
