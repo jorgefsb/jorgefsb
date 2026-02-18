@@ -65,10 +65,10 @@ const dna = {
 |---------|--------|-------------|
 | 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Active** | **AI-Powered Team for SMBs** — Multi-agent workforce with Luna, Diego, Raúl for autonomous business operations |
 | 🤖 **Luna AI** | Production | Autonomous AI Executive Assistant — Revenue-focused, Multi-agent orchestration |
-| 💬 **SparkChatbots** | Scaling | AI Chatbots for SMBs — $999 MXN, targeting legal/healthcare verticals |
+| 💬 **[SparkChatbots](https://sparkchatbots.com/)** | Scaling | AI Chatbots for SMBs — $999 MXN, targeting legal/healthcare verticals |
 | ⚖️ **Legal Tech Initiative** | Research | Blue ocean opportunity — 15K+ Mexican law firms, zero automation |
 | 🦅 **Anka AI** | Development | AI Operations Assistant for Amber Studio (VM-based, enterprise-grade) |
-| 🎪 **Brandcade** | Active | Virtual brand theme parks in Roblox for global consumer brands |
+| 🎪 **[Brandcade](https://brandcade.com)** | Active | Virtual brand theme parks in Roblox for global consumer brands |
 | 🔥 **YAPA Panadería** | Live | CRM + automation platform with 5% perpetual commission model |
 
 ---
@@ -93,7 +93,7 @@ The future of brand interaction. Virtual theme parks in Roblox for global consum
 - 🛠️ Templates de producción (GDD, Budgets, Pitch Decks)
 - 🌎 Base de datos de estudios LATAM
 
-### 🛠️ [Master Prompt Builder](https://master-prompt-builder.vercel.app/)
+### 🛠️ [Master Prompt Builder](https://mpb.jorgesuarez.com.mx/)
 Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
