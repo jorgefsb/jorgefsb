@@ -63,13 +63,13 @@ const dna = {
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Active** | **AI-Powered Team for SMBs** — Multi-agent workforce with Luna, Diego, Raúl for autonomous business operations |
-| 🤖 **Luna AI** | Production | Autonomous AI Executive Assistant — Revenue-focused, Multi-agent orchestration |
-| 💬 **[SparkChatbots](https://sparkchatbots.com/)** | Scaling | AI Chatbots for SMBs — $999 MXN, targeting legal/healthcare verticals |
-| ⚖️ **Legal Tech Initiative** | Research | Blue ocean opportunity — 15K+ Mexican law firms, zero automation |
-| 🦅 **Anka AI** | Development | AI Operations Assistant for Amber Studio (VM-based, enterprise-grade) |
-| 🎪 **[Brandcade](https://brandcade.com)** | Active | Virtual brand theme parks in Roblox for global consumer brands |
-| 🔥 **YAPA Panadería** | Live | CRM + automation platform with 5% perpetual commission model |
+| 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Active** | AI-powered team marketplace for SMBs — autonomous operator model with specialized agents |
+| 🤖 **Luna AI** | Production | Executive AI assistant for operations, follow-up loops, and multi-agent orchestration |
+| 🧠 **AntFarm Agent Workflows** | Active | Agentic operating system for execution across ops, growth, and product workflows |
+| 💬 **[SparkChatbots](https://sparkchatbots.com/)** | Scaling | Conversational AI for SMBs with vertical GTM focus (legal, healthcare, services) |
+| 🦅 **Anka AI** | Development | Enterprise AI operations assistant for Amber Studio (secure VM-first architecture) |
+| 🎪 **[Brandcade](https://brandcade.com)** | Active | Roblox-based virtual brand experiences for global consumer brands |
+| 🔥 **YAPA Panadería** | Live | CRM + automations with performance-based growth model |
 
 ---
 
@@ -160,4 +160,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated: 2026-02-18 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-02-23 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
