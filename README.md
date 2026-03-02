@@ -59,15 +59,16 @@ const dna = {
 
 ---
 
-## 🔥 Currently Building (Feb 2026)
+## 🔥 Currently Building (Mar 2026)
 
 | Project | Status | Description |
 |---------|--------|-------------|
+| 🏢 **Amber Studio México** | **Production** | Managing 200+ game dev professionals, global delivery for AAA partners (80% focus) |
 | 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Active** | AI-powered team marketplace for SMBs — autonomous operator model with specialized agents |
 | 🤖 **Luna AI** | Production | Executive AI assistant for operations, follow-up loops, and multi-agent orchestration |
 | 🧠 **AntFarm Agent Workflows** | Active | Agentic operating system for execution across ops, growth, and product workflows |
+| ⚡ **Sparkplug Technologies** | Scaling | AI-powered workflows & automation, agentic frameworks for growth (20% focus) |
 | 💬 **[SparkChatbots](https://sparkchatbots.com/)** | Scaling | Conversational AI for SMBs with vertical GTM focus (legal, healthcare, services) |
-| 🦅 **Anka AI** | Development | Enterprise AI operations assistant for Amber Studio (secure VM-first architecture) |
 | 🎪 **[Brandcade](https://brandcade.com)** | Active | Roblox-based virtual brand experiences for global consumer brands |
 | 🔥 **YAPA Panadería** | Live | CRM + automations with performance-based growth model |
 
@@ -160,4 +161,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated: 2026-02-23 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-03-02 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
