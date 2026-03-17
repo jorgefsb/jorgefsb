@@ -63,7 +63,7 @@ const dna = {
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| 🏢 **Amber Studio México** | **Production** | Managing 200+ game dev professionals, global delivery for AAA partners (80% focus) |
+| 🏢 **Amber Studio México** | **Production** | Managing 150+ game dev professionals, global delivery for AAA partners (80% focus) |
 | 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Production** | AI-powered team marketplace for SMBs — autonomous operator model with specialized agents |
 | 🤖 **Luna AI** | Production | Executive AI assistant mastering operations, proactive coordination, and multi-agent workflows |
 | 🧠 **AntFarm Agent Workflows** | Active | Agentic operating system for autonomous execution across ops, growth, and product delivery |
@@ -71,7 +71,7 @@ const dna = {
 | 💬 **[SparkChatbots](https://sparkchatbots.com/)** | Scaling | Conversational AI for SMBs with vertical GTM focus (legal, healthcare, services) |
 | 🎪 **[Brandcade](https://brandcade.com)** | Active | Roblox-based virtual brand experiences for global consumer brands |
 | 🔥 **YAPA Panadería** | Live | Complete CRM + automation stack with performance-based growth model showing 200%+ ROI |
-| ⚡ **Mission Control** | New | Personal productivity dashboard for unified project management and AI agent coordination |
+| ⚡ **Mission Control** | Production | Personal productivity dashboard for unified project management and AI agent coordination |
 
 ---
 
