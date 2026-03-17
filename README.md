@@ -64,13 +64,14 @@ const dna = {
 | Project | Status | Description |
 |---------|--------|-------------|
 | 🏢 **Amber Studio México** | **Production** | Managing 200+ game dev professionals, global delivery for AAA partners (80% focus) |
-| 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Active** | AI-powered team marketplace for SMBs — autonomous operator model with specialized agents |
-| 🤖 **Luna AI** | Production | Executive AI assistant for operations, follow-up loops, and multi-agent orchestration |
-| 🧠 **AntFarm Agent Workflows** | Active | Agentic operating system for execution across ops, growth, and product workflows |
+| 🌟 **[SparkCrew](https://sparkcrew.jorgesuarez.com.mx/)** | **Production** | AI-powered team marketplace for SMBs — autonomous operator model with specialized agents |
+| 🤖 **Luna AI** | Production | Executive AI assistant mastering operations, proactive coordination, and multi-agent workflows |
+| 🧠 **AntFarm Agent Workflows** | Active | Agentic operating system for autonomous execution across ops, growth, and product delivery |
 | ⚡ **Sparkplug Technologies** | Scaling | AI-powered workflows & automation, agentic frameworks for growth (20% focus) |
 | 💬 **[SparkChatbots](https://sparkchatbots.com/)** | Scaling | Conversational AI for SMBs with vertical GTM focus (legal, healthcare, services) |
 | 🎪 **[Brandcade](https://brandcade.com)** | Active | Roblox-based virtual brand experiences for global consumer brands |
-| 🔥 **YAPA Panadería** | Live | CRM + automations with performance-based growth model |
+| 🔥 **YAPA Panadería** | Live | Complete CRM + automation stack with performance-based growth model showing 200%+ ROI |
+| ⚡ **Mission Control** | New | Personal productivity dashboard for unified project management and AI agent coordination |
 
 ---
 
@@ -161,4 +162,4 @@ Turning "prompts" into "engineered assets". Used by the next gen of AI builders.
 
 ---
 
-<sub>**Last updated: 2026-03-09 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
+<sub>**Last updated: 2026-03-17 | **Powered by:** Luna AI 💫 + Antigravity ⚡</sub>
