@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+  <title id="title">Jorge Suárez Basáñez</title>
+  <desc id="desc">Pionero de la industria mexicana de videojuegos, fundador, operador, community builder y gamer desde Guadalajara, México.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset=".58" stop-color="#161616"/>
+      <stop offset="1" stop-color="#29140b"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b35"/>
+      <stop offset=".58" stop-color="#ffa500"/>
+      <stop offset="1" stop-color="#ffcf66"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ff6b35" stroke-width="1" stroke-opacity=".10"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="270" rx="22" fill="url(#bg)"/>
+  <rect width="1000" height="270" rx="22" fill="url(#grid)"/>
+  <rect x="1.5" y="1.5" width="997" height="267" rx="20.5" fill="none" stroke="url(#neon)" stroke-width="3"/>
+  <path d="M0 70L185 0H0Z" fill="#22d3ee" opacity=".07"/>
+  <path d="M1000 178L790 270H1000Z" fill="#ff6b35" opacity=".10"/>
+
+  <g transform="translate(58 55)" filter="url(#glow)">
+    <path d="M26 55C29 30 42 18 64 18h36c22 0 35 12 38 37l8 57c2 14-13 23-23 13l-25-24H66l-25 24c-10 10-25 1-23-13Z" fill="none" stroke="url(#neon)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M48 56v28M34 70h28" stroke="#22d3ee" stroke-width="7" stroke-linecap="square"/>
+    <circle cx="112" cy="60" r="6" fill="#ff6b35"/>
+    <circle cx="126" cy="77" r="6" fill="#ffa500"/>
+    <circle cx="94" cy="75" r="4" fill="#22d3ee"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="245" y="58" fill="#ff6b35" font-size="13" font-weight="700" letter-spacing="3">PLAYER ONE // GUADALAJARA, MÉXICO</text>
+    <text x="245" y="112" fill="#f8fafc" font-size="44" font-weight="800" letter-spacing="-1">JORGE SUÁREZ BASÁÑEZ</text>
+    <text x="245" y="151" fill="#d8ddf0" font-size="20" font-weight="600" letter-spacing="1">VIDEOJUEGOS · COMUNIDAD · EMPRENDIMIENTO</text>
+    <rect x="245" y="180" width="690" height="2" fill="url(#neon)"/>
+    <text x="245" y="217" fill="#aab4d0" font-size="15">FUNDADOR</text>
+    <text x="355" y="217" fill="#ffa500" font-size="15">◆</text>
+    <text x="384" y="217" fill="#aab4d0" font-size="15">OPERADOR</text>
+    <text x="478" y="217" fill="#ff6b35" font-size="15">◆</text>
+    <text x="507" y="217" fill="#aab4d0" font-size="15">JUGADOR</text>
+    <text x="610" y="217" fill="#22d3ee" font-size="15">◆</text>
+    <text x="639" y="217" fill="#f8fafc" font-size="15" font-weight="700">20+ AÑOS HACIENDO INDUSTRIA</text>
+  </g>
+
+  <g fill="#22d3ee"><rect x="25" y="25" width="8" height="8"/><rect x="41" y="25" width="8" height="8"/></g>
+  <g fill="#ff6b35"><rect x="951" y="237" width="8" height="8"/><rect x="967" y="237" width="8" height="8"/></g>
+</svg>

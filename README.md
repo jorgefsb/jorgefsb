@@ -1,52 +1,58 @@
 <div align="center">
 
-# Jorge Suárez Basáñez
+<img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez — pionero del gaming mexicano, fundador, operador, community builder y gamer desde Guadalajara." />
 
-**Videojuegos, estudios y sistemas con IA — desde Guadalajara para el mundo.**
+<br />
 
-General Manager @ [Amber Studio México](https://amberstudio.com/location-guadalajara) · Investor in AI startups · Advisor @ [Sparkplug Technologies](https://getsparkplug.com) · Co-Founder @ Arden AC
+🎮 **SELECCIONA CANAL**
 
-[Sitio](https://jorgesuarez.com.mx) · [LinkedIn](https://linkedin.com/in/yorgenmeister) · [YouTube](https://youtube.com/@jorgefsb) · [X / Twitter](https://x.com/jorgefsb)
+<a href="https://youtube.com/@jorgefsb"><img src="./assets/social/youtube.svg" height="40" alt="YouTube: @jorgefsb" /></a>
+<a href="https://jorgesuarez.com.mx"><img src="./assets/social/website.svg" height="40" alt="Sitio web: jorgesuarez.com.mx" /></a>
+<a href="https://linkedin.com/in/yorgenmeister"><img src="./assets/social/linkedin.svg" height="40" alt="LinkedIn: Jorge Suárez" /></a>
+<a href="https://x.com/jorgefsb"><img src="./assets/social/x.svg" height="40" alt="X / Twitter: @jorgefsb" /></a>
+
+<br />
+
+GM @ [Amber Studio México](https://amberstudio.com/location-guadalajara) · Founder · Emprendedor · Community builder · Gamer
 
 </div>
 
 ---
 
-## En corto
+## 👾 ¿Quién es Jorge?
 
-Llevo más de 20 años construyendo videojuegos, estudios y empresas. Hoy lidero Amber México, acompaño a fundadores de IA y diseño sistemas de agentes para convertir operaciones repetibles en procesos que corren solos.
+Llevo más de 20 años jugando el modo historia del gaming mexicano: fundando estudios, formando equipos y abriendo camino desde Guadalajara. Fundé **KaraOkulta**, hoy lidero **Amber México** y sigo construyendo proyectos donde se cruzan videojuegos, comunidad, emprendimiento e IA.
 
-Mi norte sigue siendo el mismo: **ayudar a que más gente pueda vivir de hacer videojuegos**.
+Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de hacer videojuegos**. Si estás construyendo algo interesante, bienvenida la partida co-op.
 
-## Lo que hago
+## 🕹️ Misiones activas
 
-| Frente | En qué estoy enfocado |
+| Slot | Misión actual |
 |---|---|
-| 🎮 **Amber Studio México** | General Manager del estudio de Guadalajara. Amber es una red global de 850+ profesionales en 9 sedes y 4 continentes. |
-| 💸 **AI startups** | Inversión y acompañamiento a fundadores que construyen productos y operaciones con agentes de IA. |
-| ⚡ **Sparkplug Technologies** | Advisor en servicios creativos y automatización con IA bajo un modelo de suscripción. |
+| 🎮 **Amber Studio México** | General Manager del estudio de Guadalajara. Parte de una red global de 850+ profesionales en 9 sedes y 4 continentes. |
+| 🤝 **Ecosistema** | Invierto en startups de IA, asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
 | 🏛️ **Arden AC** | Co-Founder. Umbrella de UETC, Brandcade, Logrus y EGDC. |
 
-## Proyectos seleccionados
+## 🚀 Builds seleccionados
 
-| Proyecto | Qué es |
+| Player | Build / qué desbloquea |
 |---|---|
-| **[Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder)** · [probar ↗](https://mpb.jorgesuarez.com.mx) | Constructor visual para crear, mantener y exportar un contexto personal para ChatGPT, Claude y otras IAs. |
-| **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [visitar ↗](https://sparkcrew.jorgesuarez.com.mx) | Propuesta de equipos de IA por suscripción para PyMEs. |
-| **[LinkedIn Automation Template](https://github.com/jorgefsb/linkedin-automation-template)** | Flujo abierto para convertir una infografía en una serie de publicaciones de LinkedIn. |
-| **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | Recursos para personas que quieren construir una carrera haciendo videojuegos en LATAM. |
-| **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [visitar ↗](https://jorgesuarez.com.mx) | Mi sitio personal y archivo de contenido sobre gaming, liderazgo y emprendimiento. |
+| `01` **[Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder)** · [jugar ↗](https://mpb.jorgesuarez.com.mx) | Construye y exporta el contexto que quieres llevar a ChatGPT, Claude y otras IAs. |
+| `02` **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [entrar ↗](https://sparkcrew.jorgesuarez.com.mx) | Explora una propuesta de equipos de IA por suscripción para PyMEs. |
+| `03` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
+| `04` **[LinkedIn Automation Template](https://github.com/jorgefsb/linkedin-automation-template)** | Convierte una infografía en una serie de publicaciones listas para trabajar. |
+| `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
 
 > También estoy desarrollando **PapacitoOS**, un sistema operativo personal con agentes especializados, memoria compartida y ciclos de seguimiento. El código sigue privado mientras madura.
 
-## Cómo construyo
+## 🧰 Loadout actual
 
 - **IA y agentes:** Claude · MCP · sistemas multiagente
 - **Producto web:** TypeScript · JavaScript · Node.js · Next.js · Python
 - **Plataforma:** Cloudflare · Vercel · Supabase
 - **Videojuegos:** Unreal Engine · Unity · Roblox
 
-## GitHub, sin humo
+## 📊 GitHub telemetry
 
 La mayoría de mis repositorios públicos son forks que conservo como biblioteca de referencia. Este snapshot separa esa biblioteca del código original y muestra los lenguajes de mis repositorios públicos activos.
 
@@ -58,7 +64,7 @@ La mayoría de mis repositorios públicos son forks que conservo como biblioteca
 
 <sub>Snapshot del 22 de agosto de 2026, calculado con la API pública de GitHub. Los lenguajes agregan el código de repositorios originales, públicos y activos, excluyendo este perfil.</sub>
 
-## Reconocimientos
+## 🏆 Achievements unlocked
 
 **Shark Tank México** (2016) · **Forbes 30 Promesas** (2015) · **Cinépolis Accelerator Alumni** (2015) · **Cinépolis Seedcamp Winner** (2014)
 
