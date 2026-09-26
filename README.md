@@ -29,9 +29,9 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 
 | Slot | Misión actual |
 |---|---|
-| 🎮 **Amber Studio México** | General Manager del estudio de Guadalajara. Parte de una red global de 850+ profesionales en 9 sedes y 4 continentes. |
+| 🎮 **[Amber Studio México](https://amberstudio.com/location-guadalajara)** | General Manager del estudio de Guadalajara. Parte de una red global de 850+ profesionales en 9 sedes y 4 continentes. |
 | 🤝 **Ecosistema** | Invierto en startups de IA, soy LP de [Altered Ventures](https://venturecapital.game) (el fondo de Mario Valle Reyes en IA, gaming y tecnología inmersiva), asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
-| 🏛️ **Arden AC** | Co-Founder. Umbrella de UETC, Brandcade, Logrus y EGDC. Desde UETC estamos construyendo **EchoMentor AI**. |
+| 🏛️ **Arden AC** | Co-Founder. Umbrella de [UETC](https://uetc.mx), [Brandcade](https://brandcade.com), Logrus y [EGDC](https://club.uetc.mx). Desde UETC estamos construyendo **[EchoMentor AI](https://echomentor.jorgesuarez.com.mx)**. |
 | 🏍️ **[Tecni Moto Garage](https://tecnimoto.jorgefsb.workers.dev)** | Socio fundador con mi tío. Taller de motos en Acoxpa, CDMX: servicio rápido, transparente y por WhatsApp. Abrimos el 1 de octubre de 2026. |
 
 ## 🚀 Builds seleccionados
