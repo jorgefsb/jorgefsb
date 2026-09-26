@@ -31,7 +31,7 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 |---|---|
 | 🎮 **Amber Studio México** | General Manager del estudio de Guadalajara. Parte de una red global de 850+ profesionales en 9 sedes y 4 continentes. |
 | 🤝 **Ecosistema** | Invierto en startups de IA, asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
-| 🏛️ **Arden AC** | Co-Founder. Umbrella de UETC, Brandcade, Logrus y EGDC. |
+| 🏛️ **Arden AC** | Co-Founder. Umbrella de UETC, Brandcade, Logrus y EGDC. Desde UETC estamos construyendo **EchoMentor AI**. |
 
 ## 🚀 Builds seleccionados
 
@@ -43,6 +43,8 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 | `04` **[LinkedIn Automation Template](https://github.com/jorgefsb/linkedin-automation-template)** | Convierte una infografía en una serie de publicaciones listas para trabajar. |
 | `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
 
+> 🎓 **EchoMentor AI** · [beta por invitación ↗](https://uetc.jorgesuarez.com.mx): lo estamos construyendo en UETC (Arden). Es una plataforma de aprendizaje adaptativo con IA: le das un tema o un PDF y arma una clase con maestros IA, pizarrón, quizzes y proyectos a tu nivel. El código es privado mientras madura.
+>
 > También estoy desarrollando **PapacitoOS**, un sistema operativo personal con agentes especializados, memoria compartida y ciclos de seguimiento. El código sigue privado mientras madura.
 
 ## 🧰 Loadout actual
