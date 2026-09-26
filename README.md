@@ -30,7 +30,7 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 | Slot | Misión actual |
 |---|---|
 | 🎮 **Amber Studio México** | General Manager del estudio de Guadalajara. Parte de una red global de 850+ profesionales en 9 sedes y 4 continentes. |
-| 🤝 **Ecosistema** | Invierto en startups de IA, asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
+| 🤝 **Ecosistema** | Invierto en startups de IA, soy LP de [Altered Ventures](https://venturecapital.game) (el fondo de Mario Valle Reyes en IA, gaming y tecnología inmersiva), asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
 | 🏛️ **Arden AC** | Co-Founder. Umbrella de UETC, Brandcade, Logrus y EGDC. Desde UETC estamos construyendo **EchoMentor AI**. |
 
 ## 🚀 Builds seleccionados
