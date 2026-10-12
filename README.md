@@ -37,17 +37,22 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 
 ## 🚀 Builds seleccionados
 
-| Player | Build / qué desbloquea |
-|---|---|
-| `01` **[Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder)** · [jugar ↗](https://mpb.jorgesuarez.com.mx) | Construye y exporta el contexto que quieres llevar a ChatGPT, Claude y otras IAs. |
-| `02` **[EchoMentor AI](https://github.com/jorgefsb/echomentor-ai)** · [conócela ↗](https://echomentor.jorgesuarez.com.mx) | Plataforma de aprendizaje adaptativo con IA (UETC / Arden). Le das un tema o un PDF y arma una clase. Beta del Club UETC. |
-| `03` **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [entrar ↗](https://sparkcrew.jorgesuarez.com.mx) | Explora una propuesta de equipos de IA por suscripción para PyMEs. |
-| `04` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
-| `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
+| Player | Estado y alcance | Build / qué desbloquea |
+|---|---|---|
+| `01` **[Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder)** · [jugar ↗](https://mpb.jorgesuarez.com.mx) | **Disponible** · herramienta pública | Construye y exporta el contexto que quieres llevar a ChatGPT, Claude y otras IAs. |
+| `02` **[EchoMentor AI](https://github.com/jorgefsb/echomentor-ai)** · [conócela ↗](https://echomentor.jorgesuarez.com.mx) | **Beta · Club UETC** · landing pública, app privada | Plataforma de aprendizaje adaptativo con IA (UETC / Arden). Le das un tema o un PDF y arma una clase. Beta del Club UETC. |
+| `03` **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [conocer la propuesta ↗](https://sparkcrew.jorgesuarez.com.mx) | **Idea · lista de espera** · landing pública | Explora una propuesta de equipos de IA por suscripción para PyMEs. |
+| `04` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | **Disponible · en desarrollo** · recursos principales | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
+| `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | **Sitio público** | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
+| `06` **PapacitoOS** | **En construcción** · implementación parcial, código privado | Mi ecosistema personal de IA y herramientas para organizar proyectos y darles seguimiento. |
+| `07` **RichLife** (nombre provisional) | **En construcción** · landing sin publicar, lista de espera cerrada | Próximo producto. Sin acceso público por ahora. |
+| `08` **PlayPitch** | **En pausa** | Proyecto para conectar juegos indie con creadores de contenido. |
+
+[Catálogo de productos y experimentos](https://jorgesuarez.com.mx/#products) · Los estados describen el alcance actual; una landing pública no implica que el producto completo esté disponible.
 
 > 🎓 **EchoMentor AI** también tiene landing pública en [echomentor.jorgesuarez.com.mx](https://echomentor.jorgesuarez.com.mx). La plataforma vive en UETC; el código de la app sigue privado.
 >
-> También estoy desarrollando **PapacitoOS**, un sistema operativo personal con agentes especializados, memoria compartida y ciclos de seguimiento. El código sigue privado mientras madura.
+> **PapacitoOS** sigue en construcción. Su código es privado mientras madura.
 
 ## 🧰 Loadout actual
 
