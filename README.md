@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez: videojuegos, comunidad y emprendimiento desde Guadalajara, junto a Moki, su astronauta de cartón." />
+<img src="./assets/hero.svg" width="1000" alt="Moki, el astronauta de cartón, señala a Jorge Suárez Basáñez: videojuegos, comunidad y emprendimiento desde Guadalajara." />
 
 <br />
 
