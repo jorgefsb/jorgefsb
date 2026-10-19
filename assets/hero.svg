@@ -1,54 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
-  <title id="title">Jorge Suárez Basáñez</title>
-  <desc id="desc">Pionero de la industria mexicana de videojuegos, fundador, operador, community builder y gamer desde Guadalajara, México.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset=".58" stop-color="#161616"/>
-      <stop offset="1" stop-color="#29140b"/>
-    </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff6b35"/>
-      <stop offset=".58" stop-color="#ffa500"/>
-      <stop offset="1" stop-color="#ffcf66"/>
-    </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#ff6b35" stroke-width="1" stroke-opacity=".10"/>
-    </pattern>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+<title id="t">Jorge Suárez Basáñez</title>
+<desc id="d">Pionero de la industria mexicana de videojuegos, fundador, operador, community builder y gamer desde Guadalajara, México. 20+ años haciendo industria.</desc>
+<style>@font-face{font-family:JzOutfit;font-weight:700;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:JzInter;font-weight:400;src:url(data:font/woff2;base64,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) format('woff2')}
+.o{font-family:JzOutfit,Outfit,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700}
+.i{font-family:JzInter,Inter,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:400}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .55s cubic-bezier(.34,1.56,.64,1) both}
+.rise{animation:rise .6s cubic-bezier(.22,1,.36,1) both}
+.fade{animation:fade .5s ease-out both}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s cubic-bezier(.22,1,.36,1) both}
+.flash{opacity:0;animation:flash .45s ease-out both}
+.pt{opacity:0}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes flash{0%{opacity:0}25%{opacity:1}100%{opacity:0}}
+.frame{stroke-dasharray:2600;stroke-dashoffset:2600;animation:draw 1.3s cubic-bezier(.65,0,.35,1) .05s forwards}@keyframes draw{to{stroke-dashoffset:0}}@media (prefers-reduced-motion: reduce){.frame{stroke-dashoffset:0}}
+@keyframes p1_0{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(140px,126px) rotate(180deg)}}.p1_0{transform-box:fill-box;transform-origin:center;animation:p1_0 0.94s cubic-bezier(.16,1,.3,1) 0.56s both}
+@keyframes p1_1{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-118px,-133px) rotate(180deg)}}.p1_1{transform-box:fill-box;transform-origin:center;animation:p1_1 0.91s cubic-bezier(.16,1,.3,1) 0.58s both}
+@keyframes p1_2{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-157px,-100px) rotate(180deg)}}.p1_2{transform-box:fill-box;transform-origin:center;animation:p1_2 1.15s cubic-bezier(.16,1,.3,1) 0.48s both}
+@keyframes p1_3{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(87px,-50px) rotate(-90deg)}}.p1_3{transform-box:fill-box;transform-origin:center;animation:p1_3 1.09s cubic-bezier(.16,1,.3,1) 0.59s both}
+@keyframes p1_4{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-88px,-167px) rotate(-90deg)}}.p1_4{transform-box:fill-box;transform-origin:center;animation:p1_4 0.98s cubic-bezier(.16,1,.3,1) 0.52s both}
+@keyframes p1_5{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-139px,-38px) rotate(180deg)}}.p1_5{transform-box:fill-box;transform-origin:center;animation:p1_5 1.23s cubic-bezier(.16,1,.3,1) 0.59s both}
+@keyframes p1_6{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(91px,-119px) rotate(90deg)}}.p1_6{transform-box:fill-box;transform-origin:center;animation:p1_6 1.12s cubic-bezier(.16,1,.3,1) 0.56s both}
+@keyframes p1_7{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(106px,80px) rotate(180deg)}}.p1_7{transform-box:fill-box;transform-origin:center;animation:p1_7 1.08s cubic-bezier(.16,1,.3,1) 0.59s both}
+@keyframes p1_8{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-59px,134px) rotate(-90deg)}}.p1_8{transform-box:fill-box;transform-origin:center;animation:p1_8 1.04s cubic-bezier(.16,1,.3,1) 0.58s both}
+@keyframes p1_9{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(9px,163px) rotate(-90deg)}}.p1_9{transform-box:fill-box;transform-origin:center;animation:p1_9 0.96s cubic-bezier(.16,1,.3,1) 0.53s both}
+@keyframes p1_10{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(32px,-155px) rotate(180deg)}}.p1_10{transform-box:fill-box;transform-origin:center;animation:p1_10 1.13s cubic-bezier(.16,1,.3,1) 0.47s both}
+@keyframes p1_11{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-152px,-16px) rotate(-90deg)}}.p1_11{transform-box:fill-box;transform-origin:center;animation:p1_11 0.91s cubic-bezier(.16,1,.3,1) 0.46s both}
+@keyframes p1_12{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(105px,-118px) rotate(180deg)}}.p1_12{transform-box:fill-box;transform-origin:center;animation:p1_12 1.13s cubic-bezier(.16,1,.3,1) 0.48s both}
+@keyframes p1_13{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(200px,-18px) rotate(-90deg)}}.p1_13{transform-box:fill-box;transform-origin:center;animation:p1_13 0.98s cubic-bezier(.16,1,.3,1) 0.53s both}
+@keyframes p1_14{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-132px,139px) rotate(-90deg)}}.p1_14{transform-box:fill-box;transform-origin:center;animation:p1_14 1.23s cubic-bezier(.16,1,.3,1) 0.45s both}
+@keyframes p1_15{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-119px,-8px) rotate(90deg)}}.p1_15{transform-box:fill-box;transform-origin:center;animation:p1_15 1.05s cubic-bezier(.16,1,.3,1) 0.46s both}
+@keyframes p1_16{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-117px,-44px) rotate(180deg)}}.p1_16{transform-box:fill-box;transform-origin:center;animation:p1_16 1.07s cubic-bezier(.16,1,.3,1) 0.50s both}
+@keyframes p1_17{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(172px,1px) rotate(180deg)}}.p1_17{transform-box:fill-box;transform-origin:center;animation:p1_17 1.06s cubic-bezier(.16,1,.3,1) 0.45s both}
+@keyframes p1_18{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-114px,-104px) rotate(90deg)}}.p1_18{transform-box:fill-box;transform-origin:center;animation:p1_18 1.18s cubic-bezier(.16,1,.3,1) 0.57s both}
+@keyframes p1_19{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(218px,36px) rotate(90deg)}}.p1_19{transform-box:fill-box;transform-origin:center;animation:p1_19 1.20s cubic-bezier(.16,1,.3,1) 0.52s both}
+@keyframes p1_20{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(0px,94px) rotate(90deg)}}.p1_20{transform-box:fill-box;transform-origin:center;animation:p1_20 1.02s cubic-bezier(.16,1,.3,1) 0.46s both}
+@keyframes p1_21{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-7px,179px) rotate(-90deg)}}.p1_21{transform-box:fill-box;transform-origin:center;animation:p1_21 1.15s cubic-bezier(.16,1,.3,1) 0.52s both}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.15}}.ps{animation:pop .5s cubic-bezier(.34,1.56,.64,1) 1.70s both,blink .5s steps(1,end) 2.30s 3}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="xp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF6B35"/><stop offset="1" stop-color="#FFA500"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#FF6B35" stroke-opacity=".07"/></pattern>
+</defs>
 
-  <rect width="1000" height="270" rx="22" fill="url(#bg)"/>
-  <rect width="1000" height="270" rx="22" fill="url(#grid)"/>
-  <rect x="1.5" y="1.5" width="997" height="267" rx="20.5" fill="none" stroke="url(#neon)" stroke-width="3"/>
-  <path d="M0 70L185 0H0Z" fill="#22d3ee" opacity=".07"/>
-  <path d="M1000 178L790 270H1000Z" fill="#ff6b35" opacity=".10"/>
+<rect width="1000" height="300" rx="18" fill="#0A0A0A"/>
+<rect width="1000" height="300" rx="18" fill="url(#grid)"/>
+<rect x="1.5" y="1.5" width="997" height="297" rx="16.5" fill="none" stroke="#8A7E70" stroke-opacity=".5" stroke-width="1"/>
+<rect class="frame" x="1.5" y="1.5" width="997" height="297" rx="16.5" fill="none" stroke="#FF6B35" stroke-width="3" pathLength="2600"/>
+<g fill="#FFA500" class="fade" style="animation-delay:1.20s"><rect x="24" y="24" width="8" height="8"/><rect x="40" y="24" width="8" height="8"/></g>
+<g fill="#FF6B35" class="fade" style="animation-delay:1.30s"><rect x="952" y="268" width="8" height="8"/><rect x="968" y="268" width="8" height="8"/></g>
+<rect class="pt p1_0" x="130" y="148" width="4" height="4" fill="#FFA500"/>
+<rect class="pt p1_1" x="130" y="148" width="4" height="4" fill="#FFA500"/>
+<rect class="pt p1_2" x="128" y="146" width="7" height="7" fill="#FF6B35"/>
+<rect class="pt p1_3" x="130" y="148" width="4" height="4" fill="#FFA500"/>
+<rect class="pt p1_4" x="130" y="148" width="4" height="4" fill="#FFA500"/>
+<rect class="pt p1_5" x="130" y="148" width="5" height="5" fill="#FFA500"/>
+<rect class="pt p1_6" x="130" y="148" width="4" height="4" fill="#FFA500"/>
+<rect class="pt p1_7" x="128" y="146" width="8" height="8" fill="#FF6B35"/>
+<rect class="pt p1_8" x="128" y="146" width="7" height="7" fill="#FFA500"/>
+<rect class="pt p1_9" x="128" y="146" width="7" height="7" fill="#F4E8D5"/>
+<rect class="pt p1_10" x="130" y="148" width="4" height="4" fill="#FF6B35"/>
+<rect class="pt p1_11" x="128" y="146" width="7" height="7" fill="#F4E8D5"/>
+<rect class="pt p1_12" x="128" y="146" width="8" height="8" fill="#FF6B35"/>
+<rect class="pt p1_13" x="128" y="146" width="8" height="8" fill="#F4E8D5"/>
+<rect class="pt p1_14" x="128" y="146" width="8" height="8" fill="#F4E8D5"/>
+<rect class="pt p1_15" x="128" y="146" width="8" height="8" fill="#FFA500"/>
+<rect class="pt p1_16" x="128" y="146" width="8" height="8" fill="#FFA500"/>
+<rect class="pt p1_17" x="128" y="146" width="8" height="8" fill="#FF6B35"/>
+<rect class="pt p1_18" x="130" y="148" width="5" height="5" fill="#FFA500"/>
+<rect class="pt p1_19" x="130" y="148" width="4" height="4" fill="#FFA500"/>
+<rect class="pt p1_20" x="128" y="146" width="8" height="8" fill="#FF6B35"/>
+<rect class="pt p1_21" x="129" y="147" width="6" height="6" fill="#FFA500"/>
 
-  <g transform="translate(58 55)" filter="url(#glow)">
-    <path d="M26 55C29 30 42 18 64 18h36c22 0 35 12 38 37l8 57c2 14-13 23-23 13l-25-24H66l-25 24c-10 10-25 1-23-13Z" fill="none" stroke="url(#neon)" stroke-width="7" stroke-linejoin="round"/>
-    <path d="M48 56v28M34 70h28" stroke="#22d3ee" stroke-width="7" stroke-linecap="square"/>
-    <circle cx="112" cy="60" r="6" fill="#ff6b35"/>
-    <circle cx="126" cy="77" r="6" fill="#ffa500"/>
-    <circle cx="94" cy="75" r="4" fill="#22d3ee"/>
-  </g>
+<g class="pop" style="animation-delay:0.10s">
+  <rect x="52" y="70" width="160" height="160" rx="18" fill="#161616"/>
+  <rect x="53.5" y="71.5" width="157" height="157" rx="16.5" fill="none" stroke="#FF6B35" stroke-width="3"/>
+  <text class="o" x="132.0" y="166.0" font-size="70" fill="#FFFFFF" text-anchor="middle">JS</text>
+  <rect x="96.8" y="186.8" width="70.4" height="5.6" rx="2" fill="#FF6B35"/>
+  <rect x="96.8" y="186.8" width="70.4" height="5.6" rx="2" fill="#FFA500" class="grow" style="animation-delay:0.60s"/>
+</g>
+<g class="rise" style="animation-delay:0.30s"><text class="o" x="252.0" y="74.0" font-size="14" fill="#FF6B35" letter-spacing="3">PLAYER ONE // GUADALAJARA, MÉXICO</text></g>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="245" y="58" fill="#ff6b35" font-size="13" font-weight="700" letter-spacing="3">PLAYER ONE // GUADALAJARA, MÉXICO</text>
-    <text x="245" y="112" fill="#f8fafc" font-size="44" font-weight="800" letter-spacing="-1">JORGE SUÁREZ BASÁÑEZ</text>
-    <text x="245" y="151" fill="#d8ddf0" font-size="20" font-weight="600" letter-spacing="1">VIDEOJUEGOS · COMUNIDAD · EMPRENDIMIENTO</text>
-    <rect x="245" y="180" width="690" height="2" fill="url(#neon)"/>
-    <text x="245" y="217" fill="#aab4d0" font-size="15">FUNDADOR</text>
-    <text x="355" y="217" fill="#ffa500" font-size="15">◆</text>
-    <text x="384" y="217" fill="#aab4d0" font-size="15">OPERADOR</text>
-    <text x="478" y="217" fill="#ff6b35" font-size="15">◆</text>
-    <text x="507" y="217" fill="#aab4d0" font-size="15">JUGADOR</text>
-    <text x="610" y="217" fill="#22d3ee" font-size="15">◆</text>
-    <text x="639" y="217" fill="#f8fafc" font-size="15" font-weight="700">20+ AÑOS HACIENDO INDUSTRIA</text>
-  </g>
-
-  <g fill="#22d3ee"><rect x="25" y="25" width="8" height="8"/><rect x="41" y="25" width="8" height="8"/></g>
-  <g fill="#ff6b35"><rect x="951" y="237" width="8" height="8"/><rect x="967" y="237" width="8" height="8"/></g>
+<g class="ps" style="transform-box:fill-box;transform-origin:center">
+  <rect x="793.1" y="52" width="156.9" height="32" rx="16" fill="#FF6B35"/>
+  <path d="M809.1 62L821.1 68.0L809.1 74Z" fill="#22211F"/>
+  <text class="o" x="827.1" y="73.0" font-size="14" fill="#22211F" letter-spacing="2">PRESS START</text>
+</g>
+<g class="rise" style="animation-delay:0.45s"><text class="o" x="252.0" y="128.0" font-size="48" fill="#FFFFFF" letter-spacing="-0.5">JORGE SUÁREZ BASÁÑEZ</text></g>
+<clipPath id="type"><rect class="grow" style="animation-delay:0.75s;animation-duration:.9s;animation-timing-function:steps(24,end)" x="252" y="146" width="502" height="30"/></clipPath>
+<g clip-path="url(#type)"><text class="i" x="252.0" y="166.0" font-size="19" fill="#B7B3AD" letter-spacing="1">VIDEOJUEGOS · COMUNIDAD · EMPRENDIMIENTO</text></g>
+<g class="fade" style="animation-delay:0.90s"><text class="o" x="252.0" y="212.0" font-size="15" fill="#FF6B35" letter-spacing="2">XP</text></g>
+<g class="fade" style="animation-delay:0.90s">
+<rect x="286" y="198" width="330" height="18" rx="9.0" fill="#161616" stroke="#8A7E70" stroke-width="1"/>
+<g class="grow" style="animation-delay:1.00s;animation-duration:1.4s">
+  <rect x="289" y="201" width="324" height="12" rx="6.0" fill="url(#xp)"/>
+</g>
+<rect class="flash" style="animation-delay:2.35s" x="284.5" y="196.5" width="333" height="21" rx="10.5" fill="none" stroke="#FF6B35" stroke-width="3"/></g>
+<g class="pop" style="animation-delay:2.20s"><text class="o" x="634.0" y="213.0" font-size="16" fill="#FFFFFF" letter-spacing="1">20+ AÑOS HACIENDO INDUSTRIA</text></g>
+<g class="rise" style="animation-delay:1.35s"><text class="i" x="252.0" y="256.0" font-size="15" fill="#B7B3AD" letter-spacing="1.5">FUNDADOR</text></g>
+<g class="pop" style="animation-delay:1.43s"><path d="M362.94091796875 245.65L367.89091796875 250.6L362.94091796875 255.54999999999998L357.99091796875 250.6Z" fill="#FF6B35"/></g>
+<g class="rise" style="animation-delay:1.47s"><text class="i" x="378.9" y="256.0" font-size="15" fill="#B7B3AD" letter-spacing="1.5">OPERADOR</text></g>
+<g class="pop" style="animation-delay:1.55s"><path d="M487.45751953125 245.65L492.40751953125 250.6L487.45751953125 255.54999999999998L482.50751953125 250.6Z" fill="#FFA500"/></g>
+<g class="rise" style="animation-delay:1.59s"><text class="i" x="503.5" y="256.0" font-size="15" fill="#B7B3AD" letter-spacing="1.5">JUGADOR</text></g>
 </svg>

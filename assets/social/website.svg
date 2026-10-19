@@ -1,6 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" viewBox="0 0 220 40" role="img" aria-label="Sitio web jorgesuarez.com.mx">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff6b35"/><stop offset="1" stop-color="#ffa500"/></linearGradient></defs>
-  <rect width="220" height="40" rx="8" fill="url(#g)"/><rect x="1" y="1" width="218" height="38" rx="7" fill="none" stroke="#ffe0b2" stroke-opacity=".75"/>
-  <g fill="none" stroke="#fff" stroke-width="1.8"><circle cx="21" cy="20" r="9"/><path d="M12 20h18M21 11c3 3 3 15 0 18M21 11c-3 3-3 15 0 18"/></g>
-  <text x="40" y="25" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial" font-size="13" font-weight="700">jorgesuarez.com.mx</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="267" height="44" viewBox="0 0 267 44" role="img" aria-labelledby="t d">
+<title id="t">Sitio web: jorgesuarez.com.mx</title>
+<desc id="d">Sitio web: jorgesuarez.com.mx</desc>
+<style>@font-face{font-family:JzOutfit;font-weight:700;src:url(data:font/woff2;base64,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) format('woff2')}
+.o{font-family:JzOutfit,Outfit,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700}
+.i{font-family:JzInter,Inter,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:400}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .55s cubic-bezier(.34,1.56,.64,1) both}
+.rise{animation:rise .6s cubic-bezier(.22,1,.36,1) both}
+.fade{animation:fade .5s ease-out both}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s cubic-bezier(.22,1,.36,1) both}
+.flash{opacity:0;animation:flash .45s ease-out both}
+.pt{opacity:0}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes flash{0%{opacity:0}25%{opacity:1}100%{opacity:0}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g class="pop" style="animation-delay:0.15s">
+<rect x="1" y="1" width="265" height="42" rx="6" fill="#FF6B35" stroke="none" stroke-width="1.5"/>
+<g fill="none" stroke="#22211F" stroke-width="2"><circle cx="28" cy="22" r="10"/><path d="M18 22h20M28 12c4 3 4 17 0 20M28 12c-4 3-4 17 0 20"/></g>
+<text class="o" x="52.0" y="28.0" font-size="15" fill="#22211F" letter-spacing="1.2">JORGESUAREZ.COM.MX</text>
+</g>
+<rect class="flash" style="animation-delay:0.60s" x="1.5" y="1.5" width="264" height="41" rx="6" fill="none" stroke="#FFA500" stroke-width="3"/>
 </svg>
