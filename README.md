@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez — pionero del gaming mexicano, fundador, operador, community builder y gamer desde Guadalajara." />
+<img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez: videojuegos, comunidad y emprendimiento desde Guadalajara, junto a Moki, su astronauta de cartón." />
 
 <br />
 
@@ -9,11 +9,14 @@
 <a href="https://youtube.com/@jorgefsb"><img src="./assets/social/youtube.svg" height="40" alt="YouTube: @jorgefsb" /></a>
 <a href="https://jorgesuarez.com.mx"><img src="./assets/social/website.svg" height="40" alt="Sitio web: jorgesuarez.com.mx" /></a>
 <a href="https://linkedin.com/in/yorgenmeister"><img src="./assets/social/linkedin.svg" height="40" alt="LinkedIn: Jorge Suárez" /></a>
-<a href="https://x.com/jorgefsb"><img src="./assets/social/x.svg" height="40" alt="X / Twitter: @jorgefsb" /></a>
+<a href="https://x.com/jorgefsb"><img src="./assets/social/x.svg" height="40" alt="X: @jorgefsb" /></a>
+<a href="https://www.tiktok.com/@jorgesuarez.com.mx"><img src="./assets/social/tiktok.svg" height="40" alt="TikTok: @jorgesuarez.com.mx" /></a>
 
 <br />
 
 GM @ [Amber Studio México](https://amberstudio.com/location-guadalajara) · Founder · Emprendedor · Community builder · Gamer
+
+<sub>🇺🇸 20+ years in video games. GM at Amber Studio México. Building games, communities and AI tools from Guadalajara.</sub>
 
 </div>
 
@@ -24,6 +27,8 @@ GM @ [Amber Studio México](https://amberstudio.com/location-guadalajara) · Fou
 Llevo más de 20 años jugando el modo historia del gaming mexicano: fundando estudios, formando equipos y abriendo camino desde Guadalajara. Fundé **KaraOkulta**, hoy lidero **Amber México** y sigo construyendo proyectos donde se cruzan videojuegos, comunidad, emprendimiento e IA.
 
 Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de hacer videojuegos**. Si estás construyendo algo interesante, bienvenida la partida co-op.
+
+Me acompaña **[Moki](https://moki.jorgesuarez.com.mx)**, mi alter ego de cartón: el que explora, se equivoca y lo vuelve a intentar.
 
 ## 🕹️ Misiones activas
 
@@ -42,8 +47,9 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 | `01` **[Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder)** · [jugar ↗](https://mpb.jorgesuarez.com.mx) | Construye y exporta el contexto que quieres llevar a ChatGPT, Claude y otras IAs. |
 | `02` **[EchoMentor AI](https://github.com/jorgefsb/echomentor-ai)** · [conócela ↗](https://echomentor.jorgesuarez.com.mx) | Plataforma de aprendizaje adaptativo con IA (UETC / Arden). Le das un tema o un PDF y arma una clase. Beta del Club UETC. |
 | `03` **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [ver propuesta ↗](https://sparkcrew.jorgesuarez.com.mx) | Explora una propuesta de equipos de IA por suscripción para PyMEs. |
-| `04` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
+| `04` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** · [explorar ↗](https://gamedev.jorgesuarez.com.mx) | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
 | `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
+| `06` **[Moki](https://moki.jorgesuarez.com.mx)** · [conócelo ↗](https://moki.jorgesuarez.com.mx) | Conoce a mi alter ego de cartón: su película, un minijuego y fondos para llevártelo. |
 
 > 🎓 **EchoMentor AI** también tiene landing pública en [echomentor.jorgesuarez.com.mx](https://echomentor.jorgesuarez.com.mx). La plataforma vive en UETC; el código de la app sigue privado.
 >
@@ -77,5 +83,13 @@ La mayoría de mis repositorios públicos son forks que conservo como biblioteca
 <div align="center">
 
 **¿Hablamos?** [jorgefsb@gmail.com](mailto:jorgefsb@gmail.com) · Guadalajara, Jalisco 🇲🇽
+
+<br />
+
+<a href="https://jorgesuarez.com.mx"><img src="./assets/firma-jorgesuarez.svg" width="200" alt="JorgeSuarez.com.mx" /></a>
+
+Hecho con amor ❤️🎮 por [JorgeSuarez.com.mx](https://jorgesuarez.com.mx)
+
+<sub>Actualización · 18 oct 2026 · America/Mexico_City · Spark · DS v2.1</sub>
 
 </div>
