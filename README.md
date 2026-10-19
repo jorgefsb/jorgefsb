@@ -1,15 +1,20 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez — pionero del gaming mexicano, fundador, operador, community builder y gamer desde Guadalajara." />
+<a href="https://jorgesuarez.com.mx">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
+    <img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez: pionero del gaming mexicano, fundador, operador, community builder y gamer desde Guadalajara. 20+ años haciendo industria." />
+  </picture>
+</a>
 
 <br />
 
 🎮 **SELECCIONA CANAL**
 
-<a href="https://youtube.com/@jorgefsb"><img src="./assets/social/youtube.svg" height="40" alt="YouTube: @jorgefsb" /></a>
-<a href="https://jorgesuarez.com.mx"><img src="./assets/social/website.svg" height="40" alt="Sitio web: jorgesuarez.com.mx" /></a>
-<a href="https://linkedin.com/in/yorgenmeister"><img src="./assets/social/linkedin.svg" height="40" alt="LinkedIn: Jorge Suárez" /></a>
-<a href="https://x.com/jorgefsb"><img src="./assets/social/x.svg" height="40" alt="X / Twitter: @jorgefsb" /></a>
+<a href="https://youtube.com/@jorgefsb"><img src="./assets/social/youtube.svg" height="44" alt="YouTube: @jorgefsb" /></a>
+<a href="https://jorgesuarez.com.mx"><img src="./assets/social/website.svg" height="44" alt="Sitio web: jorgesuarez.com.mx" /></a>
+<a href="https://linkedin.com/in/yorgenmeister"><img src="./assets/social/linkedin.svg" height="44" alt="LinkedIn: Jorge Suárez" /></a>
+<a href="https://x.com/jorgefsb"><img src="./assets/social/x.svg" height="44" alt="X / Twitter: @jorgefsb" /></a>
 
 <br />
 
@@ -51,10 +56,14 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 
 ## 🧰 Loadout actual
 
-- **IA y agentes:** Claude · MCP · sistemas multiagente
-- **Producto web:** TypeScript · JavaScript · Node.js · Next.js · Python
-- **Plataforma:** Cloudflare · Vercel · Supabase
-- **Videojuegos:** Unreal Engine · Unity · Roblox
+<div align="center">
+
+<img src="./assets/loadout/ia.svg" width="400" alt="Slot 01, IA y agentes: Claude · MCP · sistemas multiagente." />
+<img src="./assets/loadout/web.svg" width="400" alt="Slot 02, Producto web: TypeScript · JavaScript · Node.js · Next.js · Python." />
+<img src="./assets/loadout/plataforma.svg" width="400" alt="Slot 03, Plataforma: Cloudflare · Vercel · Supabase." />
+<img src="./assets/loadout/videojuegos.svg" width="400" alt="Slot 04, Videojuegos: Unreal Engine · Unity · Roblox." />
+
+</div>
 
 ## 📊 GitHub telemetry
 
@@ -62,7 +71,8 @@ La mayoría de mis repositorios públicos son forks que conservo como biblioteca
 
 <div align="center">
 
-<img src="./assets/github-snapshot.svg" width="860" alt="Snapshot de GitHub al 22 de agosto de 2026: 322 repositorios públicos, 13 originales y 309 forks; en los repositorios originales activos, HTML representa 39 por ciento del código, JavaScript 38 por ciento y CSS 23 por ciento." />
+<img src="./assets/stats/repos.svg" width="400" alt="Snapshot de GitHub al 22 de agosto de 2026: 322 repositorios públicos, 13 originales (4 por ciento) y 309 forks como biblioteca de referencia." />
+<img src="./assets/stats/lenguajes.svg" width="400" alt="Lenguajes del código original activo al 22 de agosto de 2026: HTML 39 por ciento, JavaScript 38 por ciento y CSS 23 por ciento." />
 
 </div>
 
@@ -70,12 +80,23 @@ La mayoría de mis repositorios públicos son forks que conservo como biblioteca
 
 ## 🏆 Achievements unlocked
 
-**Shark Tank México** (2016) · **Forbes 30 Promesas** (2015) · **Cinépolis Accelerator Alumni** (2015) · **Cinépolis Seedcamp Winner** (2014)
+<div align="center">
+
+<img src="./assets/achievements/shark-tank.svg" width="400" alt="Logro desbloqueado: Shark Tank México (2016)." />
+<img src="./assets/achievements/forbes.svg" width="400" alt="Logro desbloqueado: Forbes 30 Promesas (2015)." />
+<img src="./assets/achievements/cinepolis-accelerator.svg" width="400" alt="Logro desbloqueado: Cinépolis Accelerator Alumni (2015)." />
+<img src="./assets/achievements/cinepolis-seedcamp.svg" width="400" alt="Logro desbloqueado: Cinépolis Seedcamp Winner (2014)." />
+
+</div>
 
 ---
 
 <div align="center">
 
+<a href="mailto:jorgefsb@gmail.com"><img src="./assets/cta.svg" height="56" alt="¿Hablamos? jorgefsb@gmail.com" /></a>
+
 **¿Hablamos?** [jorgefsb@gmail.com](mailto:jorgefsb@gmail.com) · Guadalajara, Jalisco 🇲🇽
+
+<sub>Hecho con amor ❤️🎮 por <a href="https://jorgesuarez.com.mx">JorgeSuarez.com.mx</a> · perfil v2.0 · 19 oct 2026</sub>
 
 </div>

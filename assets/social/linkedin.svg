@@ -1,6 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="170" height="40" viewBox="0 0 170 40" role="img" aria-label="LinkedIn Jorge Suárez">
-  <rect width="170" height="40" rx="8" fill="#0a66c2"/><rect x="1" y="1" width="168" height="38" rx="7" fill="none" stroke="#93c5fd" stroke-opacity=".7"/>
-  <rect x="11" y="10" width="20" height="20" rx="3" fill="#fff"/><text x="14" y="26" fill="#0a66c2" font-family="Arial" font-size="16" font-weight="800">in</text>
-  <text x="42" y="25" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial" font-size="13" font-weight="700">LINKEDIN</text>
-  <text x="116" y="25" fill="#bfdbfe" font-family="Arial" font-size="11">↗</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-labelledby="t d">
+<title id="t">LinkedIn: Jorge Suárez</title>
+<desc id="d">LinkedIn: Jorge Suárez</desc>
+<style>@font-face{font-family:JzOutfit;font-weight:700;src:url(data:font/woff2;base64,d09GMgABAAAAAANEABAAAAAABuwAAALnAAEZmgAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgSIcKgZgP1NUQVQqAFQRCAqCSIIEATYCJAMgCxIABCAFg3AHIAwHG3wFIJ6FsXuilMapMyijGJTYcB8+H88/v9+3tc9/I6ohkUjaSJaJ6pU8KRGJJEowqQzREn5/0nvfBZWQL1RAfopcIU0dIU7CNHTqsLj/sTgbIw4OnI5eGcfjrKszNaHHIpDFiEcDHKH/wfwaSyyxpBUKUfH7BTrVWq1246VSybi25u4ddDHhIviQapj6qwlGASWiXwTDdjGIU7HJ2WB0vaKNByMdNIJcq2nhQQdBdMqgMuwUZFyHMk8IKZ0+A9KoRq/RNfoa/Y2BtmKgnTKLwjInSIGIUkXy9/kQNj693FUKcYumDioAp00EyAVgsgsA3ND/DX8prHGR2vv8/xfMNw0FBHJYz9ikK2JQMAthFfGI1bQhBJRABolbgEIPs0jBLMoxYNSg0tkUI0Gy1AaboiVIcrxo+9Lu2rRuBQGASHsTYBBMAuM4A9wAoAOUTpTSY7FrpDZ1iqZofaQ/+/Ztht+8GdZbxmvQHr8Khg2CIaUvoIcM4aLkWmhYy+pXoxojhmh2cijDujwuO/e428nBaXgZI6iIihKWlQrCr6Zv0ieY6lLxUGqKeLiqZEKQ5vi8/OzUurA3NTo14jVaPlpmPjkw6d3v6xq2yHiW8OER8zy12p0pmbH7fNCcKHHVwuvoZPiKSHgyCLK0kLU80FlmrPwaJMlP+PTx8384/PMzVDSoF/Us+hUInzisH8CMJ4TWg7UtCkGxQsaTqic8FPv4DvdAMGgVBaLdGnIXKZ0u8ARcQszbgzLoOfQc8Q6dTf/Q52iWmX7rOc9CCEbTYuukenQUrEm3FhyWRhsXjBCMUC6yadRwkaZdm1ocZVO6FlidGlUuO2I2NbAWrbB9Ul1q06SVXLBgLI6E3q5SkCpYo+DEUxzsRA8UC+O1aeUbVEr7HYcXCWtQLVSQUCFCKNRqUYGluE3vXiDmSeq7jCRXzSOJxUmh4TY9Vq02GPlzWhUJEUQmCEOiZOsiT83rjkkq1I7RfhZ5Sg0AAAA=) format('woff2')}
+.o{font-family:JzOutfit,Outfit,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700}
+.i{font-family:JzInter,Inter,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:400}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .55s cubic-bezier(.34,1.56,.64,1) both}
+.rise{animation:rise .6s cubic-bezier(.22,1,.36,1) both}
+.fade{animation:fade .5s ease-out both}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s cubic-bezier(.22,1,.36,1) both}
+.flash{opacity:0;animation:flash .45s ease-out both}
+.pt{opacity:0}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes flash{0%{opacity:0}25%{opacity:1}100%{opacity:0}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g class="pop" style="animation-delay:0.25s">
+<rect x="1" y="1" width="168" height="42" rx="6" fill="#161616" stroke="#8A7E70" stroke-width="1.5"/>
+<rect x="17" y="11" width="22" height="22" rx="4" fill="#FF6B35"/><rect x="21" y="20" width="3.4" height="9" fill="#161616"/><circle cx="22.7" cy="16.4" r="2" fill="#161616"/><path d="M26.5 20h3.2v1.4c.6-1 1.7-1.7 3.2-1.7 2.4 0 3.4 1.5 3.4 4.1V29h-3.4v-4.7c0-1.3-.4-2-1.5-2s-1.5.8-1.5 2V29h-3.4Z" fill="#161616"/>
+<text class="o" x="52.0" y="28.0" font-size="15" fill="#FFFFFF" letter-spacing="1.2">LINKEDIN</text>
+<path d="M152.85500000000002 26L162.85500000000002 16M155.85500000000002 16h7v7" fill="none" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect class="flash" style="animation-delay:0.70s" x="1.5" y="1.5" width="167" height="41" rx="6" fill="none" stroke="#FF6B35" stroke-width="3"/>
 </svg>
