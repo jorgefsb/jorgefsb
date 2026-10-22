@@ -13,10 +13,10 @@ Este perfil es un **índice del builder**: reúne proyectos y enlaces de Jorge S
 Para quienes quieren conocer los proyectos, explorar recursos de videojuegos o encontrar el repositorio adecuado antes de pedir ayuda técnica.
 
 ## ¿Por qué existe?
-Para dar una entrada clara al trabajo público y distinguir herramientas, propuestas y referencias. El README anterior describe el cruce entre videojuegos, comunidad, emprendimiento e IA; aquí lo convertimos en rutas de entrada, sin inventar resultados.
+Para encontrar una herramienta o recurso sin perderte entre repositorios. Aquí conviven proyectos de videojuegos, comunidad y construcción de herramientas con IA.
 
 ## ¿Cómo lo uso?
-Elige una ruta y abre su README de **main**, que es la referencia publicada del proyecto. La nueva documentación de esta familia es una propuesta local: estos enlaces no aseguran que ya esté integrada.
+Elige una ruta y abre su README de **main**, que es la referencia publicada del proyecto. La nueva documentación de esta familia está en revisión: estos enlaces no aseguran que ya esté integrada.
 
 | Quiero… | Abrir | Alcance |
 |---|---|---|
@@ -25,6 +25,14 @@ Elige una ruta y abre su README de **main**, que es la referencia publicada del 
 | Conocer el sitio personal | [jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx/blob/main/README.md) · [sitio](https://jorgesuarez.com.mx/) | Historia, proyectos y enlaces públicos. |
 | Conocer una propuesta de aprendizaje | [EchoMentor AI](https://github.com/jorgefsb/echomentor-ai) · [landing](https://echomentor.jorgesuarez.com.mx/) | La landing pública no demuestra la app privada; UETC / Arden conservan su identidad. |
 | Explorar una propuesta para PyMEs | [SparkCrew](https://github.com/jorgefsb/sparkcrew-landing) | Presentación de una propuesta, no prueba de un servicio contratado. |
+
+### Herramientas para páginas web
+
+- [Cursor líquido](https://github.com/jorgefsb/cursor-liquido/blob/main/README.md): una estela de color junto al puntero; puedes probar la demo antes de integrarlo.
+- [Papacito Juice](https://github.com/jorgefsb/papacito-juice/blob/main/README.md): movimiento y sonido de la marca personal, siempre con Moki.
+- [Game Feel](https://github.com/jorgefsb/game-feel/blob/main/README.md): respuestas para una web con su propia identidad, sin exigir Moki.
+
+Sus README explican requisitos y licencias. Ponerlas en otra página requiere integración técnica.
 
 ### Empresas y biblioteca: no confundir
 Amber, Sparkplug, Arden / UETC y Tecni Moto conservan sus marcas. Esta firma personal no las sustituye ni convierte sus productos en software personal. El perfil anterior las menciona; aquí no se añaden clientes, cargos nuevos, cifras ni promesas comerciales.
@@ -48,7 +56,7 @@ Los repositorios marcados **Fork** en GitHub son referencias de terceros: revisa
 ## Ver antes de decidir
 ![Perfil público real, antes de esta propuesta documental](docs/media/02-public.png)
 
-Captura del perfil publicado, no maqueta de una app. [Video y subtítulos ES](docs/WALKTHROUGH.md) · [English captions](docs/WALKTHROUGH.en.md).
+Captura del perfil publicado, no maqueta de una app. [Ver el video real](docs/media/walkthrough.mp4) · [Subtítulos y transcripción ES](docs/WALKTHROUGH.md) · [English captions](docs/WALKTHROUGH.en.md).
 
 ## Para quien mantiene la documentación
 [Guía documental](docs/REPOSITORY-DOCUMENTATION.md) · [Aviso de medios](docs/ASSET-NOTICE.md). No se requiere clonar para explorar el índice. La evidencia técnica está en `reports/docs-brandkit-verification.json`.

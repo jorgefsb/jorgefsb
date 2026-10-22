@@ -13,10 +13,10 @@ This profile is a **builder's index** of Jorge Suárez's projects and links. It 
 People who want to discover projects, explore game industry resources or find the right repository before asking for technical help.
 
 ## Why does it exist?
-To provide a clear entry point into public work and distinguish tools, proposals and references. The previous README describes the intersection of games, community, entrepreneurship and AI; this guide turns that into entry paths without inventing outcomes.
+To find a tool or resource without getting lost between repositories. Projects here cover games, community and building tools with AI.
 
 ## How do I use it?
-Choose a path and open its **main** README, the project's published reference. This family's new documentation is a local proposal: these links do not imply it has already been merged.
+Choose a path and open its **main** README, the project's published reference. This family's new documentation is under review: these links do not imply it has already been merged.
 
 | I want to… | Open | Scope |
 |---|---|---|
@@ -25,6 +25,14 @@ Choose a path and open its **main** README, the project's published reference. T
 | Visit the personal site | [jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx/blob/main/README.md) · [site](https://jorgesuarez.com.mx/) | Public story, projects and links. |
 | Discover a learning proposal | [EchoMentor AI](https://github.com/jorgefsb/echomentor-ai) · [landing](https://echomentor.jorgesuarez.com.mx/) | A public landing does not demonstrate the private app; UETC / Arden retain their identity. |
 | Explore a small-business proposal | [SparkCrew](https://github.com/jorgefsb/sparkcrew-landing) | Proposal presentation, not evidence of a purchased service. |
+
+### Tools for websites
+
+- [Cursor líquido](https://github.com/jorgefsb/cursor-liquido/blob/main/README.md): a colorful pointer trail; try the demo before integrating it.
+- [Papacito Juice](https://github.com/jorgefsb/papacito-juice/blob/main/README.md): personal-brand motion and sound, always with Moki.
+- [Game Feel](https://github.com/jorgefsb/game-feel/blob/main/README.md): website feedback with its own identity, without requiring Moki.
+
+Their READMEs explain requirements and licenses. Adding them to another website requires technical integration.
 
 ### Companies and the reference library are separate
 Amber, Sparkplug, Arden / UETC and Tecni Moto retain their own brands. This personal signature does not replace them or turn their products into personal software. The previous profile mentions them; no clients, new roles, figures or business promises are added here.
@@ -48,7 +56,7 @@ Use it to choose a project and reach its source. It does not automatically purch
 ## Look before deciding
 ![Real public profile before this documentation proposal](docs/media/02-public.png)
 
-Capture of the published profile, not an application mockup. [Video and English captions](docs/WALKTHROUGH.en.md) · [Subtítulos ES](docs/WALKTHROUGH.md).
+Capture of the published profile, not an application mockup. [Watch the real video](docs/media/walkthrough.mp4) · [English captions and transcript](docs/WALKTHROUGH.en.md) · [Subtítulos ES](docs/WALKTHROUGH.md).
 
 ## For documentation maintainers
 [Documentation guide](docs/REPOSITORY-DOCUMENTATION.en.md) · [Media notice](docs/ASSET-NOTICE.en.md). No clone is needed to explore the index. Technical evidence is in `reports/docs-brandkit-verification.json`.
