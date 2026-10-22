@@ -1,0 +1,1793 @@
+{
+  "repository": "jorgefsb",
+  "baseline": "c83ad07b3a4466b59cbb0d840b56e300d8e68f9c",
+  "baseline_origin_main": "c83ad07b3a4466b59cbb0d840b56e300d8e68f9c",
+  "branch": "docs/brandkit-es-en-20261022",
+  "scope": "local documentation only; no push, PR, merge, deploy, private access or GBrain operations",
+  "protected_files_compared": 18,
+  "protected_byte_identical": true,
+  "protected_differences": [],
+  "six_questions": {
+    "es": {
+      "expected": 6,
+      "present": 6
+    },
+    "en": {
+      "expected": 6,
+      "present": 6
+    }
+  },
+  "paired_languages": true,
+  "local_links": [
+    {
+      "from": "README.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "README.en.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "docs/media/02-public.png",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "docs/WALKTHROUGH.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "docs/WALKTHROUGH.en.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "docs/REPOSITORY-DOCUMENTATION.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "docs/ASSET-NOTICE.md",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "README.en.md",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "docs/media/02-public.png",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "docs/WALKTHROUGH.en.md",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "docs/WALKTHROUGH.md",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "docs/REPOSITORY-DOCUMENTATION.en.md",
+      "exists": true
+    },
+    {
+      "from": "README.en.md",
+      "target": "docs/ASSET-NOTICE.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/ASSET-NOTICE.md",
+      "target": "ASSET-NOTICE.md",
+      "exists": true
+    },
+    {
+      "from": "docs/ASSET-NOTICE.md",
+      "target": "ASSET-NOTICE.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.en.md",
+      "target": "WALKTHROUGH.md",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.en.md",
+      "target": "WALKTHROUGH.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.en.md",
+      "target": "media/player-en.html",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.en.md",
+      "target": "media/walkthrough.mp4",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.en.md",
+      "target": "media/walkthrough-en.vtt",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.en.md",
+      "target": "../README.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/ASSET-NOTICE.en.md",
+      "target": "ASSET-NOTICE.md",
+      "exists": true
+    },
+    {
+      "from": "docs/ASSET-NOTICE.en.md",
+      "target": "ASSET-NOTICE.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.md",
+      "target": "WALKTHROUGH.md",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.md",
+      "target": "WALKTHROUGH.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.md",
+      "target": "media/player-es.html",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.md",
+      "target": "media/walkthrough.mp4",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.md",
+      "target": "media/walkthrough-es.vtt",
+      "exists": true
+    },
+    {
+      "from": "docs/WALKTHROUGH.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "from": "docs/REPOSITORY-DOCUMENTATION.en.md",
+      "target": "REPOSITORY-DOCUMENTATION.md",
+      "exists": true
+    },
+    {
+      "from": "docs/REPOSITORY-DOCUMENTATION.en.md",
+      "target": "REPOSITORY-DOCUMENTATION.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/REPOSITORY-DOCUMENTATION.en.md",
+      "target": "ASSET-NOTICE.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/REPOSITORY-DOCUMENTATION.md",
+      "target": "REPOSITORY-DOCUMENTATION.md",
+      "exists": true
+    },
+    {
+      "from": "docs/REPOSITORY-DOCUMENTATION.md",
+      "target": "REPOSITORY-DOCUMENTATION.en.md",
+      "exists": true
+    },
+    {
+      "from": "docs/REPOSITORY-DOCUMENTATION.md",
+      "target": "ASSET-NOTICE.md",
+      "exists": true
+    }
+  ],
+  "local_links_pass": true,
+  "public_page": {
+    "url": "https://github.com/jorgefsb",
+    "status": 200,
+    "error": null,
+    "title": "jorgefsb (Jorge Suarez) · GitHub",
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "https://github.com/jorgefsb#start-of-content"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/"
+      },
+      {
+        "text": "Sign in",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fjorgefsb"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/copilot"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/ai/github-app"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/mcp"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/actions"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/codespaces"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/issues"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/code-review"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/code-quality"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/security/advanced-security"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/security/advanced-security/code-security"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/security/advanced-security/secret-protection"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/why-github"
+      },
+      {
+        "text": "",
+        "href": "https://docs.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://github.blog/"
+      },
+      {
+        "text": "",
+        "href": "https://github.blog/changelog"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/marketplace"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/enterprise"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/team"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/enterprise/startups"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/industry/nonprofits"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/use-case/app-modernization"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/use-case/devsecops"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/use-case/devops"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/use-case/ci-cd"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/use-case"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/industry/healthcare"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/industry/financial-services"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/industry/manufacturing"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/industry/government"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/industry"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/articles?topic=ai"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/articles?topic=software-development"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/articles?topic=devops"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/articles?topic=security"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/articles"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/customer-stories"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/events"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources/whitepapers"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/solutions/executive-insights"
+      },
+      {
+        "text": "",
+        "href": "https://skills.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://docs.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://support.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/orgs/community/discussions"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/trust-center"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/partners"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/resources"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/open-source/sponsors"
+      },
+      {
+        "text": "",
+        "href": "https://securitylab.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://maintainers.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://stars.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://archiveprogram.github.com/"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/topics"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/trending"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/collections"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/enterprise"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/security/advanced-security"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/features/copilot/copilot-business"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/enterprise/premium-support"
+      },
+      {
+        "text": "Pricing",
+        "href": "https://github.com/pricing"
+      },
+      {
+        "text": "Sign in",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fjorgefsb"
+      },
+      {
+        "text": "Sign up",
+        "href": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header"
+      },
+      {
+        "text": "Reload",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "Reload",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "Reload",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "Follow",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fjorgefsb"
+      },
+      {
+        "text": "Overview",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "Repositories\n373",
+        "href": "https://github.com/jorgefsb?tab=repositories"
+      },
+      {
+        "text": "Projects",
+        "href": "https://github.com/jorgefsb?tab=projects"
+      },
+      {
+        "text": "Packages",
+        "href": "https://github.com/jorgefsb?tab=packages"
+      },
+      {
+        "text": "Stars\n510",
+        "href": "https://github.com/jorgefsb?tab=stars"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?tab=repositories"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?tab=projects"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?tab=packages"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?tab=stars"
+      },
+      {
+        "text": "Follow",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fjorgefsb"
+      },
+      {
+        "text": "",
+        "href": "https://avatars.githubusercontent.com/u/909736?v=4"
+      },
+      {
+        "text": "Follow",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fjorgefsb"
+      },
+      {
+        "text": " 29 followers ",
+        "href": "https://github.com/jorgefsb?tab=followers"
+      },
+      {
+        "text": "159 following",
+        "href": "https://github.com/jorgefsb?tab=following"
+      },
+      {
+        "text": "www.jorgesuarez.com.mx",
+        "href": "https://www.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "in/yorgenmeister",
+        "href": "https://linkedin.com/in/yorgenmeister"
+      },
+      {
+        "text": "@jorgefsb",
+        "href": "https://x.com/jorgefsb"
+      },
+      {
+        "text": "@jorgefsb",
+        "href": "https://www.youtube.com/@jorgefsb"
+      },
+      {
+        "text": "https://www.tiktok.com/@jorgesuarez.com.mx",
+        "href": "https://www.tiktok.com/@jorgesuarez.com.mx"
+      },
+      {
+        "text": "Achievements",
+        "href": "https://github.com/jorgefsb?tab=achievements"
+      },
+      {
+        "text": "x2",
+        "href": "https://github.com/jorgefsb?achievement=pull-shark&tab=achievements"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?achievement=pair-extraordinaire&tab=achievements"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?achievement=yolo&tab=achievements"
+      },
+      {
+        "text": "Achievements",
+        "href": "https://github.com/jorgefsb?tab=achievements"
+      },
+      {
+        "text": "x2",
+        "href": "https://github.com/jorgefsb?achievement=pull-shark&tab=achievements"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?achievement=pair-extraordinaire&tab=achievements"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb?achievement=yolo&tab=achievements"
+      },
+      {
+        "text": "blocking users",
+        "href": "https://docs.github.com/articles/blocking-a-user-from-your-personal-account"
+      },
+      {
+        "text": "reporting abuse",
+        "href": "https://docs.github.com/articles/reporting-abuse-or-spam"
+      },
+      {
+        "text": "Report abuse",
+        "href": "https://github.com/contact/report-abuse?report=jorgefsb+%28user%29"
+      },
+      {
+        "text": "\n    \n    \n\n    Overview\n",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "\n    \n    \n\n    Repositories\n    373\n",
+        "href": "https://github.com/jorgefsb?tab=repositories"
+      },
+      {
+        "text": "\n    \n    \n\n    Projects\n    0\n",
+        "href": "https://github.com/jorgefsb?tab=projects"
+      },
+      {
+        "text": "\n      \n    \n\n      Packages\n      0\n",
+        "href": "https://github.com/jorgefsb?tab=packages"
+      },
+      {
+        "text": "\n    \n    \n\n    Stars\n    510\n",
+        "href": "https://github.com/jorgefsb?tab=stars"
+      },
+      {
+        "text": "Overview",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "Repositories",
+        "href": "https://github.com/jorgefsb?tab=repositories"
+      },
+      {
+        "text": "Projects",
+        "href": "https://github.com/jorgefsb?tab=projects"
+      },
+      {
+        "text": "Packages",
+        "href": "https://github.com/jorgefsb?tab=packages"
+      },
+      {
+        "text": "Stars",
+        "href": "https://github.com/jorgefsb?tab=stars"
+      },
+      {
+        "text": "jorgefsb",
+        "href": "https://github.com/jorgefsb/jorgefsb"
+      },
+      {
+        "text": "",
+        "href": "https://jorgesuarez.com.mx/"
+      },
+      {
+        "text": "",
+        "href": "https://youtube.com/@jorgefsb"
+      },
+      {
+        "text": "",
+        "href": "https://jorgesuarez.com.mx/"
+      },
+      {
+        "text": "",
+        "href": "https://linkedin.com/in/yorgenmeister"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/jorgefsb"
+      },
+      {
+        "text": "Amber Studio México",
+        "href": "https://amberstudio.com/location-guadalajara"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb#-qui%C3%A9n-es-jorge"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb#%EF%B8%8F-misiones-activas"
+      },
+      {
+        "text": "Amber Studio México",
+        "href": "https://amberstudio.com/location-guadalajara"
+      },
+      {
+        "text": "Altered Ventures",
+        "href": "https://venturecapital.game/"
+      },
+      {
+        "text": "Sparkplug Technologies",
+        "href": "https://getsparkplug.com/"
+      },
+      {
+        "text": "UETC",
+        "href": "https://uetc.mx/"
+      },
+      {
+        "text": "Brandcade",
+        "href": "https://brandcade.com/"
+      },
+      {
+        "text": "Logrus",
+        "href": "https://logrus.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "EGDC",
+        "href": "https://club.uetc.mx/"
+      },
+      {
+        "text": "EchoMentor AI",
+        "href": "https://echomentor.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "El Motor",
+        "href": "https://www.youtube.com/@JorgeSuarezGM"
+      },
+      {
+        "text": "5 campos de tu ficha de Steam que deciden si te encuentran",
+        "href": "https://www.youtube.com/watch?v=P8B40c2887U"
+      },
+      {
+        "text": "8 publicaciones para enseñar tu juego cada semana",
+        "href": "https://www.youtube.com/watch?v=r_kzUvFT0EI"
+      },
+      {
+        "text": "Tecni Moto Garage",
+        "href": "https://tecnimoto.jorgefsb.workers.dev/"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb#-builds-seleccionados"
+      },
+      {
+        "text": "Master Prompt Builder",
+        "href": "https://github.com/jorgefsb/master-prompt-builder"
+      },
+      {
+        "text": "jugar ↗",
+        "href": "https://mpb.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "EchoMentor AI",
+        "href": "https://github.com/jorgefsb/echomentor-ai"
+      },
+      {
+        "text": "conócela ↗",
+        "href": "https://echomentor.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "SparkCrew",
+        "href": "https://github.com/jorgefsb/sparkcrew-landing"
+      },
+      {
+        "text": "ver propuesta ↗",
+        "href": "https://sparkcrew.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "Game Industry Resources",
+        "href": "https://github.com/jorgefsb/game-industry-resources"
+      },
+      {
+        "text": "jorgesuarez.com.mx",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx"
+      },
+      {
+        "text": "explorar ↗",
+        "href": "https://jorgesuarez.com.mx/"
+      },
+      {
+        "text": "echomentor.jorgesuarez.com.mx",
+        "href": "https://echomentor.jorgesuarez.com.mx/"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb#-loadout-actual"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/loadout/ia.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/loadout/web.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/loadout/plataforma.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/loadout/videojuegos.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb#-github-telemetry"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/stats/repos.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/stats/lenguajes.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb#-achievements-unlocked"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/achievements/shark-tank.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/achievements/forbes.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/achievements/cinepolis-accelerator.svg"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/blob/main/assets/achievements/cinepolis-seedcamp.svg"
+      },
+      {
+        "text": "",
+        "href": "mailto:jorgefsb@gmail.com"
+      },
+      {
+        "text": "jorgefsb@gmail.com",
+        "href": "mailto:jorgefsb@gmail.com"
+      },
+      {
+        "text": "JorgeSuarez.com.mx",
+        "href": "https://jorgesuarez.com.mx/"
+      },
+      {
+        "text": "jorgesuarez.com.mx",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx"
+      },
+      {
+        "text": " 1",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/stargazers"
+      },
+      {
+        "text": "game-industry-resources",
+        "href": "https://github.com/jorgefsb/game-industry-resources"
+      },
+      {
+        "text": "linkedin-automation-template",
+        "href": "https://github.com/jorgefsb/linkedin-automation-template"
+      },
+      {
+        "text": "Skip to contributions year list",
+        "href": "https://github.com/jorgefsb#year-link-2026"
+      },
+      {
+        "text": "Learn how we count contributions",
+        "href": "https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile"
+      },
+      {
+        "text": "jorgefsb/game-industry-resources",
+        "href": "https://github.com/jorgefsb/game-industry-resources"
+      },
+      {
+        "text": "jorgefsb/jorgesuarez.com.mx",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx"
+      },
+      {
+        "text": "jorgefsb/jorgefsb",
+        "href": "https://github.com/jorgefsb/jorgefsb"
+      },
+      {
+        "text": "jorgefsb/game-industry-resources",
+        "href": "https://github.com/jorgefsb/game-industry-resources"
+      },
+      {
+        "text": "40 commits",
+        "href": "https://github.com/jorgefsb/game-industry-resources/commits?author=jorgefsb&since=2026-10-01&until=2026-10-23"
+      },
+      {
+        "text": "jorgefsb/jorgesuarez.com.mx",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx"
+      },
+      {
+        "text": "18 commits",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/commits?author=jorgefsb&since=2026-10-01&until=2026-10-23"
+      },
+      {
+        "text": "jorgefsb/master-prompt-builder",
+        "href": "https://github.com/jorgefsb/master-prompt-builder"
+      },
+      {
+        "text": "7 commits",
+        "href": "https://github.com/jorgefsb/master-prompt-builder/commits?author=jorgefsb&since=2026-10-01&until=2026-10-23"
+      },
+      {
+        "text": "jorgefsb/jorgefsb",
+        "href": "https://github.com/jorgefsb/jorgefsb"
+      },
+      {
+        "text": "4 commits",
+        "href": "https://github.com/jorgefsb/jorgefsb/commits?author=jorgefsb&since=2026-10-01&until=2026-10-23"
+      },
+      {
+        "text": "jorgefsb/ardenstatus-site",
+        "href": "https://github.com/jorgefsb/ardenstatus-site"
+      },
+      {
+        "text": "3 commits",
+        "href": "https://github.com/jorgefsb/ardenstatus-site/commits?author=jorgefsb&since=2026-10-01&until=2026-10-23"
+      },
+      {
+        "text": "jorgefsb/echomentor-ai",
+        "href": "https://github.com/jorgefsb/echomentor-ai"
+      },
+      {
+        "text": "1 commit",
+        "href": "https://github.com/jorgefsb/echomentor-ai/commits?author=jorgefsb&since=2026-10-01&until=2026-10-23"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/video-short"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/papacito-juice"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/claude"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-feel"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/claude"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/cursor-liquido"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/scroll-world"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/scrapling"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/motion2mixamorig"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/anatomy"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/pi"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/InvokeAI"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/AnyPS5"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/herald-os"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/ardenstatus-site"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/claude"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/forja"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/brightbean-studio"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/freellmapi"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/rea"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/soup"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/clicky-windows"
+      },
+      {
+        "text": "jorgefsb/jorgesuarez.com.mx",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx"
+      },
+      {
+        "text": "Oct 18",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2026-10-01&to=2026-10-31"
+      },
+      {
+        "text": "Juice: el brandkit hospeda 1.0.0 (copia exacta de GIR #23)",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/13"
+      },
+      {
+        "text": "#13",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/13"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/31"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/30"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/28"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/29"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/27"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/26"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/25"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/24"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/23"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/22"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/21"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/20"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/19"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/17"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/16"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/15"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/14"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/13"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/12"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/11"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/10"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/9"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/8"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/7"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/game-industry-resources/pull/6"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/19"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/18"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/17"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/16"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/15"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/14"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/12"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/11"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/10"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/9"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/8"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/7"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/6"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/5"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgesuarez.com.mx/pull/4"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/pull/5"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/pull/4"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/jorgefsb/pull/3"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/master-prompt-builder/pull/3"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/master-prompt-builder/pull/2"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/master-prompt-builder/pull/1"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/echomentor-ai/pull/2"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/echomentor-ai/pull/1"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/jorgefsb/sparkcrew-landing/pull/1"
+      },
+      {
+        "text": "jorgefsb/cursor-liquido",
+        "href": "https://github.com/jorgefsb/cursor-liquido"
+      },
+      {
+        "text": "Oct 21",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2026-10-01&to=2026-10-31"
+      },
+      {
+        "text": "bug: adaptive quality resize drops the last queued pointer input in v1.0.0",
+        "href": "https://github.com/jorgefsb/cursor-liquido/issues/1"
+      },
+      {
+        "text": "369b400",
+        "href": "https://github.com/jorgefsb/cursor-liquido/commit/369b40049644285b85fe4730c8e2869c4d3d07fd"
+      },
+      {
+        "text": "?gracias=1 muestra confeti y 'ya está pagado' a cualquiera que abra la liga",
+        "href": "https://github.com/jorgefsb/game-industry-resources/issues/18"
+      },
+      {
+        "text": "2026",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2026-10-01&to=2026-10-22"
+      },
+      {
+        "text": "2025",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2025-12-01&to=2025-12-31"
+      },
+      {
+        "text": "2024",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2024-12-01&to=2024-12-31"
+      },
+      {
+        "text": "2023",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2023-12-01&to=2023-12-31"
+      },
+      {
+        "text": "2022",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2022-12-01&to=2022-12-31"
+      },
+      {
+        "text": "2021",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2021-12-01&to=2021-12-31"
+      },
+      {
+        "text": "2020",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2020-12-01&to=2020-12-31"
+      },
+      {
+        "text": "2019",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2019-12-01&to=2019-12-31"
+      },
+      {
+        "text": "2018",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2018-12-01&to=2018-12-31"
+      },
+      {
+        "text": "2017",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2017-12-01&to=2017-12-31"
+      },
+      {
+        "text": "2016",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2016-12-01&to=2016-12-31"
+      },
+      {
+        "text": "2015",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2015-12-01&to=2015-12-31"
+      },
+      {
+        "text": "2014",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2014-12-01&to=2014-12-31"
+      },
+      {
+        "text": "2013",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2013-12-01&to=2013-12-31"
+      },
+      {
+        "text": "2012",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2012-12-01&to=2012-12-31"
+      },
+      {
+        "text": "2011",
+        "href": "https://github.com/jorgefsb?tab=overview&from=2011-12-01&to=2011-12-31"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/"
+      },
+      {
+        "text": "Terms",
+        "href": "https://docs.github.com/site-policy/github-terms/github-terms-of-service"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
+      },
+      {
+        "text": "Security",
+        "href": "https://github.com/security"
+      },
+      {
+        "text": "Status",
+        "href": "https://www.githubstatus.com/"
+      },
+      {
+        "text": "Community",
+        "href": "https://github.community/"
+      },
+      {
+        "text": "Docs",
+        "href": "https://docs.github.com/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://support.github.com/?tags=dotcom-footer"
+      }
+    ],
+    "formsSubmitted": 0,
+    "source": "public page; not proof of deployment source revision"
+  },
+  "video": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 800
+      }
+    ],
+    "format": {
+      "duration": "12.920000",
+      "size": "398060"
+    }
+  },
+  "media": [
+    {
+      "path": "docs/media/01-public.png",
+      "bytes": 223397,
+      "sha256": "a7697c65773bd2772938d69826e77e2df5bf697f186a643a62a8c58b56625e74",
+      "dimensions": [
+        1280,
+        800
+      ]
+    },
+    {
+      "path": "docs/media/02-public.png",
+      "bytes": 143530,
+      "sha256": "77435b5c504e0a3343d8cb084d5615f341f88cbfcbfd5580b86a774740384eac",
+      "dimensions": [
+        1280,
+        800
+      ]
+    },
+    {
+      "path": "docs/media/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "docs/media/Inter-static.ttf",
+      "bytes": 341396,
+      "sha256": "6bd75f77a5941117f794cdb9cf4ee983acf45f2e96be56e74db55029454a988c"
+    },
+    {
+      "path": "docs/media/Outfit-OFL.txt",
+      "bytes": 4389,
+      "sha256": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+    },
+    {
+      "path": "docs/media/Outfit-static.ttf",
+      "bytes": 55304,
+      "sha256": "cad43a79db1b8204a28d8a161d90c938ed80971affbf6768e357f090c7a2ed02"
+    },
+    {
+      "path": "docs/media/cover-en-mobile.png",
+      "bytes": 144764,
+      "sha256": "c0fc0e51bcaee6c572dc513bbd86fb9b12b8809ae787cc28b5455352898ea3b7",
+      "dimensions": [
+        780,
+        1000
+      ]
+    },
+    {
+      "path": "docs/media/cover-en.png",
+      "bytes": 215126,
+      "sha256": "7267df1d093b52ef06b6f4ebb46767cc9d7fdcc0f56e2c31a8be7bf50ecb80d6",
+      "dimensions": [
+        1600,
+        760
+      ]
+    },
+    {
+      "path": "docs/media/cover-es-mobile.png",
+      "bytes": 144945,
+      "sha256": "9e1e8058343bc60c77f29916dc85b77300125caa5ece321d69a1cf58c0d1bcd4",
+      "dimensions": [
+        780,
+        1000
+      ]
+    },
+    {
+      "path": "docs/media/cover-es.png",
+      "bytes": 215543,
+      "sha256": "ad3b8949ac2960ba6a5c4e12a5be0bdbf3e3b42470b8958d108571a0c6ca5f83",
+      "dimensions": [
+        1600,
+        760
+      ]
+    },
+    {
+      "path": "docs/media/mobile-public.png",
+      "bytes": 78279,
+      "sha256": "569ceeac8ca84f1c7dc50896cb663317835a18ba0b2a7b26b5a2b7114fef5e42",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/media/player-en.html",
+      "bytes": 935,
+      "sha256": "26029b6736d85689b9c9917f6fbbc24eca6a6b7f91f00b756afc5c40385606fd"
+    },
+    {
+      "path": "docs/media/player-es.html",
+      "bytes": 944,
+      "sha256": "968e494b5c6417581580c988b088794bbfa27005fc9a805eb04db83deae23f0b"
+    },
+    {
+      "path": "docs/media/walkthrough-en.vtt",
+      "bytes": 247,
+      "sha256": "b570a93cef7b9b254bfd4f692b533eed50b50cd88d196fe1bda626394d42faea"
+    },
+    {
+      "path": "docs/media/walkthrough-es.vtt",
+      "bytes": 265,
+      "sha256": "694cb37dd37ce6ceb83707916ef3a79c629eb1102adf5bf3459c228142cd55b9"
+    },
+    {
+      "path": "docs/media/walkthrough.mp4",
+      "bytes": 398060,
+      "sha256": "e4fb9f45258695d7582b5ab1cde3f23b8d9b09c4973ceccb4f1e40d6197e9014"
+    }
+  ],
+  "tests": {
+    "command": null,
+    "result": "Not applicable: no package/test runner in profile baseline"
+  },
+  "limits": [
+    "Public pages do not establish deployed revision or hosting chain.",
+    "Read-only public visit and scrolling; no forms, private app, checkout, club or authentication tested.",
+    "Recording retains original UI language; ES/EN captions and transcripts explain the same recording.",
+    "Preview is a faithful local Markdown rendering, not proof of GitHub rendering or publication."
+  ],
+  "browser_previews": [
+    {
+      "lang": "es",
+      "viewport": "desktop",
+      "preview": {
+        "brokenImages": [],
+        "overflow": false,
+        "outfit": true,
+        "inter": true,
+        "headings": [
+          "¿Qué es?",
+          "¿Para quién?",
+          "¿Por qué existe?",
+          "¿Cómo lo uso?",
+          "¿Cuándo conviene y cuándo no?",
+          "¿Dónde lo encuentro?",
+          "Antes de seguir",
+          "Ver antes de decidir",
+          "Para quien mantiene la documentación"
+        ]
+      },
+      "video": {
+        "duration": 12.92,
+        "width": 1280,
+        "height": 800,
+        "tracks": [
+          {
+            "language": "es",
+            "mode": "showing",
+            "cues": 3,
+            "active": [
+              "Desplazamiento por contenido y enlaces públicos."
+            ]
+          },
+          {
+            "language": "en",
+            "mode": "hidden",
+            "cues": 3,
+            "active": [
+              "Scrolling through public content and links."
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "viewport": "mobile",
+      "preview": {
+        "brokenImages": [],
+        "overflow": false,
+        "outfit": true,
+        "inter": true,
+        "headings": [
+          "¿Qué es?",
+          "¿Para quién?",
+          "¿Por qué existe?",
+          "¿Cómo lo uso?",
+          "¿Cuándo conviene y cuándo no?",
+          "¿Dónde lo encuentro?",
+          "Antes de seguir",
+          "Ver antes de decidir",
+          "Para quien mantiene la documentación"
+        ]
+      },
+      "video": {
+        "duration": 12.92,
+        "width": 1280,
+        "height": 800,
+        "tracks": [
+          {
+            "language": "es",
+            "mode": "showing",
+            "cues": 3,
+            "active": [
+              "Desplazamiento por contenido y enlaces públicos."
+            ]
+          },
+          {
+            "language": "en",
+            "mode": "hidden",
+            "cues": 3,
+            "active": [
+              "Scrolling through public content and links."
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "viewport": "desktop",
+      "preview": {
+        "brokenImages": [],
+        "overflow": false,
+        "outfit": true,
+        "inter": true,
+        "headings": [
+          "What is it?",
+          "Who is it for?",
+          "Why does it exist?",
+          "How do I use it?",
+          "When should or shouldn't I use it?",
+          "Where can I find it?",
+          "Before continuing",
+          "Look before deciding",
+          "For documentation maintainers"
+        ]
+      },
+      "video": {
+        "duration": 12.92,
+        "width": 1280,
+        "height": 800,
+        "tracks": [
+          {
+            "language": "es",
+            "mode": "hidden",
+            "cues": 3,
+            "active": [
+              "Desplazamiento por contenido y enlaces públicos."
+            ]
+          },
+          {
+            "language": "en",
+            "mode": "showing",
+            "cues": 3,
+            "active": [
+              "Scrolling through public content and links."
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "viewport": "mobile",
+      "preview": {
+        "brokenImages": [],
+        "overflow": false,
+        "outfit": true,
+        "inter": true,
+        "headings": [
+          "What is it?",
+          "Who is it for?",
+          "Why does it exist?",
+          "How do I use it?",
+          "When should or shouldn't I use it?",
+          "Where can I find it?",
+          "Before continuing",
+          "Look before deciding",
+          "For documentation maintainers"
+        ]
+      },
+      "video": {
+        "duration": 12.92,
+        "width": 1280,
+        "height": 800,
+        "tracks": [
+          {
+            "language": "es",
+            "mode": "hidden",
+            "cues": 3,
+            "active": [
+              "Desplazamiento por contenido y enlaces públicos."
+            ]
+          },
+          {
+            "language": "en",
+            "mode": "showing",
+            "cues": 3,
+            "active": [
+              "Scrolling through public content and links."
+            ]
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/",
+      "status": 200,
+      "final_url": "https://brandkit.jorgesuarez.com.mx/"
+    },
+    {
+      "url": "https://echomentor.jorgesuarez.com.mx/",
+      "status": 200,
+      "final_url": "https://echomentor.uetc.mx/"
+    },
+    {
+      "url": "https://github.com/jorgefsb",
+      "status": 200,
+      "final_url": "https://github.com/jorgefsb"
+    },
+    {
+      "url": "https://github.com/jorgefsb/echomentor-ai",
+      "status": 200,
+      "final_url": "https://github.com/jorgefsb/echomentor-ai"
+    },
+    {
+      "url": "https://github.com/jorgefsb/game-industry-resources/blob/main/README.md",
+      "status": 200,
+      "final_url": "https://github.com/jorgefsb/game-industry-resources/blob/main/README.md"
+    },
+    {
+      "url": "https://github.com/jorgefsb/jorgesuarez.com.mx/blob/main/README.md",
+      "status": 200,
+      "final_url": "https://github.com/jorgefsb/jorgesuarez.com.mx/blob/main/README.md"
+    },
+    {
+      "url": "https://github.com/jorgefsb/master-prompt-builder/blob/main/README.md",
+      "status": 200,
+      "final_url": "https://github.com/jorgefsb/master-prompt-builder/blob/main/README.md"
+    },
+    {
+      "url": "https://github.com/jorgefsb/sparkcrew-landing",
+      "status": 200,
+      "final_url": "https://github.com/jorgefsb/sparkcrew-landing"
+    },
+    {
+      "url": "https://jorgesuarez.com.mx/",
+      "status": 200,
+      "final_url": "https://jorgesuarez.com.mx/"
+    }
+  ],
+  "brand_source_manifest_verified": true,
+  "brand_sources": [
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/styles.css",
+      "path": "brand-assets/styles.css",
+      "bytes": 26777,
+      "sha256": "5b2423f1a4fe17e630083e83a9b1d3c1df62ca50d19815ae396c1a17f0e690d2"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/brand-kit-0.3/tokens.json",
+      "path": "brand-assets/assets/brand-kit-0.3/tokens.json",
+      "bytes": 2872,
+      "sha256": "2581a3ef74deb1c95c770a0f4ccb5baf145b9477cd6b24de086f503a973b5a87"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/brand-kit-0.3/tokens.css",
+      "path": "brand-assets/assets/brand-kit-0.3/tokens.css",
+      "bytes": 1211,
+      "sha256": "8d8f3a345d359a99dd48b98289b9a7d39e2be06179322949ff2e217395ef3152"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/masters-1.0/signature/JorgeSuarez-A-oscuro-bicolor.svg",
+      "path": "brand-assets/assets/masters-1.0/signature/JorgeSuarez-A-oscuro-bicolor.svg",
+      "bytes": 13475,
+      "sha256": "52443c3b04c03265eaa6a9732020eb1ab6aaa8be23e37d422567fe4166c47b37"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/masters-1.0/signature/JorgeSuarez-C-oscuro-monocromo.svg",
+      "path": "brand-assets/assets/masters-1.0/signature/JorgeSuarez-C-oscuro-monocromo.svg",
+      "bytes": 13477,
+      "sha256": "f6c7435cdc185e066ad5007f5df3ccfb92981e1ebc40160705a1c1379f882f01"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/masters-1.0/signature/png/JorgeSuarez-A-oscuro-bicolor-screen-240px-visible.png",
+      "path": "brand-assets/assets/masters-1.0/signature/png/JorgeSuarez-A-oscuro-bicolor-screen-240px-visible.png",
+      "bytes": 4783,
+      "sha256": "560b2a153bb385c17da353de3b4224ac4bb15a4ba8c2fda88c99ad357fa18763"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/moki-parche-derecho.png",
+      "path": "brand-assets/assets/moki-parche-derecho.png",
+      "bytes": 1247681,
+      "sha256": "4980c46331c1fef308ab9505c7cf311466584af16adc741e7f8717e8dcf2e171"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/juice/1.2.0/moki/moki-verifica.webp",
+      "path": "brand-assets/juice/1.2.0/moki/moki-verifica.webp",
+      "bytes": 38784,
+      "sha256": "09f06fa76797e44399112caf0ea41e201869694638da7decf95f3bb49ab3e903"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/Outfit-OFL.txt",
+      "path": "brand-assets/assets/Outfit-OFL.txt",
+      "bytes": 4389,
+      "sha256": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/Inter-OFL.txt",
+      "path": "brand-assets/assets/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/Outfit-static.ttf",
+      "path": "brand-assets/assets/Outfit-static.ttf",
+      "bytes": 55304,
+      "sha256": "cad43a79db1b8204a28d8a161d90c938ed80971affbf6768e357f090c7a2ed02"
+    },
+    {
+      "url": "https://brandkit.jorgesuarez.com.mx/assets/Inter-static.ttf",
+      "path": "brand-assets/assets/Inter-static.ttf",
+      "bytes": 341396,
+      "sha256": "6bd75f77a5941117f794cdb9cf4ee983acf45f2e96be56e74db55029454a988c"
+    }
+  ],
+  "visual_review": "Desktop ES and mobile EN README previews, desktop profile cover and mobile site cover visually inspected; no overlap observed. Browser checked all ES/EN desktop/mobile combinations."
+}

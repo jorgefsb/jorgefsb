@@ -1,0 +1,274 @@
+Skip to content
+Navigation Menu
+Platform
+Solutions
+Resources
+Open Source
+Enterprise
+Pricing
+Sign in
+Sign up
+	jorgefsb
+Follow
+Overview
+Repositories
+373
+Projects
+Packages
+Stars
+510
+	jorgefsb	
+Follow
+🎯
+Focusing
+Jorge Suarez
+jorgefsb
+Follow
+20+ years video games veteran & entrepreneur. GM @ Amber Studio MX | Investor in AI Startups | Advisor @ Sparkplug | Co-Founder @ Arden AC
+ 29 followers · 159 following
+www.jorgesuarez.com.mx
+Guadalajara, México
+www.jorgesuarez.com.mx
+in/yorgenmeister
+@jorgefsb
+@jorgefsb
+https://www.tiktok.com/@jorgesuarez.com.mx
+Achievements
+x2
+Block or report user
+jorgefsb/README.md
+
+
+
+🎮 SELECCIONA CANAL
+
+   
+
+
+
+
+GM @ Amber Studio México · Founder · Emprendedor · Community builder · Gamer
+
+👾 ¿Quién es Jorge?
+
+Llevo más de 20 años jugando el modo historia del gaming mexicano: fundando estudios, formando equipos y abriendo camino desde Guadalajara. Fundé KaraOkulta, hoy lidero Amber México y sigo construyendo proyectos donde se cruzan videojuegos, comunidad, emprendimiento e IA.
+
+Mi misión principal no ha cambiado: ayudar a que más gente pueda vivir de hacer videojuegos. Si estás construyendo algo interesante, bienvenida la partida co-op.
+
+🕹️ Misiones activas
+Slot	Misión actual
+🎮 Amber Studio México	General Manager del estudio de Guadalajara, parte de la red global de Amber.
+🤝 Ecosistema	Invierto en startups de IA, soy LP de Altered Ventures (el fondo de Mario Valle Reyes en IA, gaming y tecnología inmersiva), asesoro a Sparkplug Technologies y colaboro con fundadores que quieren construir en grande.
+🏛️ Arden AC	Co-Founder. Umbrella de UETC, Brandcade, Logrus y EGDC. Desde UETC estamos construyendo EchoMentor AI.
+🎬 El Motor	Mi canal de YouTube para quien hace videojuegos: cómo enseñar, publicar y vender tu juego. En el canal comparto 5 campos de tu ficha de Steam que deciden si te encuentran y 8 publicaciones para enseñar tu juego cada semana.
+🏍️ Tecni Moto Garage	Socio fundador con mi tío. Taller de motos en Acoxpa, CDMX: servicio rápido, transparente y por WhatsApp. Apertura prevista: 1 de noviembre de 2026.
+🚀 Builds seleccionados
+Player	Build / qué desbloquea
+01 Master Prompt Builder · jugar ↗	Construye y exporta el contexto que quieres llevar a ChatGPT, Claude y otras IAs.
+02 EchoMentor AI · conócela ↗	Plataforma de aprendizaje adaptativo con IA (UETC / Arden). Le das un tema o un PDF y arma una clase. Beta del Club UETC.
+03 SparkCrew · ver propuesta ↗	Explora una propuesta de equipos de IA por suscripción para PyMEs.
+04 Game Industry Resources	Encuentra recursos para construir una carrera haciendo videojuegos en LATAM.
+05 jorgesuarez.com.mx · explorar ↗	Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento.
+
+🎓 EchoMentor AI también tiene landing pública en echomentor.jorgesuarez.com.mx. La plataforma vive en UETC; el código de la app sigue privado.
+
+También estoy desarrollando PapacitoOS, un sistema operativo personal con agentes especializados, memoria compartida y ciclos de seguimiento. El código sigue privado mientras madura.
+
+🧰 Loadout actual
+   
+📊 GitHub telemetry
+
+La mayoría de mis repositorios públicos son forks que conservo como biblioteca de referencia. Esta captura histórica separa esa biblioteca del código original y muestra los lenguajes de mis repositorios públicos activos al 22 de agosto de 2026.
+
+ 
+
+Snapshot del 22 de agosto de 2026, calculado con la API pública de GitHub. Los lenguajes agregan el código de repositorios originales, públicos y activos, excluyendo este perfil.
+
+🏆 Achievements unlocked
+   
+
+¿Hablamos? jorgefsb@gmail.com · Guadalajara, Jalisco 🇲🇽
+
+Hecho con amor ❤️🎮 por JorgeSuarez.com.mx · perfil v2.0 · 19 oct 2026
+
+Pinned
+Loading
+ jorgesuarez.com.mx Public
+
+ JavaScript  1
+
+ game-industry-resources Public
+
+ JavaScript
+
+ linkedin-automation-template Public
+
+🚀 LinkedIn Content Automation - Turn 1 infographic into 4-8 posts. Generate 60-120 posts/month in 2 hours. Open source template with AI-powered workflows.
+
+1,421 contributions in the last year
+Skip to contributions year list
+Contribution Graph
+Day of Week
+	
+October
+Oct
+	
+November
+Nov
+	
+December
+Dec
+	
+January
+Jan
+	
+February
+Feb
+	
+March
+Mar
+	
+April
+Apr
+	
+May
+May
+	
+June
+Jun
+	
+July
+Jul
+	
+August
+Aug
+	
+September
+Sep
+	
+October
+Oct
+
+
+Sunday
+Sun
+																																																					
+
+Monday
+Mon
+																																																					
+
+Tuesday
+Tue
+																																																					
+
+Wednesday
+Wed
+																																																					
+
+Thursday
+Thu
+																																																					
+
+Friday
+Fri
+																																																					
+
+Saturday
+Sat
+																																																					
+Learn how we count contributions
+Less
+No contributions.
+Low contributions.
+Medium-low contributions.
+Medium-high contributions.
+High contributions.
+More
+Activity overview
+Contributed to jorgefsb/game-industry-resources, jorgefsb/jorgesuarez.com.mx, jorgefsb/jorgefsb and 74 other repositories
+Loading
+ 
+Code review
+2%
+Issues
+14%
+Pull requests
+84%
+Commits
+Contribution activity
+October 2026
+Created 73 commits in 6 repositories
+jorgefsb/game-industry-resources 40 commits
+jorgefsb/jorgesuarez.com.mx 18 commits
+jorgefsb/master-prompt-builder 7 commits
+jorgefsb/jorgefsb 4 commits
+jorgefsb/ardenstatus-site 3 commits
+jorgefsb/echomentor-ai 1 commit
+Created 19 repositories
+Created a pull request in jorgefsb/jorgesuarez.com.mx that received 3 comments
+Oct 18
+Juice: el brandkit hospeda 1.0.0 (copia exacta de GIR #23)
+
+El #13 queda solo con brandkit/juice/. PR borrador. Sin merge y sin deploy. Base: brandkit-fuente. Qué se movió brandkit-live-patch/ y docs/captur…
+
++1,257 −0  lines changed •
+3 comments
+Opened 54 other pull requests in 6 repositories
+jorgefsb/game-industry-resources
+5 open 23 merged 2 closed
+jorgefsb/jorgesuarez.com.mx
+9 open 6 merged
+jorgefsb/jorgefsb
+1 merged 2 open
+jorgefsb/master-prompt-builder
+1 merged 2 open
+jorgefsb/echomentor-ai
+1 merged 1 open
+jorgefsb/sparkcrew-landing
+1 open
+Created an issue in jorgefsb/cursor-liquido that received 1 comment
+Oct 21
+bug: adaptive quality resize drops the last queued pointer input in v1.0.0
+
+Confirmed runtime issue In v1.0.0 (369b400), automatic normal-to-reduced quality calls resize before frame consumes pending pointer input. Resize r…
+
+1 comment
+Opened 1 other issue in 1 repository
+jorgefsb/game-industry-resources
+1 open
+ ?gracias=1 muestra confeti y 'ya está pagado' a cualquiera que abra la liga
+This contribution was made on Oct 17
+Oct 17
+273 contributions in private repositories
+Oct 1 – Oct 22
+Loading
+Show more activity
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information

@@ -1,102 +1,62 @@
-<div align="center">
+[Español](README.md) | [English](README.en.md)
 
-<a href="https://jorgesuarez.com.mx">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
-    <img src="./assets/hero.svg" width="1000" alt="Jorge Suárez Basáñez: pionero del gaming mexicano, fundador, operador, community builder y gamer desde Guadalajara. 20+ años haciendo industria." />
-  </picture>
-</a>
+<picture><source media="(max-width: 600px)" srcset="docs/media/cover-es-mobile.png"><img src="docs/media/cover-es.png" alt="Jorge Suárez: índice de proyectos, con una captura real del perfil público de GitHub"></picture>
 
-<br />
+# Jorge Suárez · proyectos para explorar
 
-🎮 **SELECCIONA CANAL**
+**Empieza por un proyecto, no por instalar herramientas.** [Abre Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder/blob/main/README.md) para preparar contexto para una IA, o [Game Industry Resources](https://github.com/jorgefsb/game-industry-resources/blob/main/README.md) para explorar recursos de videojuegos.
 
-<a href="https://youtube.com/@jorgefsb"><img src="./assets/social/youtube.svg" height="44" alt="YouTube: @jorgefsb" /></a>
-<a href="https://jorgesuarez.com.mx"><img src="./assets/social/website.svg" height="44" alt="Sitio web: jorgesuarez.com.mx" /></a>
-<a href="https://linkedin.com/in/yorgenmeister"><img src="./assets/social/linkedin.svg" height="44" alt="LinkedIn: Jorge Suárez" /></a>
-<a href="https://x.com/jorgefsb"><img src="./assets/social/x.svg" height="44" alt="X / Twitter: @jorgefsb" /></a>
+## ¿Qué es?
+Este perfil es un **índice del builder**: reúne proyectos y enlaces de Jorge Suárez. No es una aplicación, un servicio de agentes ni una plataforma con cuenta propia.
 
-<br />
+## ¿Para quién?
+Para quienes quieren conocer los proyectos, explorar recursos de videojuegos o encontrar el repositorio adecuado antes de pedir ayuda técnica.
 
-GM @ [Amber Studio México](https://amberstudio.com/location-guadalajara) · Founder · Emprendedor · Community builder · Gamer
+## ¿Por qué existe?
+Para encontrar una herramienta o recurso sin perderte entre repositorios. Aquí conviven proyectos de videojuegos, comunidad y construcción de herramientas con IA.
 
-</div>
+## ¿Cómo lo uso?
+Elige una ruta y abre su README de **main**, que es la referencia publicada del proyecto. La nueva documentación de esta familia está en revisión: estos enlaces no aseguran que ya esté integrada.
 
----
+| Quiero… | Abrir | Alcance |
+|---|---|---|
+| Preparar contexto para una IA | [Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder/blob/main/README.md) | Herramienta de construcción y exportación de contexto. |
+| Explorar recursos de videojuegos | [Game Industry Resources](https://github.com/jorgefsb/game-industry-resources/blob/main/README.md) | Directorio de recursos. |
+| Conocer el sitio personal | [jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx/blob/main/README.md) · [sitio](https://jorgesuarez.com.mx/) | Historia, proyectos y enlaces públicos. |
+| Conocer una propuesta de aprendizaje | [EchoMentor AI](https://github.com/jorgefsb/echomentor-ai) · [landing](https://echomentor.jorgesuarez.com.mx/) | La landing pública no demuestra la app privada; UETC / Arden conservan su identidad. |
+| Explorar una propuesta para PyMEs | [SparkCrew](https://github.com/jorgefsb/sparkcrew-landing) | Presentación de una propuesta, no prueba de un servicio contratado. |
 
-## 👾 ¿Quién es Jorge?
+### Herramientas para páginas web
 
-Llevo más de 20 años jugando el modo historia del gaming mexicano: fundando estudios, formando equipos y abriendo camino desde Guadalajara. Fundé **KaraOkulta**, hoy lidero **Amber México** y sigo construyendo proyectos donde se cruzan videojuegos, comunidad, emprendimiento e IA.
+- [Cursor líquido](https://github.com/jorgefsb/cursor-liquido/blob/main/README.md): una estela de color junto al puntero; puedes probar la demo antes de integrarlo.
+- [Papacito Juice](https://github.com/jorgefsb/papacito-juice/blob/main/README.md): movimiento y sonido de la marca personal, siempre con Moki.
+- [Game Feel](https://github.com/jorgefsb/game-feel/blob/main/README.md): respuestas para una web con su propia identidad, sin exigir Moki.
 
-Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de hacer videojuegos**. Si estás construyendo algo interesante, bienvenida la partida co-op.
+Sus README explican requisitos y licencias. Ponerlas en otra página requiere integración técnica.
 
-## 🕹️ Misiones activas
+### Empresas y biblioteca: no confundir
+Amber, Sparkplug, Arden / UETC y Tecni Moto conservan sus marcas. Esta firma personal no las sustituye ni convierte sus productos en software personal. El perfil anterior las menciona; aquí no se añaden clientes, cargos nuevos, cifras ni promesas comerciales.
 
-| Slot | Misión actual |
-|---|---|
-| 🎮 **[Amber Studio México](https://amberstudio.com/location-guadalajara)** | General Manager del estudio de Guadalajara, parte de la red global de Amber. |
-| 🤝 **Ecosistema** | Invierto en startups de IA, soy LP de [Altered Ventures](https://venturecapital.game) (el fondo de Mario Valle Reyes en IA, gaming y tecnología inmersiva), asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
-| 🏛️ **Arden AC** | Co-Founder. Umbrella de [UETC](https://uetc.mx), [Brandcade](https://brandcade.com), [Logrus](https://logrus.jorgesuarez.com.mx) y [EGDC](https://club.uetc.mx). Desde UETC estamos construyendo **[EchoMentor AI](https://echomentor.jorgesuarez.com.mx)**. |
-| 🎬 **[El Motor](https://www.youtube.com/@JorgeSuarezGM)** | Mi canal de YouTube para quien hace videojuegos: cómo enseñar, publicar y vender tu juego. En el canal comparto [5 campos de tu ficha de Steam que deciden si te encuentran](https://www.youtube.com/watch?v=P8B40c2887U) y [8 publicaciones para enseñar tu juego cada semana](https://www.youtube.com/watch?v=r_kzUvFT0EI). |
-| 🏍️ **[Tecni Moto Garage](https://tecnimoto.jorgefsb.workers.dev)** | Socio fundador con mi tío. Taller de motos en Acoxpa, CDMX: servicio rápido, transparente y por WhatsApp. Apertura prevista: 1 de noviembre de 2026. |
+Los repositorios marcados **Fork** en GitHub son referencias de terceros: revisa su repositorio original y licencia. No se presentan como autoría original. Los conteos históricos del perfil anterior no son métricas actuales.
 
-## 🚀 Builds seleccionados
+## ¿Cuándo conviene y cuándo no?
+Úsalo para elegir un proyecto y llegar a su fuente. No sirve para contratar automáticamente, administrar cuentas, ejecutar agentes ni verificar la disponibilidad de una app privada.
 
-| Player | Build / qué desbloquea |
-|---|---|
-| `01` **[Master Prompt Builder](https://github.com/jorgefsb/master-prompt-builder)** · [jugar ↗](https://mpb.jorgesuarez.com.mx) | Construye y exporta el contexto que quieres llevar a ChatGPT, Claude y otras IAs. |
-| `02` **[EchoMentor AI](https://github.com/jorgefsb/echomentor-ai)** · [conócela ↗](https://echomentor.jorgesuarez.com.mx) | Plataforma de aprendizaje adaptativo con IA (UETC / Arden). Le das un tema o un PDF y arma una clase. Beta del Club UETC. |
-| `03` **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [ver propuesta ↗](https://sparkcrew.jorgesuarez.com.mx) | Explora una propuesta de equipos de IA por suscripción para PyMEs. |
-| `04` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
-| `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
+## ¿Dónde lo encuentro?
+[Perfil público](https://github.com/jorgefsb) · [Sitio personal](https://jorgesuarez.com.mx/) · [Brandkit oficial](https://brandkit.jorgesuarez.com.mx/).
 
-> 🎓 **EchoMentor AI** también tiene landing pública en [echomentor.jorgesuarez.com.mx](https://echomentor.jorgesuarez.com.mx). La plataforma vive en UETC; el código de la app sigue privado.
->
-> También estoy desarrollando **PapacitoOS**, un sistema operativo personal con agentes especializados, memoria compartida y ciclos de seguimiento. El código sigue privado mientras madura.
+## Antes de seguir
+- **Disponibilidad:** índice público; captura real del 22 de octubre de 2026. No es una versión instalable.
+- **Requisitos y ayuda técnica:** navegador para leer; las herramientas enlazadas tienen sus propios requisitos. Integrar bibliotecas puede requerir developer o agente.
+- **Costos y licencia:** leer este índice no exige pago; servicios externos pueden cobrar. Este repositorio no declara una licencia abierta para reutilizar todo su contenido. Las marcas no son MIT.
+- **Privacidad:** no hay formulario propio en este README; GitHub y destinos externos tienen sus políticas. No publiques contraseñas ni datos de clientes en issues.
+- **Límites:** enlaces no garantizan que productos o betas estén abiertos. La grabación muestra el perfil publicado anterior, no esta propuesta ya publicada.
+- **Ayuda:** [correo público de Jorge](mailto:jorgefsb@gmail.com); problemas de una herramienta, en su propio repositorio.
 
-## 🧰 Loadout actual
+## Ver antes de decidir
+![Perfil público real, antes de esta propuesta documental](docs/media/02-public.png)
 
-<div align="center">
+Captura del perfil publicado, no maqueta de una app. [Ver el video real](docs/media/walkthrough.mp4) · [Subtítulos y transcripción ES](docs/WALKTHROUGH.md) · [English captions](docs/WALKTHROUGH.en.md).
 
-<img src="./assets/loadout/ia.svg" width="400" alt="Slot 01, IA y agentes: Claude · MCP · sistemas multiagente." />
-<img src="./assets/loadout/web.svg" width="400" alt="Slot 02, Producto web: TypeScript · JavaScript · Node.js · Next.js · Python." />
-<img src="./assets/loadout/plataforma.svg" width="400" alt="Slot 03, Plataforma: Cloudflare · Vercel · Supabase." />
-<img src="./assets/loadout/videojuegos.svg" width="400" alt="Slot 04, Videojuegos: Unreal Engine · Unity · Roblox." />
-
-</div>
-
-## 📊 GitHub telemetry
-
-La mayoría de mis repositorios públicos son forks que conservo como biblioteca de referencia. Esta captura histórica separa esa biblioteca del código original y muestra los lenguajes de mis repositorios públicos activos al 22 de agosto de 2026.
-
-<div align="center">
-
-<img src="./assets/stats/repos.svg" width="400" alt="Snapshot de GitHub al 22 de agosto de 2026: 322 repositorios públicos, 13 originales (4 por ciento) y 309 forks como biblioteca de referencia." />
-<img src="./assets/stats/lenguajes.svg" width="400" alt="Lenguajes del código original activo al 22 de agosto de 2026: HTML 39 por ciento, JavaScript 38 por ciento y CSS 23 por ciento." />
-
-</div>
-
-<sub>Snapshot del 22 de agosto de 2026, calculado con la API pública de GitHub. Los lenguajes agregan el código de repositorios originales, públicos y activos, excluyendo este perfil.</sub>
-
-## 🏆 Achievements unlocked
-
-<div align="center">
-
-<img src="./assets/achievements/shark-tank.svg" width="400" alt="Logro desbloqueado: Shark Tank México (2016)." />
-<img src="./assets/achievements/forbes.svg" width="400" alt="Logro desbloqueado: Forbes 30 Promesas (2015)." />
-<img src="./assets/achievements/cinepolis-accelerator.svg" width="400" alt="Logro desbloqueado: Cinépolis Accelerator Alumni (2015)." />
-<img src="./assets/achievements/cinepolis-seedcamp.svg" width="400" alt="Logro desbloqueado: Cinépolis Seedcamp Winner (2014)." />
-
-</div>
-
----
-
-<div align="center">
-
-<a href="mailto:jorgefsb@gmail.com"><img src="./assets/cta.svg" height="56" alt="¿Hablamos? jorgefsb@gmail.com" /></a>
-
-**¿Hablamos?** [jorgefsb@gmail.com](mailto:jorgefsb@gmail.com) · Guadalajara, Jalisco 🇲🇽
-
-<sub>Hecho con amor ❤️🎮 por <a href="https://jorgesuarez.com.mx">JorgeSuarez.com.mx</a> · perfil v2.0 · 19 oct 2026</sub>
-
-</div>
+## Para quien mantiene la documentación
+[Guía documental](docs/REPOSITORY-DOCUMENTATION.md) · [Aviso de medios](docs/ASSET-NOTICE.md). No se requiere clonar para explorar el índice. La evidencia técnica está en `reports/docs-brandkit-verification.json`.
