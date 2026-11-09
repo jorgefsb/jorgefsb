@@ -49,10 +49,14 @@ Mi misión principal no ha cambiado: **ayudar a que más gente pueda vivir de ha
 | `03` **[SparkCrew](https://github.com/jorgefsb/sparkcrew-landing)** · [ver propuesta ↗](https://sparkcrew.jorgesuarez.com.mx) | Explora una propuesta de equipos de IA por suscripción para PyMEs. |
 | `04` **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** | Encuentra recursos para construir una carrera haciendo videojuegos en LATAM. |
 | `05` **[jorgesuarez.com.mx](https://github.com/jorgefsb/jorgesuarez.com.mx)** · [explorar ↗](https://jorgesuarez.com.mx) | Recorre mi historia, proyectos y aprendizajes sobre gaming y emprendimiento. |
+| `06` **GamedevGurus** · [gamedevgurus.jorgesuarez.com.mx](https://gamedevgurus.jorgesuarez.com.mx) | Lleva una decisión de tu juego a una mesa de gamedevs expertos: discuten en rondas y te dan un veredicto con calificación. Para personas y para agentes. Piloto en diciembre de 2026. |
+| `07` **Advisory Board** | Mi consejo personal de asesores dentro de PapacitoOS: cada decisión importante pasa por la mesa antes de ejecutarse. Uso privado. |
 
 > 🎓 **EchoMentor AI** también tiene landing pública en [echomentor.jorgesuarez.com.mx](https://echomentor.jorgesuarez.com.mx). La plataforma vive en UETC; el código de la app sigue privado.
 >
 > También estoy desarrollando **PapacitoOS**, un sistema operativo personal con agentes especializados, memoria compartida y ciclos de seguimiento. El código sigue privado mientras madura.
+>
+> **GamedevGurus** y el **Advisory Board** viven en repos privados propios. GamedevGurus abre al público con el piloto.
 
 ## 🧰 Loadout actual
 
