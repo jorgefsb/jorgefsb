@@ -41,7 +41,9 @@ for r in REPOS1 + REPOS2 + REPOS3:
         if sorted(got.get("topics") or []) != want["topics"]: errs.append(f"topics distintos en GitHub: {sorted(got.get('topics') or [])}")
     elif mode == "--apply":
         cmd = ["gh", "repo", "edit", f"{OWNER}/{r['key']}", "--description", want["description"], "--homepage", want["homepage"]]
+        got = json.loads(subprocess.run(["gh", "api", f"repos/{OWNER}/{r['key']}"], capture_output=True, text=True, check=True).stdout)
         for t in want["topics"]: cmd += ["--add-topic", t]
+        for t in sorted(set(got.get("topics") or []) - set(want["topics"])): cmd += ["--remove-topic", t]  # los que ya no están en los datos
         res = subprocess.run(cmd, capture_output=True, text=True)
         if res.returncode: errs.append("gh no pudo escribir: " + res.stderr.strip()[:160])
     print(("FALLA " if errs else "ok    ") + r["key"])
