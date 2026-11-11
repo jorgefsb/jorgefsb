@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""Genera los SVG del perfil con el brandkit 0.3 de JorgeSuarez.com.mx.
+"""Genera los SVG del perfil de GitHub en español e inglés.
 
-Fuentes Outfit 700 e Inter 400 embebidas (subset por archivo) para que el
-perfil se vea igual en cualquier navegador. Animaciones de una sola vez,
-solo transform y opacity, y apagadas con prefers-reduced-motion.
+Sigue el BrandKit de JorgeSuarez.com.mx (Kit 0.6, Maestros 1.0): Outfit 700,
+Inter 400, base negra, naranja y ámbar, papel solo como acento. Las fuentes van
+embebidas (subset por archivo) para que el perfil se vea igual en cualquier
+navegador. Animaciones de una sola vez, solo transform y opacity, apagadas con
+prefers-reduced-motion. Moki entra desde su PNG aprobado, sin espejar.
 
-Uso: python3 tools/build_assets.py --outfit RUTA.woff2 --inter RUTA.woff2
+Uso:
+  python3 tools/build_assets.py --outfit Outfit-Bold.woff2 \
+      --inter Inter-Regular.woff2 --moki moki-parche-derecho.webp
+
+Los textos de cada idioma viven en el diccionario T. Cada cambio de copy se
+hace ahí, en los dos idiomas, y se vuelve a generar.
 """
 import argparse
 import base64
@@ -18,7 +25,7 @@ from xml.sax.saxutils import escape
 from fontTools import subset
 from fontTools.ttLib import TTFont
 
-# Brandkit 0.3
+# BrandKit: base heredada + papel, kraft y tinta (propuestos)
 BG = "#0A0A0A"
 SURFACE = "#161616"
 ACCENT = "#FF6B35"
@@ -224,86 +231,6 @@ def frame(w, h, r=18, draw=True):
     return body, css
 
 
-def roles_row(svg, x, y, size, delay, gap=16):
-    items = ["FUNDADOR", "OPERADOR", "JUGADOR"]
-    out, cx = [], x
-    for k, it in enumerate(items):
-        out.append(f'<g class="rise" style="{d(delay + k * .12)}">'
-                   + svg.text(cx, y, it, "i", size, MUTED, ls=1.5) + "</g>")
-        cx += svg.tw(it, "i", size, 1.5) + gap
-        if k < len(items) - 1:
-            out.append(f'<g class="pop" style="{d(delay + k * .12 + .08)}">'
-                       + diamond(cx, y - size * 0.36, size * 0.33, ACCENT if k == 0 else AMBER)
-                       + "</g>")
-            cx += gap
-    return "\n".join(out)
-
-
-def hero_desktop(F):
-    W, H = 1000, 300
-    s = Svg(F, W, H, "Jorge Suárez Basáñez",
-            "Pionero de la industria mexicana de videojuegos, fundador, operador, "
-            "community builder y gamer desde Guadalajara, México. 20+ años haciendo industria.")
-    body, css = frame(W, H)
-    s.css.append(css)
-    s.add(GRAD)
-    s.add(body)
-    # esquinas pixel
-    s.add(f'<g fill="{AMBER}" class="fade" style="{d(1.2)}"><rect x="24" y="24" width="8" height="8"/><rect x="40" y="24" width="8" height="8"/></g>')
-    s.add(f'<g fill="{ACCENT}" class="fade" style="{d(1.3)}"><rect x="952" y="268" width="8" height="8"/><rect x="968" y="268" width="8" height="8"/></g>')
-    s.add(particles(s, 132, 150, 22, 230, .45, 1))
-    s.add(monogram(s, 52, 70, 160))
-    x = 252
-    s.add(f'<g class="rise" style="{d(.3)}">' + s.text(x, 74, "PLAYER ONE // GUADALAJARA, MÉXICO", "o", 14, ACCENT, ls=3) + "</g>")
-    pw = s.tw("PRESS START", "o", 14, 2) + 46
-    s.add(press_start_fix(s, round(W - 50 - pw, 1), 52, 1.7))
-    name = "JORGE SUÁREZ BASÁÑEZ"
-    s.add(f'<g class="rise" style="{d(.45)}">' + s.text(x, 128, name, "o", 48, TEXT, ls=-0.5) + "</g>")
-    sub = "VIDEOJUEGOS · COMUNIDAD · EMPRENDIMIENTO"
-    subw = s.tw(sub, "i", 19, 1)
-    s.add(f'<clipPath id="type"><rect class="grow" style="{d(.75)};animation-duration:.9s;animation-timing-function:steps(24,end)" x="{x}" y="146" width="{subw + 4:.0f}" height="30"/></clipPath>')
-    s.add(f'<g clip-path="url(#type)">' + s.text(x, 166, sub, "i", 19, MUTED, ls=1) + "</g>")
-    # XP
-    s.add(f'<g class="fade" style="{d(.9)}">' + s.text(x, 212, "XP", "o", 15, ACCENT, ls=2) + "</g>")
-    s.add(f'<g class="fade" style="{d(.9)}">' + xp_bar(s, x + 34, 198, 330, 18, 1.0) + "</g>")
-    s.add(f'<g class="pop" style="{d(2.2)}">' + s.text(x + 34 + 330 + 18, 213, "20+ AÑOS HACIENDO INDUSTRIA", "o", 16, TEXT, ls=1) + "</g>")
-    s.add(roles_row(s, x, 256, 15, 1.35))
-    return s.render()
-
-
-def press_start_fix(s, x, y, delay):
-    g, _ = press_start(s, x, y, delay)
-    return g
-
-
-def hero_mobile(F):
-    W, H = 600, 540
-    s = Svg(F, W, H, "Jorge Suárez Basáñez",
-            "Pionero de la industria mexicana de videojuegos, fundador, operador, "
-            "community builder y gamer desde Guadalajara, México. 20+ años haciendo industria.")
-    body, css = frame(W, H)
-    s.css.append(css)
-    s.add(GRAD)
-    s.add(body)
-    s.add(f'<g fill="{ACCENT}" class="fade" style="{d(1.3)}"><rect x="552" y="508" width="8" height="8"/><rect x="568" y="508" width="8" height="8"/></g>')
-    s.add(particles(s, 100, 100, 18, 220, .45, 2))
-    s.add(monogram(s, 40, 40, 120))
-    x = 186
-    s.add(f'<g class="rise" style="{d(.3)}">' + s.text(x, 74, "PLAYER ONE //", "o", 20, ACCENT, ls=2.5) + "</g>")
-    s.add(f'<g class="rise" style="{d(.38)}">' + s.text(x, 102, "GUADALAJARA, MÉXICO", "o", 20, ACCENT, ls=2.5) + "</g>")
-    s.add(press_start_fix(s, x, 122, 1.7))
-    s.add(f'<g class="rise" style="{d(.45)}">' + s.text(40, 238, "JORGE SUÁREZ", "o", 64, TEXT, ls=-0.5) + "</g>")
-    s.add(f'<g class="rise" style="{d(.55)}">' + s.text(40, 304, "BASÁÑEZ", "o", 64, TEXT, ls=-0.5) + "</g>")
-    sub1, sub2 = "VIDEOJUEGOS · COMUNIDAD ·", "EMPRENDIMIENTO"
-    s.add(f'<g class="rise" style="{d(.8)}">' + s.text(40, 352, sub1, "i", 26, MUTED, ls=1) + "</g>")
-    s.add(f'<g class="rise" style="{d(.9)}">' + s.text(40, 386, sub2, "i", 26, MUTED, ls=1) + "</g>")
-    s.add(f'<g class="fade" style="{d(.9)}">' + s.text(40, 432, "XP", "o", 20, ACCENT, ls=2) + "</g>")
-    s.add(f'<g class="fade" style="{d(.9)}">' + xp_bar(s, 84, 414, 476, 22, 1.0) + "</g>")
-    s.add(f'<g class="pop" style="{d(2.2)}">' + s.text(40, 476, "20+ AÑOS HACIENDO INDUSTRIA", "o", 24, TEXT, ls=1) + "</g>")
-    s.add(roles_row(s, 40, 512, 20, 1.35, gap=14))
-    return s.render()
-
-
 # ---------- botones sociales ----------
 
 def icon_youtube(x, y, c):
@@ -370,43 +297,11 @@ def social(F, label, handle, icon, aria, primary=False, delay=0.0, arrow=False):
     return s.render()
 
 
-# ---------- tarjetas 400 px ----------
-
-CARD_W = 400
-
-
-def card_base(s, h, delay):
-    s.add(f'<g class="rise" style="{d(delay)}">')
-    s.add(f'<rect x="1" y="1" width="{CARD_W - 2}" height="{h - 2}" rx="12" fill="{BG}" stroke="{BORDER}" stroke-opacity=".7" stroke-width="1.5"/>')
-    s.add(f'<path d="M1 30V13Q1 1 13 1H70" fill="none" stroke="{ACCENT}" stroke-width="3" stroke-linecap="round"/>')
-    s.add(f'<path d="M{CARD_W - 70} {h - 1}H{CARD_W - 13}Q{CARD_W - 1} {h - 1} {CARD_W - 1} {h - 13}V{h - 30}" fill="none" stroke="{AMBER}" stroke-width="3" stroke-linecap="round"/>')
-
-
 def trophy(x, y, c):
     return (f'<path d="M{x + 6} {y}h20v8c0 6-4 11-10 11s-10-5-10-11Z" fill="{c}"/>'
             f'<path d="M{x + 6} {y + 3}H{x}c0 6 3 9 7 9M{x + 26} {y + 3}h6c0 6-3 9-7 9" fill="none" stroke="{c}" stroke-width="2.5"/>'
             f'<rect x="{x + 13}" y="{y + 19}" width="6" height="6" fill="{c}"/>'
             f'<rect x="{x + 8}" y="{y + 25}" width="16" height="5" rx="1.5" fill="{c}"/>')
-
-
-def achievement(F, title, year, delay, seed):
-    H = 84
-    s = Svg(F, CARD_W, H, f"Logro desbloqueado: {title} ({year})", f"{title}, {year}.")
-    s.add(particles(s, 44, 42, 12, 70, delay + .35, seed, size=(3, 6), dur=.8))
-    card_base(s, H, delay)
-    s.add(f'<rect x="18" y="16" width="52" height="52" rx="12" fill="{SURFACE}" stroke="{BORDER}" stroke-opacity=".6"/>')
-    s.add(f'<g class="pop" style="{d(delay + .3)}">' + trophy(28, 27, AMBER) + "</g>")
-    s.add(s.text(88, 38, "LOGRO DESBLOQUEADO", "o", 11, ACCENT, ls=2.2))
-    fs = 19
-    while s.tw(title, "o", fs) > CARD_W - 88 - 82 and fs > 13:
-        fs -= 1
-    s.add(s.text(88, 63, title, "o", fs, TEXT))
-    yw = s.tw(year, "o", 14, 1) + 22
-    s.add(f'<g class="pop" style="{d(delay + .5)}"><rect x="{CARD_W - 18 - yw:.1f}" y="29" width="{yw:.1f}" height="26" rx="13" fill="{SURFACE}" stroke="{BORDER}"/>'
-          + s.text(CARD_W - 18 - yw / 2, 47, year, "o", 14, TEXT, ls=1, anchor="middle") + "</g>")
-    s.add("</g>")
-    s.add(f'<rect class="flash" style="{d(delay + .55)}" x="1.5" y="1.5" width="{CARD_W - 3}" height="{H - 3}" rx="12" fill="none" stroke="{ACCENT}" stroke-width="3"/>')
-    return s.render()
 
 
 def icon_spark(x, y, c):
@@ -434,11 +329,205 @@ def icon_pad(x, y, c):
 ICONS = {"spark": icon_spark, "code": icon_code, "cloud": icon_cloud, "pad": icon_pad}
 
 
-def loadout(F, slot, label, items, icon, delay, min_h=158):
-    s = Svg(F, CARD_W, 10, f"Loadout, slot {slot}: {label}", f"{label}: {' · '.join(items)}.")
+# ---------- textos por idioma ----------
+
+T = {
+    "es": {
+        "hero_desc": "Videojuegos, negocios e IA desde Guadalajara, México. 20+ años haciendo industria.",
+        "loc": "PLAYER ONE // GUADALAJARA, MÉXICO",
+        "loc1": "PLAYER ONE //", "loc2": "GUADALAJARA, MÉXICO",
+        "sub": "VIDEOJUEGOS · NEGOCIOS · IA",
+        "xp": "20+ AÑOS HACIENDO INDUSTRIA",
+        "roles": ["FUNDADOR", "OPERADOR", "JUGADOR"],
+        "ach": "LOGRO DESBLOQUEADO", "ach_aria": "Logro desbloqueado",
+        "slot": "SLOT", "loadout_aria": "Loadout, slot",
+        "loadout": [
+            ("Videojuegos", ["Unreal Engine", "Unity", "Roblox"], "pad"),
+            ("IA y agentes", ["Claude Code", "Codex", "Cursor", "MCP", "sistemas multiagente"], "spark"),
+            ("Producto web", ["TypeScript", "JavaScript", "Node.js", "Next.js", "Python"], "code"),
+            ("Plataforma", ["Cloudflare", "GitHub Pages", "Supabase"], "cloud"),
+        ],
+        "pillar_kicker": "FUERTE",
+        "pillars": [
+            ("VIDEOJUEGOS", "LV 20+", 1.0, False, "pad",
+             ["20+ años en la industria", "GM de Amber Studio México", "Fundé KaraOkulta en 2004"]),
+            ("NEGOCIOS", "LV 25+", 1.0, False, "flag",
+             ["Emprendo desde 1999", "Shark Tank México 2016", "Forbes 30 Promesas 2015"]),
+            ("IA", "NEW GAME+", 0.58, True, "spark",
+             ["Productos hechos con agentes", "Claude Code · Codex · Cursor", "Aprendo en público"]),
+        ],
+        "close_kicker": "MODO CO-OP",
+        "close_title": "¿CONSTRUIMOS ALGO?",
+        "close_sub": "Videojuegos, negocios o IA. Escríbeme.",
+        "close_aria": "¿Construimos algo? Escríbeme a jorgefsb@gmail.com",
+        "close_desc": "Moki, el astronauta de cartón naranja, junto a la invitación a escribir a jorgefsb@gmail.com.",
+    },
+    "en": {
+        "hero_desc": "Video games, business and AI from Guadalajara, Mexico. 20+ years building the industry.",
+        "loc": "PLAYER ONE // GUADALAJARA, MEXICO",
+        "loc1": "PLAYER ONE //", "loc2": "GUADALAJARA, MEXICO",
+        "sub": "VIDEO GAMES · BUSINESS · AI",
+        "xp": "20+ YEARS BUILDING THE INDUSTRY",
+        "roles": ["FOUNDER", "OPERATOR", "PLAYER"],
+        "ach": "ACHIEVEMENT UNLOCKED", "ach_aria": "Achievement unlocked",
+        "slot": "SLOT", "loadout_aria": "Loadout, slot",
+        "loadout": [
+            ("Video games", ["Unreal Engine", "Unity", "Roblox"], "pad"),
+            ("AI & agents", ["Claude Code", "Codex", "Cursor", "MCP", "multi-agent systems"], "spark"),
+            ("Web product", ["TypeScript", "JavaScript", "Node.js", "Next.js", "Python"], "code"),
+            ("Platform", ["Cloudflare", "GitHub Pages", "Supabase"], "cloud"),
+        ],
+        "pillar_kicker": "STRENGTH",
+        "pillars": [
+            ("VIDEO GAMES", "LV 20+", 1.0, False, "pad",
+             ["20+ years in the industry", "GM, Amber Studio México", "Founded KaraOkulta in 2004"]),
+            ("BUSINESS", "LV 25+", 1.0, False, "flag",
+             ["Entrepreneur since 1999", "Shark Tank México 2016", "Forbes 30 Promesas 2015"]),
+            ("AI", "NEW GAME+", 0.58, True, "spark",
+             ["Products built with AI agents", "Claude Code · Codex · Cursor", "Learning in public"]),
+        ],
+        "close_kicker": "CO-OP MODE",
+        "close_title": "WANT TO BUILD SOMETHING?",
+        "close_sub": "Video games, business or AI. Write me.",
+        "close_aria": "Want to build something? Write me at jorgefsb@gmail.com",
+        "close_desc": "Moki, the orange cardboard astronaut, next to an invitation to write to jorgefsb@gmail.com.",
+    },
+}
+
+ACHIEVEMENTS = [
+    ("shark-tank", "Shark Tank México", "2016"),
+    ("forbes", "Forbes 30 Promesas", "2015"),
+    ("cinepolis-accelerator", "Cinépolis Accelerator Alumni", "2015"),
+    ("cinepolis-seedcamp", "Cinépolis Seedcamp Winner", "2014"),
+]
+MAIL = "jorgefsb@gmail.com"
+
+
+def fit(s, text, f, size, maxw, ls=0, floor=11):
+    while s.tw(text, f, size, ls) > maxw and size > floor:
+        size -= 0.5
+    return size
+
+
+def roles_row(svg, x, y, size, delay, items, gap=16):
+    out, cx = [], x
+    for k, it in enumerate(items):
+        out.append(f'<g class="rise" style="{d(delay + k * .12)}">'
+                   + svg.text(cx, y, it, "i", size, MUTED, ls=1.5) + "</g>")
+        cx += svg.tw(it, "i", size, 1.5) + gap
+        if k < len(items) - 1:
+            out.append(f'<g class="pop" style="{d(delay + k * .12 + .08)}">'
+                       + diamond(cx, y - size * 0.36, size * 0.33, ACCENT if k == 0 else AMBER)
+                       + "</g>")
+            cx += gap
+    return "\n".join(out)
+
+
+def press_start_fix(s, x, y, delay):
+    g, _ = press_start(s, x, y, delay)
+    return g
+
+
+def hero_desktop(F, L):
+    W, H = 1000, 300
+    s = Svg(F, W, H, "Jorge Suárez Basáñez", L["hero_desc"])
+    body, css = frame(W, H)
+    s.css.append(css)
+    s.add(GRAD)
+    s.add(body)
+    s.add(f'<g fill="{AMBER}" class="fade" style="{d(1.2)}"><rect x="24" y="24" width="8" height="8"/><rect x="40" y="24" width="8" height="8"/></g>')
+    s.add(f'<g fill="{ACCENT}" class="fade" style="{d(1.3)}"><rect x="952" y="268" width="8" height="8"/><rect x="968" y="268" width="8" height="8"/></g>')
+    s.add(particles(s, 132, 150, 22, 230, .45, 1))
+    s.add(monogram(s, 52, 70, 160))
+    x = 252
+    s.add(f'<g class="rise" style="{d(.3)}">' + s.text(x, 74, L["loc"], "o", 14, ACCENT, ls=3) + "</g>")
+    pw = s.tw("PRESS START", "o", 14, 2) + 46
+    s.add(press_start_fix(s, round(W - 50 - pw, 1), 52, 1.7))
+    s.add(f'<g class="rise" style="{d(.45)}">' + s.text(x, 128, "JORGE SUÁREZ BASÁÑEZ", "o", 48, TEXT, ls=-0.5) + "</g>")
+    sub = L["sub"]
+    subw = s.tw(sub, "i", 19, 1)
+    s.add(f'<clipPath id="type"><rect class="grow" style="{d(.75)};animation-duration:.9s;animation-timing-function:steps(24,end)" x="{x}" y="146" width="{subw + 4:.0f}" height="30"/></clipPath>')
+    s.add('<g clip-path="url(#type)">' + s.text(x, 166, sub, "i", 19, MUTED, ls=1) + "</g>")
+    s.add(f'<g class="fade" style="{d(.9)}">' + s.text(x, 212, "XP", "o", 15, ACCENT, ls=2) + "</g>")
+    s.add(f'<g class="fade" style="{d(.9)}">' + xp_bar(s, x + 34, 198, 330, 18, 1.0) + "</g>")
+    xs = fit(s, L["xp"], "o", 16, W - 50 - (x + 34 + 330 + 18), ls=1)
+    s.add(f'<g class="pop" style="{d(2.2)}">' + s.text(x + 34 + 330 + 18, 213, L["xp"], "o", xs, TEXT, ls=1) + "</g>")
+    s.add(roles_row(s, x, 256, 15, 1.35, L["roles"]))
+    return s.render()
+
+
+def hero_mobile(F, L):
+    W, H = 600, 506
+    s = Svg(F, W, H, "Jorge Suárez Basáñez", L["hero_desc"])
+    body, css = frame(W, H)
+    s.css.append(css)
+    s.add(GRAD)
+    s.add(body)
+    s.add(f'<g fill="{ACCENT}" class="fade" style="{d(1.3)}"><rect x="552" y="474" width="8" height="8"/><rect x="568" y="474" width="8" height="8"/></g>')
+    s.add(particles(s, 100, 100, 18, 220, .45, 2))
+    s.add(monogram(s, 40, 40, 120))
+    x = 186
+    s.add(f'<g class="rise" style="{d(.3)}">' + s.text(x, 74, L["loc1"], "o", 20, ACCENT, ls=2.5) + "</g>")
+    s.add(f'<g class="rise" style="{d(.38)}">' + s.text(x, 102, L["loc2"], "o", 20, ACCENT, ls=2.5) + "</g>")
+    s.add(press_start_fix(s, x, 122, 1.7))
+    s.add(f'<g class="rise" style="{d(.45)}">' + s.text(40, 238, "JORGE SUÁREZ", "o", 64, TEXT, ls=-0.5) + "</g>")
+    s.add(f'<g class="rise" style="{d(.55)}">' + s.text(40, 304, "BASÁÑEZ", "o", 64, TEXT, ls=-0.5) + "</g>")
+    ss = fit(s, L["sub"], "i", 26, 520, ls=1)
+    s.add(f'<g class="rise" style="{d(.8)}">' + s.text(40, 352, L["sub"], "i", ss, MUTED, ls=1) + "</g>")
+    s.add(f'<g class="fade" style="{d(.9)}">' + s.text(40, 398, "XP", "o", 20, ACCENT, ls=2) + "</g>")
+    s.add(f'<g class="fade" style="{d(.9)}">' + xp_bar(s, 84, 380, 476, 22, 1.0) + "</g>")
+    xs = fit(s, L["xp"], "o", 24, 520, ls=1)
+    s.add(f'<g class="pop" style="{d(2.2)}">' + s.text(40, 442, L["xp"], "o", xs, TEXT, ls=1) + "</g>")
+    s.add(roles_row(s, 40, 478, 20, 1.35, L["roles"], gap=14))
+    return s.render()
+
+
+# ---------- tarjetas ----------
+
+CARD_W = 400
+PILLAR_W = 272
+
+
+def card_base(s, h, delay, w=CARD_W):
+    s.add(f'<g class="rise" style="{d(delay)}">')
+    s.add(f'<rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="12" fill="{BG}" stroke="{BORDER}" stroke-opacity=".7" stroke-width="1.5"/>')
+    s.add(f'<path d="M1 30V13Q1 1 13 1H70" fill="none" stroke="{ACCENT}" stroke-width="3" stroke-linecap="round"/>')
+    s.add(f'<path d="M{w - 70} {h - 1}H{w - 13}Q{w - 1} {h - 1} {w - 1} {h - 13}V{h - 30}" fill="none" stroke="{AMBER}" stroke-width="3" stroke-linecap="round"/>')
+
+
+def icon_flag(x, y, c):
+    return (f'<path d="M{x + 5} {y + 2}V{y + 23}" stroke="{c}" stroke-width="2.6" stroke-linecap="round"/>'
+            f'<path d="M{x + 5} {y + 3}H{x + 21}L{x + 17} {y + 8.5}L{x + 21} {y + 14}H{x + 5}Z" fill="{c}"/>')
+
+
+ICONS["flag"] = icon_flag
+
+
+def achievement(F, L, title, year, delay, seed):
+    H = 84
+    s = Svg(F, CARD_W, H, f"{L['ach_aria']}: {title} ({year})", f"{title}, {year}.")
+    s.add(particles(s, 44, 42, 12, 70, delay + .35, seed, size=(3, 6), dur=.8))
+    card_base(s, H, delay)
+    s.add(f'<rect x="18" y="16" width="52" height="52" rx="12" fill="{SURFACE}" stroke="{BORDER}" stroke-opacity=".6"/>')
+    s.add(f'<g class="pop" style="{d(delay + .3)}">' + trophy(28, 27, AMBER) + "</g>")
+    s.add(s.text(88, 38, L["ach"], "o", 11, ACCENT, ls=2.2))
+    fs = 19
+    while s.tw(title, "o", fs) > CARD_W - 88 - 82 and fs > 13:
+        fs -= 1
+    s.add(s.text(88, 63, title, "o", fs, TEXT))
+    yw = s.tw(year, "o", 14, 1) + 22
+    s.add(f'<g class="pop" style="{d(delay + .5)}"><rect x="{CARD_W - 18 - yw:.1f}" y="29" width="{yw:.1f}" height="26" rx="13" fill="{SURFACE}" stroke="{BORDER}"/>'
+          + s.text(CARD_W - 18 - yw / 2, 47, year, "o", 14, TEXT, ls=1, anchor="middle") + "</g>")
+    s.add("</g>")
+    s.add(f'<rect class="flash" style="{d(delay + .55)}" x="1.5" y="1.5" width="{CARD_W - 3}" height="{H - 3}" rx="12" fill="none" stroke="{ACCENT}" stroke-width="3"/>')
+    return s.render()
+
+
+def loadout(F, L, slot, label, items, icon, delay, min_h=158):
+    s = Svg(F, CARD_W, 10, f"{L['loadout_aria']} {slot}: {label}", f"{label}: {' · '.join(items)}.")
     fs, ch, padx, gap = 14, 30, 13, 8
     x0, xmax = 20, CARD_W - 20
-    rows, cx, cy = [], x0, 70
+    cx, cy = x0, 70
     chips = []
     for it in items:
         w = s.tw(it, "i", fs) + padx * 2
@@ -446,12 +535,12 @@ def loadout(F, slot, label, items, icon, delay, min_h=158):
             cx, cy = x0, cy + ch + gap
         chips.append((cx, cy, w, it))
         cx += w + gap
-    H = max(cy + ch + 20, min_h)  # misma altura para que la cuadrícula no baile
+    H = max(cy + ch + 20, min_h)
     s.h = H
     card_base(s, H, delay)
     s.add(f'<rect x="18" y="16" width="36" height="36" rx="8" fill="{SURFACE}" stroke="{BORDER}" stroke-opacity=".6"/>')
     s.add(f'<g class="pop" style="{d(delay + .25)}">' + ICONS[icon](24, 22, ACCENT) + "</g>")
-    s.add(s.text(66, 32, f"SLOT {slot}", "o", 11, MUTED, ls=2.2))
+    s.add(s.text(66, 32, f"{L['slot']} {slot}", "o", 11, MUTED, ls=2.2))
     s.add(s.text(66, 50, label.upper(), "o", 17, TEXT, ls=1))
     for k, (x, y, w, it) in enumerate(chips):
         s.add(f'<g class="pop" style="{d(delay + .4 + k * .09)}">'
@@ -461,75 +550,113 @@ def loadout(F, slot, label, items, icon, delay, min_h=158):
     return s.render()
 
 
-def stats_repos(F):
-    H = 220
-    s = Svg(F, CARD_W, H, "Player stats de GitHub al 22 de agosto de 2026",
-            "322 repositorios públicos: 13 originales (4 por ciento) y 309 forks que funcionan como biblioteca de referencia.")
+def pillar(F, L, n, title, chip, fill, hot, icon, lines, delay):
+    """Uno de los tres fuertes: videojuegos, negocios, IA (en ese orden)."""
+    W, H = PILLAR_W, 214
+    s = Svg(F, W, H, f"{L['pillar_kicker']} {n}: {title}", f"{title}. " + ". ".join(lines) + ".")
     s.add(GRAD)
-    card_base(s, H, 0)
-    s.add(s.text(22, 38, "PLAYER STATS // GITHUB", "o", 12, ACCENT, ls=2.2))
-    s.add(s.text(CARD_W - 22, 38, "22 AGO 2026", "o", 12, MUTED, ls=1.5, anchor="end"))
-    s.add(f'<g class="pop" style="{d(.3)}">' + s.text(22, 96, "322", "o", 48, TEXT) + "</g>")
-    s.add(s.text(22 + s.tw("322", "o", 48) + 12, 94, "repositorios públicos", "i", 16, MUTED))
-    tw = CARD_W - 44
-    s.add(f'<rect x="22" y="116" width="{tw}" height="16" rx="8" fill="{SURFACE}" stroke="{BORDER}" stroke-opacity=".6"/>')
-    ow = max(16, tw * 13 / 322)
-    s.add(f'<rect class="grow" style="{d(.6)}" x="22" y="116" width="{ow:.1f}" height="16" rx="8" fill="url(#xp)"/>')
-    s.add(f'<circle cx="28" cy="162" r="6" fill="{ACCENT}"/>')
-    s.add(s.text(42, 167, "13 originales", "o", 15, TEXT) )
-    s.add(s.text(42 + s.tw("13 originales", "o", 15) + 6, 167, "· 4%", "i", 15, MUTED))
-    s.add(f'<circle cx="28" cy="192" r="6" fill="{BORDER}"/>')
-    s.add(s.text(42, 197, "309 forks", "o", 15, TEXT))
-    s.add(s.text(42 + s.tw("309 forks", "o", 15) + 6, 197, "· biblioteca de referencia", "i", 15, MUTED))
+    card_base(s, H, delay, W)
+    s.add(f'<rect x="18" y="16" width="40" height="40" rx="9" fill="{SURFACE}" stroke="{BORDER}" stroke-opacity=".6"/>')
+    s.add(f'<g class="pop" style="{d(delay + .25)}">' + ICONS[icon](26, 24, ACCENT) + "</g>")
+    s.add(s.text(70, 31, f"{L['pillar_kicker']} {n}", "o", 11, MUTED, ls=2.2))
+    s.add(s.text(70, 52, title, "o", 19, TEXT, ls=.8))
+    cw = s.tw(chip, "o", 12, 1) + 20
+    cx = W - 18 - cw
+    bw = cx - 10 - 18
+    s.add(f'<rect x="18" y="82" width="{bw:.1f}" height="12" rx="6" fill="{SURFACE}" stroke="{BORDER}" stroke-opacity=".6"/>')
+    s.add(f'<rect class="grow" style="{d(delay + .45)}" x="18" y="82" width="{bw * fill:.1f}" height="12" rx="6" fill="url(#xp)"/>')
+    cbg, cfg, cst = (ACCENT, INK, "none") if hot else (SURFACE, TEXT, BORDER)
+    s.add(f'<g class="pop" style="{d(delay + .7)}"><rect x="{cx:.1f}" y="76" width="{cw:.1f}" height="24" rx="12" fill="{cbg}" stroke="{cst}"/>'
+          + s.text(cx + cw / 2, 92.5, chip, "o", 12, cfg, ls=1, anchor="middle") + "</g>")
+    for k, ln in enumerate(lines):
+        y = 132 + k * 27
+        fs = fit(s, ln, "i", 14, W - 40 - 18, floor=12)
+        s.add(f'<g class="rise" style="{d(delay + .8 + k * .1)}">'
+              + diamond(24, y - 5, 4, ACCENT if k == 0 else AMBER)
+              + s.text(40, y, ln, "i", fs, TEXT) + "</g>")
     s.add("</g>")
+    if hot:
+        s.add(f'<rect class="flash" style="{d(delay + 1.2)}" x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="12" fill="none" stroke="{ACCENT}" stroke-width="3"/>')
     return s.render()
 
 
-def stats_langs(F):
-    H = 220
-    langs = [("HTML", 39, ACCENT), ("JavaScript", 38, AMBER), ("CSS", 23, KRAFT)]
-    s = Svg(F, CARD_W, H, "Lenguajes del código original activo al 22 de agosto de 2026",
-            "HTML 39 por ciento, JavaScript 38 por ciento y CSS 23 por ciento.")
-    card_base(s, H, .15)
-    s.add(s.text(22, 38, "LENGUAJES // CÓDIGO ORIGINAL", "o", 12, ACCENT, ls=2.2))
-    tw = CARD_W - 44
-    s.add(f'<clipPath id="lc"><rect x="22" y="58" width="{tw}" height="18" rx="6"/></clipPath>')
-    s.add('<g clip-path="url(#lc)">')
-    x = 22
-    for k, (n, p, c) in enumerate(langs):
-        w = tw * p / 100
-        s.add(f'<rect class="grow" style="{d(.5 + k * .25)};animation-duration:.6s" x="{x:.1f}" y="58" width="{w + .5:.1f}" height="18" fill="{c}"/>')
-        x += w
-    s.add("</g>")
-    for k, (n, p, c) in enumerate(langs):
-        y = 112 + k * 34
-        s.add(f'<g class="rise" style="{d(.9 + k * .12)}">')
-        s.add(f'<rect x="22" y="{y - 11}" width="12" height="12" rx="3" fill="{c}"/>')
-        s.add(s.text(44, y, n, "o", 15, TEXT))
-        s.add(f'<rect x="150" y="{y - 9}" width="170" height="8" rx="4" fill="{SURFACE}"/>')
-        s.add(f'<rect class="grow" style="{d(1.1 + k * .12)}" x="150" y="{y - 9}" width="{170 * p / 39:.1f}" height="8" rx="4" fill="{c}"/>')
-        s.add(s.text(CARD_W - 22, y, f"{p}%", "o", 15, TEXT, anchor="end"))
-        s.add("</g>")
-    s.add("</g>")
-    return s.render()
-
-
-def cta(F):
-    label, mail = "¿HABLAMOS?", "jorgefsb@gmail.com"
-    H = 56
-    s = Svg(F, 10, H, "¿Hablamos? Escríbeme a jorgefsb@gmail.com", "Botón para escribir a jorgefsb@gmail.com.")
-    lw = s.tw(label, "o", 18, 1.5)
-    mw = s.tw(mail, "i", 15)
-    W = int(28 + 16 + 12 + lw + 14 + mw + 28)
+def lang_pill(F, label, aria, active):
+    H = 44
+    s = Svg(F, 10, H, aria, aria)
+    lw = s.tw(label, "o", 14, 1.4)
+    W = int(16 + 22 + 10 + lw + 18)
     s.w = W
-    s.add(particles(s, W / 2, H / 2, 14, 90, .5, 9, size=(3, 6), dur=.8))
-    s.add(f'<g class="pop" style="{d(.1)}">')
-    s.add(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="28" fill="{ACCENT}"/>')
-    s.add(play_icon(28, 20, 16, INK))
-    s.add(s.text(56, 35, label, "o", 18, INK, ls=1.5))
-    s.add(s.text(56 + lw + 14, 34, mail, "i", 15, INK))
-    s.add("</g>")
-    s.add(f'<rect class="flash" style="{d(.55)}" x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="27" fill="none" stroke="{AMBER}" stroke-width="3"/>')
+    # Activo: borde naranja. Inactivo: discreto. El único botón relleno es el del sitio.
+    bg, fg, st, sw, ic = (SURFACE, TEXT, ACCENT, 2.5, ACCENT) if active else (BG, MUTED, BORDER, 1.5, MUTED)
+    s.add(f'<rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="20.5" fill="{bg}" stroke="{st}" stroke-width="{sw}"/>')
+    cx, cy = 27, 22
+    s.add(f'<g fill="none" stroke="{ic}" stroke-width="2"><circle cx="{cx}" cy="{cy}" r="9"/>'
+          f'<path d="M{cx - 9} {cy}h18M{cx} {cy - 9}c3.6 2.7 3.6 15.3 0 18M{cx} {cy - 9}c-3.6 2.7-3.6 15.3 0 18"/></g>')
+    s.add(s.text(48, 27, label, "o", 14, fg, ls=1.4))
+    return s.render()
+
+
+def moki_img(x, y, h, data, ratio):
+    w = h * ratio
+    return (f'<image x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" '
+            f'href="data:image/webp;base64,{data}" preserveAspectRatio="xMidYMid meet"/>'), w
+
+
+def mail_pill(s, x, y, h, fs, delay):
+    mw = s.tw(MAIL, "i", fs)
+    ic = h * 0.3
+    w = h * 0.5 + ic + h * 0.3 + mw + h * 0.55
+    g = (f'<g class="pop" style="{d(delay)}">'
+         f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h}" rx="{h / 2}" fill="{ACCENT}"/>'
+         + play_icon(round(x + h * 0.5, 1), round(y + (h - ic) / 2, 1), round(ic, 1), INK)
+         + s.text(x + h * 0.5 + ic + h * 0.3, y + h / 2 + fs * 0.35, MAIL, "i", fs, INK) + "</g>")
+    return g, w
+
+
+def closing_desktop(F, L, moki, ratio):
+    W, H = 1000, 230
+    s = Svg(F, W, H, L["close_aria"], L["close_desc"])
+    body, css = frame(W, H)
+    s.css.append(css)
+    s.add(GRAD)
+    s.add(body)
+    s.add(particles(s, 130, 120, 16, 170, .5, 21))
+    img, mw = moki_img(58, 18, 194, moki, ratio)
+    s.add(f'<ellipse cx="{58 + mw / 2 + 4:.1f}" cy="209" rx="{mw * .36:.1f}" ry="7" fill="{PAPER}" fill-opacity=".10"/>')
+    s.add(f'<g class="rise" style="{d(.2)}">{img}</g>')
+    x = 58 + mw + 48
+    s.add(f'<g class="rise" style="{d(.35)}">' + s.text(x, 62, L["close_kicker"], "o", 14, ACCENT, ls=3) + "</g>")
+    ts = fit(s, L["close_title"], "o", 42, W - 60 - x, ls=-0.3, floor=28)
+    s.add(f'<g class="rise" style="{d(.45)}">' + s.text(x, 110, L["close_title"], "o", ts, TEXT, ls=-0.3) + "</g>")
+    s.add(f'<g class="rise" style="{d(.55)}">' + s.text(x, 142, L["close_sub"], "i", 18, MUTED) + "</g>")
+    pill, _ = mail_pill(s, x, 162, 42, 16, .8)
+    s.add(pill)
+    s.add(f'<g fill="{AMBER}" class="fade" style="{d(1.2)}"><rect x="952" y="24" width="8" height="8"/><rect x="968" y="24" width="8" height="8"/></g>')
+    return s.render()
+
+
+def closing_mobile(F, L, moki, ratio):
+    W, H = 600, 590
+    s = Svg(F, W, H, L["close_aria"], L["close_desc"])
+    body, css = frame(W, H)
+    s.css.append(css)
+    s.add(GRAD)
+    s.add(body)
+    mh = 250
+    mw = mh * ratio
+    s.add(particles(s, W / 2, 160, 16, 200, .5, 22))
+    s.add(f'<ellipse cx="{W / 2 + 4:.1f}" cy="{32 + mh - 2}" rx="{mw * .36:.1f}" ry="8" fill="{PAPER}" fill-opacity=".10"/>')
+    img, _ = moki_img((W - mw) / 2, 32, mh, moki, ratio)
+    s.add(f'<g class="rise" style="{d(.2)}">{img}</g>')
+    s.add(f'<g class="rise" style="{d(.35)}">' + s.text(W / 2, 338, L["close_kicker"], "o", 20, ACCENT, ls=3, anchor="middle") + "</g>")
+    ts = fit(s, L["close_title"], "o", 46, 520, ls=-0.3, floor=30)
+    s.add(f'<g class="rise" style="{d(.45)}">' + s.text(W / 2, 394, L["close_title"], "o", ts, TEXT, ls=-0.3, anchor="middle") + "</g>")
+    ss = fit(s, L["close_sub"], "i", 24, 520, floor=18)
+    s.add(f'<g class="rise" style="{d(.55)}">' + s.text(W / 2, 436, L["close_sub"], "i", ss, MUTED, anchor="middle") + "</g>")
+    h, fs = 64, 24
+    pw = h * 0.5 + h * 0.3 + h * 0.3 + s.tw(MAIL, "i", fs) + h * 0.55
+    pill, _ = mail_pill(s, (W - pw) / 2, 472, h, fs, .8)
+    s.add(pill)
     return s.render()
 
 
@@ -537,27 +664,36 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--outfit", required=True)
     ap.add_argument("--inter", required=True)
+    ap.add_argument("--moki", required=True, help="WebP de Moki (parche derecho, sin espejar)")
     a = ap.parse_args()
     F = Fonts(a.outfit, a.inter)
+    raw = Path(a.moki).read_bytes()
+    from PIL import Image
+    with Image.open(io.BytesIO(raw)) as im:
+        ratio = im.width / im.height
+    moki = base64.b64encode(raw).decode()
+
     out = {
-        "hero.svg": hero_desktop(F),
-        "hero-mobile.svg": hero_mobile(F),
         "social/youtube.svg": social(F, "YOUTUBE", "@jorgefsb", "yt", "YouTube: @jorgefsb", delay=.05),
-        "social/website.svg": social(F, "JORGESUAREZ.COM.MX", "", "web", "Sitio web: jorgesuarez.com.mx", primary=True, delay=.15),
+        "social/website.svg": social(F, "JORGESUAREZ.COM.MX", "", "web", "jorgesuarez.com.mx", primary=True, delay=.15),
         "social/linkedin.svg": social(F, "LINKEDIN", "", "in", "LinkedIn: Jorge Suárez", delay=.25, arrow=True),
         "social/x.svg": social(F, "X", "@jorgefsb", "x", "X / Twitter: @jorgefsb", delay=.35),
-        "achievements/shark-tank.svg": achievement(F, "Shark Tank México", "2016", .05, 11),
-        "achievements/forbes.svg": achievement(F, "Forbes 30 Promesas", "2015", .25, 12),
-        "achievements/cinepolis-accelerator.svg": achievement(F, "Cinépolis Accelerator Alumni", "2015", .45, 13),
-        "achievements/cinepolis-seedcamp.svg": achievement(F, "Cinépolis Seedcamp Winner", "2014", .65, 14),
-        "loadout/ia.svg": loadout(F, "01", "IA y agentes", ["Claude", "MCP", "sistemas multiagente"], "spark", .05),
-        "loadout/web.svg": loadout(F, "02", "Producto web", ["TypeScript", "JavaScript", "Node.js", "Next.js", "Python"], "code", .2),
-        "loadout/plataforma.svg": loadout(F, "03", "Plataforma", ["Cloudflare", "Vercel", "Supabase"], "cloud", .35),
-        "loadout/videojuegos.svg": loadout(F, "04", "Videojuegos", ["Unreal Engine", "Unity", "Roblox"], "pad", .5),
-        "stats/repos.svg": stats_repos(F),
-        "stats/lenguajes.svg": stats_langs(F),
-        "cta.svg": cta(F),
+        "lang/es.svg": lang_pill(F, "ESPAÑOL", "Leer en español", False),
+        "lang/es-on.svg": lang_pill(F, "ESPAÑOL", "Español, idioma actual", True),
+        "lang/en.svg": lang_pill(F, "ENGLISH", "Read in English", False),
+        "lang/en-on.svg": lang_pill(F, "ENGLISH", "English, current language", True),
     }
+    for lang, L in T.items():
+        out[f"{lang}/hero.svg"] = hero_desktop(F, L)
+        out[f"{lang}/hero-mobile.svg"] = hero_mobile(F, L)
+        for k, (title, chip, fill, hot, icon, lines) in enumerate(L["pillars"]):
+            out[f"{lang}/pillar-{k + 1}.svg"] = pillar(F, L, f"0{k + 1}", title, chip, fill, hot, icon, lines, .05 + k * .15)
+        for k, (label, items, icon) in enumerate(L["loadout"]):
+            out[f"{lang}/loadout-{k + 1}.svg"] = loadout(F, L, f"0{k + 1}", label, items, icon, .05 + k * .15)
+        for k, (slug, title, year) in enumerate(ACHIEVEMENTS):
+            out[f"{lang}/achievement-{slug}.svg"] = achievement(F, L, title, year, .05 + k * .2, 11 + k)
+        out[f"{lang}/closing.svg"] = closing_desktop(F, L, moki, ratio)
+        out[f"{lang}/closing-mobile.svg"] = closing_mobile(F, L, moki, ratio)
     for name, svg in out.items():
         p = ASSETS / name
         p.parent.mkdir(parents=True, exist_ok=True)
