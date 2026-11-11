@@ -12,7 +12,7 @@ REPOS2 = [
                      en="Moki in pixel art, ready to play: 43 animations for your game, your page and your desktop."),
         chip=dict(es="V0.1.0 · PROPUESTA", en="V0.1.0 · PROPOSAL"),
         cta=dict(es="Verlo en vivo", en="See it live"),
-        about="👾 Moki in pixel art, ready to play: an open animation kit (43 clips, 4 views, 3 sizes) for games, web and desktop pets, wallpapers and videos. · Moki en pixel art, listo para jugar.",
+        about="👾 Moki in pixel art, ready to play: an open animation kit (43 clips, 4 views, 3 sizes) for games, web and desktop pets, wallpapers and videos. · Moki en pixel art, listo para jugar. Hecho con amor por JorgeSuarez.com.mx",
         topics=["pixel-art", "sprites", "gamedev", "animation", "moki", "jorgesuarez"],
         top=dict(es="""<p align="center">
   <img src="dist/gif/moki_wave_front.gif" width="120" alt="Moki saluda">
@@ -217,7 +217,7 @@ How it is made, Moki's canon and every integration: [full guide](./docs/GUIA.md)
                      en="A pointer trail for your site that stays out of the way: your cursor is still your cursor."),
         chip=dict(es="V1.0.1 · MIT", en="V1.0.1 · MIT"),
         cta=dict(es="Descargar la versión 1.0.1", en="Download version 1.0.1"),
-        about="✨ A pointer trail for your website: light dots or a WebGL2 fluid that flows around your page blocks. Native cursor stays, no runtime deps, MIT. · Una estela para el puntero de tu sitio.",
+        about="✨ A pointer trail for your website: light dots or a WebGL2 fluid that flows around your page blocks. Native cursor stays, no runtime deps, MIT. · Una estela para el puntero de tu sitio, gratis.",
         topics=["cursor-effect", "webgl", "game-feel", "web-interaction", "javascript", "jorgesuarez"],
         top=dict(es="""<p align="center"><img src="docs/media/cursor-liquido-demo.gif" width="720" alt="Cursor líquido en intensidad Hardcore: un fluido de colores sigue al puntero y rodea un bloque de la página"></p>
 <p align="center"><sub>Grabación real, sin retoque. Chromium con WebGL por software. <a href="docs/media/cursor-liquido-restaurado-real.mp4">Ver el video MP4</a></sub></p>
