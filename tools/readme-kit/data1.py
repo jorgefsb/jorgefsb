@@ -216,7 +216,9 @@ El v1 quedó respaldado en el tag `v1-final-2026-10-12` y en la rama `v1-legacy`
 
 El contenido del sitio, el retrato y la marca conservan todos los derechos: no tienen licencia abierta.
 
-Los componentes que el sitio trae empaquetados sí conservan su licencia MIT, cada uno con su archivo: el motor de scroll de `engine/`, que es scroll-craft de Nate Herk ([`engine/LICENSE`](./engine/LICENSE)), y los efectos propios de `vfx/`: [`vfx/game-feel/1.0.1/LICENSE`](./vfx/game-feel/1.0.1/LICENSE), [`vfx/papacito-juice/1.0.1/LICENSE`](./vfx/papacito-juice/1.0.1/LICENSE) y [`vfx/cursor-liquido/1.0.1/LICENSE`](./vfx/cursor-liquido/1.0.1/LICENSE).
+Solo estos componentes empaquetados tienen licencia MIT, cada uno con su archivo: el motor de scroll de `engine/`, que es scroll-craft de Nate Herk ([`engine/LICENSE`](./engine/LICENSE)), y los efectos propios de `vfx/`: [`vfx/game-feel/1.0.1/LICENSE`](./vfx/game-feel/1.0.1/LICENSE), [`vfx/papacito-juice/1.0.1/LICENSE`](./vfx/papacito-juice/1.0.1/LICENSE) y [`vfx/cursor-liquido/1.0.1/LICENSE`](./vfx/cursor-liquido/1.0.1/LICENSE).
+
+La carpeta `juice/` (el menú «Juega», el modo Hardcore y el módulo de Moki) no declara licencia: conserva todos los derechos, igual que el arte de Moki. El detalle está en [`vfx/papacito-juice/1.0.1/NOTICES`](./vfx/papacito-juice/1.0.1/NOTICES).
 """, en="""## What is it?
 
 The personal site of Jorge Suárez. It brings together his story, his work at Amber México, his products, his frameworks, his lab and how to reach him. It is available in Spanish and English.
@@ -268,7 +270,9 @@ The v1 is backed up in the `v1-final-2026-10-12` tag and the `v1-legacy` branch.
 
 All rights are reserved on the site content, the portrait and the brand: they carry no open license.
 
-The components bundled with the site keep their MIT license, each with its own file: the scroll engine in `engine/`, which is scroll-craft by Nate Herk ([`engine/LICENSE`](./engine/LICENSE)), and our own effects in `vfx/`: [`vfx/game-feel/1.0.1/LICENSE`](./vfx/game-feel/1.0.1/LICENSE), [`vfx/papacito-juice/1.0.1/LICENSE`](./vfx/papacito-juice/1.0.1/LICENSE) and [`vfx/cursor-liquido/1.0.1/LICENSE`](./vfx/cursor-liquido/1.0.1/LICENSE).
+Only these bundled components are MIT-licensed, each with its own file: the scroll engine in `engine/`, which is scroll-craft by Nate Herk ([`engine/LICENSE`](./engine/LICENSE)), and our own effects in `vfx/`: [`vfx/game-feel/1.0.1/LICENSE`](./vfx/game-feel/1.0.1/LICENSE), [`vfx/papacito-juice/1.0.1/LICENSE`](./vfx/papacito-juice/1.0.1/LICENSE) and [`vfx/cursor-liquido/1.0.1/LICENSE`](./vfx/cursor-liquido/1.0.1/LICENSE).
+
+The `juice/` folder (the «Juega» menu, Hardcore mode and the Moki module) declares no license: all rights are reserved, as with Moki's art. Details in [`vfx/papacito-juice/1.0.1/NOTICES`](./vfx/papacito-juice/1.0.1/NOTICES).
 """),
     ),
     dict(
