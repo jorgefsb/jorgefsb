@@ -23,6 +23,7 @@ TARGETS = {
 }
 only = sys.argv[2:]
 FILES = ("desktop.png", "mobile.png", "tour.gif", "tour.mp4", "captured.txt")
+LOCK = {"tecnimotostatus-site", "ardenstatus-site"}  # páginas con candado: su README solo publica las dos capturas
 FAILED = []
 async def main():
     async with async_playwright() as p:
@@ -52,7 +53,7 @@ async def main():
                 print(key, "ERROR", str(e)[:200])
             await ctx.close()
             vids = list(vd.glob("*.webm"))
-            if vids and ok:
+            if vids and ok and key not in LOCK:
                 src = str(vids[0])
                 subprocess.run(["ffmpeg","-y","-loglevel","error","-ss","2.2","-i",src,"-t","9","-an","-vf","scale=1280:-2","-c:v","libx264","-crf","30","-pix_fmt","yuv420p","-movflags","+faststart",str(d/"tour.mp4")], check=False)
                 subprocess.run(["ffmpeg","-y","-loglevel","error","-ss","2.2","-i",src,"-t","7","-vf","fps=6,scale=640:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4","-loop","-1",str(d/"tour.gif")])  # -loop -1: una sola pasada (BrandKit: sin loops permanentes)
@@ -69,7 +70,8 @@ async def main():
             except Exception as e:
                 print(key, "MOBILE ERROR", str(e)[:200]); ok = False
             await m.close()
-            if ok and all((d / n).exists() and (d / n).stat().st_size > 0 for n in FILES[:4]):
+            need = FILES[:2] if key in LOCK else FILES[:4]
+            if ok and all((d / n).exists() and (d / n).stat().st_size > 0 for n in need):
                 (d / "captured.txt").write_text(datetime.date.today().isoformat() + "\n")
             else:
                 for n in FILES: (d / n).unlink(missing_ok=True)
