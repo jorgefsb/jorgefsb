@@ -3,7 +3,7 @@ G = "https://gamedev.jorgesuarez.com.mx"
 REPOS1 = [
     dict(
         key="game-industry-resources", personal=True, media="capture",
-        title="Game Industry Resources", live=G,
+        title="Game Industry Resources", live=G, live_en=G + "/?lang=en",
         kicker=dict(es="VIDEOJUEGOS // RECURSOS ABIERTOS", en="VIDEO GAMES // OPEN RESOURCES"),
         promise=dict(es="El mapa para hacer juegos en Latinoamérica: cifras, estudios, chamba y herramientas.",
                      en="The map for making games in Latin America: numbers, studios, jobs and tools."),
@@ -29,11 +29,11 @@ Juntarlo en un solo mapa, curado desde más de dos décadas de hacer videojuegos
 
 | Sección | Qué contesta |
 |---|---|
-| [Production Tools]({G}/tools) | ¿Con qué herramientas se produce un juego? |
+| [Production Tools]({G}/tools) | ¿Con qué se produce un juego? Hoy trae el ciclo de producción en corto y ligas a herramientas; las tres plantillas descargables siguen en construcción. |
 | [Jobs & Career]({G}/jobs) | ¿Dónde hay trabajo y cómo me preparo? |
 | [El CV Perfecto]({G}/guides/cv) | ¿Cómo armo un currículum para la industria? |
 | [Studios DB]({G}/database) | ¿Qué estudios hay en Latinoamérica? |
-| [Marketing Playbook]({G}/marketing) | ¿Cómo vendo mi juego y gano visibilidad? |
+| [Marketing Playbook]({G}/marketing) | ¿Cómo vendo mi juego y gano visibilidad? **En construcción:** hoy muestra el temario; las guías todavía no se pueden abrir. |
 | [Pulso de la industria MX]({G}/industria) | ¿Cómo se ve el sector? Corte 2024-2025. |
 | [Ecosistema MX]({G}/ecosistema) | ¿Qué estudios, comunidades, eventos y escuelas hay en México? |
 | [Ciclo de producción]({G}/ciclo) | ¿Dónde encaja un gamedev de LATAM en pre, producción y post? |
@@ -59,7 +59,9 @@ En vivo: **[gamedev.jorgesuarez.com.mx]({G})**
 
 ## Hasta dónde llegamos
 
-En línea y en crecimiento. Hoy tiene nueve secciones y el directorio de IA.
+En línea y en crecimiento. Hoy tiene ocho secciones y el directorio de IA.
+
+Dos partes siguen en construcción y el sitio todavía no las entrega: las guías del Marketing Playbook y las tres plantillas descargables de Production Tools (GDD, presupuesto y checklist de lanzamiento). Sus botones aún no llevan a ningún lado.
 
 Este repo también guarda `juice`, el paquete de interacción que usan los sitios de la marca (menú «Juega», sonido y Moki escondido), en sus versiones 1.0.0 a 1.2.0.
 
@@ -82,7 +84,7 @@ En producción se sirve como assets estáticos de un Worker de Cloudflare; `.ass
 Este repo no tiene archivo de licencia, así que el contenido conserva todos los derechos. Si quieres reutilizar algo, escríbenos a [jorgefsb@gmail.com](mailto:jorgefsb@gmail.com).
 """, en=f"""## What is it?
 
-A free site with the map for making video games in Latin America: industry numbers, studios in the region, jobs and careers, production tools, marketing and a directory of AI tools. It is written in Spanish and has an English version.
+A free site with the map for making video games in Latin America: industry numbers, studios in the region, jobs and careers, production tools, marketing and a directory of AI tools. It is written in Spanish and has an English version; the links on this page open it in English.
 
 ## Who is it for?
 
@@ -98,19 +100,19 @@ Put it on one map, curated from more than two decades of building games, studios
 
 | Section | The question it answers |
 |---|---|
-| [Production Tools]({G}/tools) | Which tools do you use to produce a game? |
-| [Jobs & Career]({G}/jobs) | Where are the jobs and how do I prepare? |
-| [The Perfect CV]({G}/guides/cv) | How do I write a CV for the industry? |
-| [Studios DB]({G}/database) | Which studios exist in Latin America? |
-| [Marketing Playbook]({G}/marketing) | How do I sell my game and get visibility? |
-| [Mexico industry pulse]({G}/industria) | What does the sector look like? 2024-2025 snapshot. |
-| [Mexico ecosystem]({G}/ecosistema) | Which studios, communities, events and schools exist in Mexico? |
-| [Production cycle]({G}/ciclo) | Where does a LATAM gamedev fit in pre-production, production and post? |
-| [AI directory]({G}/ia/) | Which AI tools help with art, code, audio, 3D, QA and marketing? |
+| [Production Tools]({G}/tools?lang=en) | What does it take to produce a game? Today it has the production cycle in short and links to tools; the three downloadable templates are still in progress. |
+| [Jobs & Career]({G}/jobs?lang=en) | Where are the jobs and how do I prepare? |
+| [The Perfect CV]({G}/guides/cv?lang=en) | How do I write a CV for the industry? |
+| [Studios DB]({G}/database?lang=en) | Which studios exist in Latin America? |
+| [Marketing Playbook]({G}/marketing?lang=en) | How do I sell my game and get visibility? **In progress:** today it shows the outline; the guides cannot be opened yet. |
+| [Mexico industry pulse]({G}/industria?lang=en) | What does the sector look like? 2024-2025 snapshot. |
+| [Mexico ecosystem]({G}/ecosistema?lang=en) | Which studios, communities, events and schools exist in Mexico? |
+| [Production cycle]({G}/ciclo?lang=en) | Where does a LATAM gamedev fit in pre-production, production and post? |
+| [AI directory]({G}/ia/?lang=en) | Which AI tools help with art, code, audio, 3D, QA and marketing? |
 
 ## How do I use it?
 
-1. Go to [gamedev.jorgesuarez.com.mx]({G}).
+1. Go to [gamedev.jorgesuarez.com.mx]({G}/?lang=en).
 2. Pick the section that answers your question.
 3. No sign-up and nothing to install.
 
@@ -122,13 +124,15 @@ It is not a census or a live pulse of the sector: the numbers are a historical 2
 
 ## Where can I try it?
 
-Live: **[gamedev.jorgesuarez.com.mx]({G})**
+Live: **[gamedev.jorgesuarez.com.mx]({G}/?lang=en)**
 
 {{{{SCREENS}}}}
 
 ## How far we got
 
-Live and growing. Today it has nine sections plus the AI directory.
+Live and growing. Today it has eight sections plus the AI directory.
+
+Two parts are still in progress and the site does not deliver them yet: the Marketing Playbook guides and the three downloadable templates in Production Tools (GDD, budget and release checklist). Their buttons do not lead anywhere yet.
 
 This repo also holds `juice`, the interaction package used by the brand's sites (the «Juega» menu, sound and hidden Moki), in versions 1.0.0 to 1.2.0.
 
@@ -153,7 +157,7 @@ This repo has no license file, so all rights are reserved on the content. If you
     ),
     dict(
         key="jorgesuarez.com.mx", personal=True, media="capture",
-        title="JorgeSuarez.com.mx", live="https://jorgesuarez.com.mx",
+        title="JorgeSuarez.com.mx", live="https://jorgesuarez.com.mx", live_en="https://jorgesuarez.com.mx/?lang=en",
         kicker=dict(es="NEGOCIOS // SITIO PERSONAL", en="BUSINESS // PERSONAL SITE"),
         promise=dict(es="Más de 20 años haciendo videojuegos, estudios y comunidad, contados en un solo lugar.",
                      en="20+ years building games, studios and community, told in one place."),
@@ -205,12 +209,14 @@ El v1 quedó respaldado en el tag `v1-final-2026-10-12` y en la rama `v1-legacy`
 
 - El código fuente del v2 vive en un repo privado. Este repo recibe el build y lo publica.
 - Rollback al v1: el deploy del v2 es un solo commit. `git revert` de ese commit y push a `main`.
-- Candado de caché: si cambias un CSS o JS que carga `index.html`, súbele su `?v=` en `index.html`. El workflow `version-assets` revisa eso en cada pull request.
+- Candado de caché: si cambias un CSS o JS que carga `index.html`, súbele su `?v=` en `index.html`. El workflow `version-assets` lo revisa en cada pull request, pero solo para los archivos de `css/` y `js/`. Lo que `index.html` carga desde `engine/` hay que subirlo a mano: ahí no hay candado.
 - Identidad y voz: [brand-guidelines.md](./brand-guidelines.md) y el [BrandKit](https://brandkit.jorgesuarez.com.mx).
 
 ## Licencia
 
-Sin licencia abierta. El contenido, el retrato y la marca conservan todos los derechos.
+El contenido del sitio, el retrato y la marca conservan todos los derechos: no tienen licencia abierta.
+
+Los componentes que el sitio trae empaquetados sí conservan su licencia MIT, cada uno con su archivo: el motor de scroll de `engine/`, que es scroll-craft de Nate Herk ([`engine/LICENSE`](./engine/LICENSE)), y los efectos propios de `vfx/`: [`vfx/game-feel/1.0.1/LICENSE`](./vfx/game-feel/1.0.1/LICENSE), [`vfx/papacito-juice/1.0.1/LICENSE`](./vfx/papacito-juice/1.0.1/LICENSE) y [`vfx/cursor-liquido/1.0.1/LICENSE`](./vfx/cursor-liquido/1.0.1/LICENSE).
 """, en="""## What is it?
 
 The personal site of Jorge Suárez. It brings together his story, his work at Amber México, his products, his frameworks, his lab and how to reach him. It is available in Spanish and English.
@@ -229,7 +235,7 @@ One place that tells the whole story and sends you to each project. It is built 
 
 ## How do I use it?
 
-1. Go to [jorgesuarez.com.mx](https://jorgesuarez.com.mx).
+1. Go to [jorgesuarez.com.mx](https://jorgesuarez.com.mx/?lang=en).
 2. Switch language with ES / EN.
 3. Use «Juega» to turn the intensity up or down. If your system asks for reduced motion, the page stays still.
 
@@ -241,7 +247,7 @@ It is not the site of Amber or his other companies: each has its own. Do not loo
 
 ## Where can I try it?
 
-Live: **[jorgesuarez.com.mx](https://jorgesuarez.com.mx)**
+Live: **[jorgesuarez.com.mx](https://jorgesuarez.com.mx/?lang=en)**
 
 {{SCREENS}}
 
@@ -255,12 +261,14 @@ The v1 is backed up in the `v1-final-2026-10-12` tag and the `v1-legacy` branch.
 
 - The v2 source code lives in a private repo. This repo receives the build and publishes it.
 - Rollback to v1: the v2 deploy is a single commit. `git revert` that commit and push to `main`.
-- Cache lock: if you change a CSS or JS file loaded by `index.html`, bump its `?v=` in `index.html`. The `version-assets` workflow checks this on every pull request.
+- Cache lock: if you change a CSS or JS file loaded by `index.html`, bump its `?v=` in `index.html`. The `version-assets` workflow checks this on every pull request, but only for files under `css/` and `js/`. Anything `index.html` loads from `engine/` has to be bumped by hand: there is no lock there.
 - Identity and voice: [brand-guidelines.md](./brand-guidelines.md) and the [BrandKit](https://brandkit.jorgesuarez.com.mx) (both in Spanish).
 
 ## License
 
-No open license. All rights are reserved on the content, the portrait and the brand.
+All rights are reserved on the site content, the portrait and the brand: they carry no open license.
+
+The components bundled with the site keep their MIT license, each with its own file: the scroll engine in `engine/`, which is scroll-craft by Nate Herk ([`engine/LICENSE`](./engine/LICENSE)), and our own effects in `vfx/`: [`vfx/game-feel/1.0.1/LICENSE`](./vfx/game-feel/1.0.1/LICENSE), [`vfx/papacito-juice/1.0.1/LICENSE`](./vfx/papacito-juice/1.0.1/LICENSE) and [`vfx/cursor-liquido/1.0.1/LICENSE`](./vfx/cursor-liquido/1.0.1/LICENSE).
 """),
     ),
     dict(

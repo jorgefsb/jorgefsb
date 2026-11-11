@@ -1,14 +1,14 @@
 REPOS3 = [
     dict(
         key="linkedin-automation-template", personal=True, media="flow", guide="docs/GUIDE.md",
-        title="LinkedIn Automation Template", live="https://github.com/jorgefsb/linkedin-automation-template/blob/main/docs/SETUP.md",
+        title="LinkedIn Automation Template", live="./docs/SETUP.md",
         kicker=dict(es="IA // PLANTILLA ABIERTA", en="AI // OPEN TEMPLATE"),
         promise=dict(es="Una infografía entra, cuatro borradores de LinkedIn salen. Tú pones el criterio.",
                      en="One infographic goes in, four LinkedIn drafts come out. You bring the judgment."),
         chip=dict(es="PLANTILLA V1.0 · MIT", en="TEMPLATE V1.0 · MIT"),
         cta=dict(es="Empezar con la guía de 15 minutos", en="Start with the 15-minute guide"),
         about="📝 Open template: turn one infographic into four LinkedIn post drafts with AI, keeping attribution and your own voice. MIT. · Una infografía entra, cuatro borradores de LinkedIn salen.",
-        topics=["linkedin", "ai", "content-automation", "templates", "prompt-engineering", "jorgesuarez"],
+        topics=["ai", "automation", "chatgpt", "claude", "content-marketing", "jorgesuarez", "linkedin", "open-source", "productivity", "social-media", "templates"],
         flow=dict(es=["1 INFOGRAFÍA", ["EDUCATIVO", "CON DATOS", "OPINIÓN", "CASO"], "TU EDICIÓN", "LINKEDIN"],
                   en=["1 INFOGRAPHIC", ["EDUCATIONAL", "DATA-DRIVEN", "HOT TAKE", "CASE STUDY"], "YOUR EDIT", "LINKEDIN"]),
         flow_cap=dict(es="Diagrama del flujo. No es una captura: esta plantilla son carpetas, plantillas y prompts, no una app.",
@@ -129,12 +129,12 @@ There is no code to run: it is Markdown files and one example JSON. The [full gu
     ),
     dict(
         key="echomentor-ai", personal=False, media="capture", herdr=True,
-        title="EchoMentor AI · landing", live="https://echomentor.uetc.mx",
+        title="EchoMentor AI · landing", live="https://echomentor.uetc.mx", live_en="https://echomentor.uetc.mx/?lang=en",
         owner=dict(es="UETC · Arden A.C.", en="UETC · Arden A.C."),
         tagline=dict(es="Landing pública de EchoMentor AI, la plataforma de aprendizaje adaptativo con IA de UETC · Arden A.C.",
                      en="Public landing page for EchoMentor AI, the adaptive learning platform with AI by UETC · Arden A.C."),
         cta=dict(es="Abrir la landing", en="Open the landing page"),
-        about="🎓 Landing page for EchoMentor AI, the adaptive learning platform with AI by UETC · Arden A.C. It behaves like the product: a class already running. · Landing de EchoMentor AI.",
+        about="🎓 Landing page for EchoMentor AI, the adaptive learning platform with AI by UETC · Arden A.C. It behaves like the product: a class already running. · Landing de EchoMentor AI, aprendizaje adaptativo con IA.",
         topics=["edtech", "ai", "adaptive-learning", "landing-page", "uetc"],
         body=dict(es="""## ¿Qué es?
 
@@ -216,7 +216,7 @@ The page behaves like the product: a class already running, a syllabus that buil
 
 ## How do I use it?
 
-1. Open [echomentor.uetc.mx](https://echomentor.uetc.mx) and scroll down the page.
+1. Open [echomentor.uetc.mx](https://echomentor.uetc.mx/?lang=en) and scroll down the page.
 2. Switch language with ES · EN · RO, or go straight in with `?lang=es`, `?lang=en` or `?lang=ro`.
 3. If you have an access code, type it into the form and you enter the platform.
 4. If you do not have a code, join [Club UETC](https://club.uetc.mx) for free.
@@ -229,7 +229,7 @@ The landing page is not the platform: what you see here is a demonstration with 
 
 ## Where can I try it?
 
-Live: **[echomentor.uetc.mx](https://echomentor.uetc.mx)**
+Live: **[echomentor.uetc.mx](https://echomentor.uetc.mx/?lang=en)**
 
 {{SCREENS}}
 
@@ -338,6 +338,10 @@ python3 -m http.server 3000
 ## Marca y créditos
 
 SparkCrew es un experimento de producto de [Sparkplug Technologies](https://getsparkplug.com) y usa su identidad, no la marca personal de Jorge Suárez.
+
+## Licencia
+
+Este repo no tiene archivo de licencia, así que Sparkplug Technologies conserva todos los derechos sobre el código, el contenido y la marca. Si quieres reutilizar algo, pide permiso primero abriendo un issue.
 """, en="""## What is it?
 
 The public landing page and waitlist for **SparkCrew**, a product experiment by [Sparkplug Technologies](https://getsparkplug.com). This repo holds the landing page, not the product.
@@ -405,6 +409,10 @@ python3 -m http.server 3000
 ## Brand and credits
 
 SparkCrew is a product experiment by [Sparkplug Technologies](https://getsparkplug.com) and uses its identity, not Jorge Suárez's personal brand.
+
+## License
+
+This repo has no license file, so Sparkplug Technologies keeps all rights to the code, the content and the brand. If you want to reuse something, ask first by opening an issue.
 """),
     ),
     dict(
@@ -453,6 +461,10 @@ En línea. Este repo solo tiene la página y el Worker que la sirve; el contenid
 ## Para quien construye
 
 Worker de Cloudflare `tecnimoto-status` (`worker.mjs`, `wrangler.jsonc`). El estilo sigue [brandkit.tecnimoto.mx](https://brandkit.tecnimoto.mx) (`tokens.css`), no la marca personal de Jorge Suárez.
+
+## Licencia
+
+Este repo no tiene archivo de licencia, así que Tecni Moto Garage conserva todos los derechos sobre el código, el contenido y la marca. Si quieres reutilizar algo, pide permiso primero abriendo un issue.
 """, en="""## What is it?
 
 A status page for Tecni Moto partners, served at [status.tecnimoto.mx](https://status.tecnimoto.mx/). The content is encrypted and opens only with the access password.
@@ -490,6 +502,10 @@ Live. This repo only holds the page and the Worker that serves it; the readable 
 ## For builders
 
 Cloudflare Worker `tecnimoto-status` (`worker.mjs`, `wrangler.jsonc`). The skin follows [brandkit.tecnimoto.mx](https://brandkit.tecnimoto.mx) (`tokens.css`), not Jorge Suárez's personal brand.
+
+## License
+
+This repo has no license file, so Tecni Moto Garage keeps all rights to the code, the content and the brand. If you want to reuse something, ask first by opening an issue.
 """),
     ),
     dict(
@@ -500,7 +516,7 @@ Cloudflare Worker `tecnimoto-status` (`worker.mjs`, `wrangler.jsonc`). The skin 
                      en="Encrypted status page for Arden sponsors."),
         cta=dict(es="Abrir la página", en="Open the page"),
         about="🔒 Encrypted status page for Arden sponsors. Opens only with the access password. · Página de estatus cifrada para patrocinadores de Arden.",
-        topics=["status-page", "encryption"],
+        topics=["status-page", "encryption", "static-site"],
         body=dict(es="""## ¿Qué es?
 
 Una página de estatus para patrocinadores de Arden, servida en [ardenstatus.jorgesuarez.com.mx](https://ardenstatus.jorgesuarez.com.mx). El contenido va cifrado y solo abre con la contraseña de acceso.
@@ -538,6 +554,10 @@ En línea. Este repo solo tiene la página; el contenido legible no vive aquí.
 ## Para quien construye
 
 Un `index.html` estático con el contenido cifrado. Usa la identidad de Arden, no la marca personal de Jorge Suárez.
+
+## Licencia
+
+Este repo no tiene archivo de licencia, así que Arden conserva todos los derechos sobre el código, el contenido y la marca. Si quieres reutilizar algo, pide permiso primero abriendo un issue.
 """, en="""## What is it?
 
 A status page for Arden sponsors, served at [ardenstatus.jorgesuarez.com.mx](https://ardenstatus.jorgesuarez.com.mx). The content is encrypted and opens only with the access password.
@@ -575,6 +595,10 @@ Live. This repo only holds the page; the readable content does not live here.
 ## For builders
 
 A static `index.html` with the encrypted content. It uses Arden's identity, not Jorge Suárez's personal brand.
+
+## License
+
+This repo has no license file, so Arden keeps all rights to the code, the content and the brand. If you want to reuse something, ask first by opening an issue.
 """),
     ),
 ]
