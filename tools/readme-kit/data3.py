@@ -510,7 +510,7 @@ This repo has no license file, so Tecni Moto Garage keeps all rights to the code
     ),
     dict(
         key="ardenstatus-site", personal=False, media="lock",
-        title="Arden Status", live="https://ardenstatus.jorgesuarez.com.mx",
+        title="Arden Status", live="https://status.uetc.mx",
         owner=dict(es="Arden", en="Arden"),
         tagline=dict(es="Página de estatus cifrada para patrocinadores de Arden.",
                      en="Encrypted status page for Arden sponsors."),
@@ -519,7 +519,7 @@ This repo has no license file, so Tecni Moto Garage keeps all rights to the code
         topics=["status-page", "encryption", "static-site"],
         body=dict(es="""## ¿Qué es?
 
-Una página de estatus para patrocinadores de Arden, servida en [ardenstatus.jorgesuarez.com.mx](https://ardenstatus.jorgesuarez.com.mx). El contenido va cifrado y solo abre con la contraseña de acceso.
+Una página de estatus para patrocinadores de Arden, servida en [status.uetc.mx](https://status.uetc.mx). La dirección anterior, `ardenstatus.jorgesuarez.com.mx`, redirige ahí (comprobado el 10 nov 2026). El contenido va cifrado y solo abre con la contraseña de acceso.
 
 ## ¿Para quién es?
 
@@ -535,7 +535,7 @@ Una sola página, siempre en la misma dirección, con el contenido cifrado con A
 
 ## ¿Cómo se usa?
 
-1. Abre [ardenstatus.jorgesuarez.com.mx](https://ardenstatus.jorgesuarez.com.mx).
+1. Abre [status.uetc.mx](https://status.uetc.mx).
 2. Escribe la contraseña.
 3. Lee el estatus. La página muestra la fecha de su última actualización.
 
@@ -560,7 +560,7 @@ Un `index.html` estático con el contenido cifrado. Usa la identidad de Arden, n
 Este repo no tiene archivo de licencia, así que Arden conserva todos los derechos sobre el código, el contenido y la marca. Si quieres reutilizar algo, pide permiso primero abriendo un issue.
 """, en="""## What is it?
 
-A status page for Arden sponsors, served at [ardenstatus.jorgesuarez.com.mx](https://ardenstatus.jorgesuarez.com.mx). The content is encrypted and opens only with the access password.
+A status page for Arden sponsors, served at [status.uetc.mx](https://status.uetc.mx). The previous address, `ardenstatus.jorgesuarez.com.mx`, redirects there (checked 10 Nov 2026). The content is encrypted and opens only with the access password.
 
 ## Who is it for?
 
@@ -576,7 +576,7 @@ One page, always at the same address, with the content encrypted with AES-256-GC
 
 ## How do I use it?
 
-1. Open [ardenstatus.jorgesuarez.com.mx](https://ardenstatus.jorgesuarez.com.mx).
+1. Open [status.uetc.mx](https://status.uetc.mx).
 2. Type the password.
 3. Read the status. The page shows the date of its last update.
 

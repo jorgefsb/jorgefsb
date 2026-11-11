@@ -19,7 +19,7 @@ TARGETS = {
  "sparkcrew-landing": "https://sparkcrew.jorgesuarez.com.mx/",
  "moki-pixel": "https://moki.jorgesuarez.com.mx/pixel/",
  "tecnimotostatus-site": "https://status.tecnimoto.mx/",
- "ardenstatus-site": "https://ardenstatus.jorgesuarez.com.mx/",
+ "ardenstatus-site": "https://status.uetc.mx/",
 }
 only = sys.argv[2:]
 FILES = ("desktop.png", "mobile.png", "tour.gif", "tour.mp4", "captured.txt")
