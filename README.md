@@ -58,6 +58,7 @@ Behind it runs **PapacitoOS**, my personal operating system: specialized agents,
 | Build | What it unlocks |
 |---|---|
 | **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** · [open ↗](https://gamedev.jorgesuarez.com.mx) | Resources to build a career making video games in LATAM. |
+| **CheatCode1k** · [open ↗](https://cheatcode1k.jorgesuarez.com.mx) | In development. The 1,000 most successful games by sales, reviews and influence. Every figure has a source or says it has none. Per-game breakdowns show what worked so you can adapt it. The repo is private for now. |
 | **[Game Feel](https://github.com/jorgefsb/game-feel)** | A method and per-brand adapters so a website responds the way a game does. |
 | **[Cursor líquido](https://github.com/jorgefsb/cursor-liquido)** | A free, standalone cursor effect with intensity levels. Plugs into Game Feel. |
 | **[Moki Pixel](https://github.com/jorgefsb/moki-pixel)** · [meet Moki ↗](https://moki.jorgesuarez.com.mx) | Moki in pixel art: an open animation kit with exports for games, a web and desktop pet, wallpapers and videos. |

@@ -58,6 +58,7 @@ Detrás corre **PapacitoOS**, mi sistema operativo personal: agentes especializa
 | Build | Qué desbloquea |
 |---|---|
 | **[Game Industry Resources](https://github.com/jorgefsb/game-industry-resources)** · [abrir ↗](https://gamedev.jorgesuarez.com.mx) | Recursos para construir una carrera haciendo videojuegos en LATAM. |
+| **CheatCode1k** · [abrir ↗](https://cheatcode1k.jorgesuarez.com.mx) | En desarrollo. Los 1000 juegos más exitosos por ventas, reseñas e influencia. Cada dato trae su fuente o dice SIN DATO. Los desgloses por juego muestran qué funcionó para que lo adaptes. Por ahora el repo es privado. |
 | **[Game Feel](https://github.com/jorgefsb/game-feel)** | Metodología y adaptadores por marca para que un sitio responda como responde un juego. |
 | **[Cursor líquido](https://github.com/jorgefsb/cursor-liquido)** | Efecto de cursor gratuito e independiente, con intensidades. Se conecta con Game Feel. |
 | **[Moki Pixel](https://github.com/jorgefsb/moki-pixel)** · [conoce a Moki ↗](https://moki.jorgesuarez.com.mx) | Moki en pixel art: kit abierto de animación con exportes para juegos, mascota web y de escritorio, wallpapers y videos. |
