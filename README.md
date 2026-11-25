@@ -88,6 +88,7 @@ Behind it runs **PapacitoOS**, my personal operating system: specialized agents,
 | 🎬 **[El Motor](https://www.youtube.com/@JorgeSuarezGM)** | My YouTube channel (in Spanish) for people who make games: how to show, publish and sell your game. Recent videos: [5 Steam page fields that decide whether players find you](https://www.youtube.com/watch?v=P8B40c2887U) and [8 posts to show your game every week](https://www.youtube.com/watch?v=r_kzUvFT0EI). |
 | 🤝 **Ecosystem** | I invest in AI startups, I'm an LP in [Altered Ventures](https://venturecapital.game) (Mario Valle Reyes's fund for AI, gaming and immersive tech), I advise [Sparkplug Technologies](https://getsparkplug.com) and I work with founders who want to build big. |
 | 🏍️ **[Tecni Moto Garage](https://tecnimoto.mx)** | Founding partner with my uncle. Motorcycle shop in Acoxpa, Mexico City: fast, transparent service over WhatsApp. |
+| 🧹 **[Talacha](https://talacha.jorgesuarez.com.mx)** | In the works. It measures two weeks of real work and tells you what an AI agent can take over and how many hours come back. I'm case zero. |
 
 ## 🧰 Current loadout
 

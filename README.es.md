@@ -88,6 +88,7 @@ Detrás corre **PapacitoOS**, mi sistema operativo personal: agentes especializa
 | 🎬 **[El Motor](https://www.youtube.com/@JorgeSuarezGM)** | Mi canal de YouTube para quien hace videojuegos: cómo enseñar, publicar y vender tu juego. Videos recientes: [5 campos de tu ficha de Steam que deciden si te encuentran](https://www.youtube.com/watch?v=P8B40c2887U) y [8 publicaciones para enseñar tu juego cada semana](https://www.youtube.com/watch?v=r_kzUvFT0EI). |
 | 🤝 **Ecosistema** | Invierto en startups de IA, soy LP de [Altered Ventures](https://venturecapital.game) (el fondo de Mario Valle Reyes en IA, gaming y tecnología inmersiva), asesoro a [Sparkplug Technologies](https://getsparkplug.com) y colaboro con fundadores que quieren construir en grande. |
 | 🏍️ **[Tecni Moto Garage](https://tecnimoto.mx)** | Socio fundador con mi tío. Taller de motos en Acoxpa, CDMX: servicio rápido, transparente y por WhatsApp. |
+| 🧹 **[Talacha](https://talacha.jorgesuarez.com.mx)** | En construcción. Mide dos semanas de trabajo real y te dice qué puede hacer un agente de IA por ti y cuántas horas regresa. Yo soy el caso cero. |
 
 ## 🧰 Loadout actual
 
